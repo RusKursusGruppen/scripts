@@ -13,6 +13,9 @@ OUTPUTDIR=./output
 
 SONGSDIRTOKEN=$(SONGSDIR)up2date
 
+# Ensure we have a work directory.
+$(shell mkdir -p $(WORKDIR))
+
 all: $(OUTPUTDIR)/sangbog.ps $(OUTPUTDIR)/sangbogprint.pdf $(OUTPUTDIR)/nodebog.ps
 
 clean:
@@ -62,7 +65,7 @@ $(OUTPUTDIR)/sangbog.ps: $(WORKDIR)/tmp.ps
 	cat $(WORKDIR)/tmp.ps | psresize -Pletter -PA4 | psbook | psnup -2 > $(OUTPUTDIR)/sangbog.ps
 
 $(OUTPUTDIR)/sangbogprint.pdf: $(WORKDIR)/tmp.ps
-	pstopdf $(WORKDIR)/tmp.ps
+	ps2pdf $(WORKDIR)/tmp.ps
 	mv $(WORKDIR)/tmp.pdf $(OUTPUTDIR)/sangbogprint.pdf
 
 $(OUTPUTDIR)/nodebog.ps: sangbog.chord
