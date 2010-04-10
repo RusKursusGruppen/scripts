@@ -1,0 +1,20 @@
+Sangsbogsgeneratoren bruges som følgende:
+
+  * Filen sangbog.chord indeholder alle sange i chord-format.  (Læs de
+    eksisterende sange for dokumentation.)  Det er denne fil, og *kun*
+    denne, du bør ændre for at redigere i udvalget af sange.
+    Kategoriseringen (for krydsreferencer) foregår via kommentarer
+    (igen, se de eksisterende sange).
+
+  * Den vedlagte Makefile afvikles (med et simpelt 'make'), hvilket i
+    sidste ende resulterer i tre filer:
+
+    + output/sangbog.ps: Sangbogen i PostScript-letterformat designet
+    til at blive udskrevet og foldet direkte.  Dette er alt hvad værdiløse
+    russer fortjener at få udleveret, og de skal prise sig lykkelige
+    for at de ikke selv skal folde den.
+
+    + output/sangbogprint.pdf: Sangbogen i simpelt, fladt format som
+    vertikale A4-ark.
+
+    + output/nodebog.ps: Sange med noder i PostScript-format som A4-ark.

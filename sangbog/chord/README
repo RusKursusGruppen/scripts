@@ -1,0 +1,171 @@
+This is a description of a utility called CHORD.
+
+It's purpose is to provide guitar players with a tool to produce good
+looking, self-descriptive music sheet from a text file.
+
+CHORD read a text file containing the lyrics of a song, the chords to
+be played, their description and some other optional data to produce a
+PostScript document that includes:
+
+	Centered titles
+	Chord names above the words
+	Graphical representation of the chords at the end of the songs
+
+CHORD also provides support for 
+
+	Multiple columns on a page
+	Index of a songbook
+	Multiple logical pages per physical pages ( 1, 2 or 4)
+	Configurable fonts for the lyrics and the chord names
+	Multiple songs inside one file
+	The complete ISO 8859-1 character set
+and
+	Chorus marking
+
+The authors spent a great deal of
+time making it as feature-full and usable as possible. If you like this
+program, please take the time to send a postcard from your home town or
+locality to each of the two authors and let them know what you think of
+CHORD. Please send the cards to the following addresses:
+
+	Martin Leclerc		Mario Dorion
+	19 Browning		18 Georgia Crescent
+	Dollard des Ormeaux	Pointe Claire
+	Quebec, H9G 2K5		Quebec, H9R 5V7
+	CANADA			CANADA
+
+NEW IN VERSION 3.6.2
+
+o The CHORDRC variable points to the ".chordrc" file, which can be called
+anything
+o -P option selects the paper size
+o better handling of -2 and -4 options
+o better handling of paper formats
+
+NEW IN VERSION 3.6
+
+o Song index is sorted
+o .chordrc is read only once per execution
+o Speed improvement by a factor of ~5
+o support of multiple columns
+o better (I hope...) support of A4 format
+o inclusion of a2crd to convert ASCII files to chord format
+o Chords defined multiples times ALL stay in the known chord structure, so
+that 'chord -D' shows them all, even if the names are duplicates.
+o bug fixes
+
+NEW IN VERSION 3.5
+
+o Generation of PostScript indexes.
+o Generation of PostScript chord-charts.
+o Additional 'comments' style (box and italic).
+o Directive to set a monospace font (ie: not-proportional) suitable for
+  tabs.
+o Support for A4 paper format.
+o Page numbers are now "physical page numbers".
+o Chord-charts (-dump option) now include chords from .chordrc file.
+o Option to print/not-print page numbers.
+o Option to print/not-print chord grids.
+o Option to print grids only for "difficult" chords.
+o Directive to force a physical page break.
+o Directive to force a virtual page break.
+o Chords are printed in a logical order.
+o Special chord [N.C.] (no-chord) without a chord grid.
+o New (and improved!) {define} syntax.
+o Chord names and directives are case-insensitive.
+o Public domain getopt() routine (for portability).
+o (almost) lint free (better portability)
+o Ansi-C compliant
+o ... and bug fixes
+
+NEW IN VERSION 1.2
+
+o More flexible Page Numbering
+  o Left/right
+  o always-present
+  o an option for simgle spacing on lines with no chords
+o Distinction between an unplayed string and a buffed one
+o TOC generation
+o Some bug fixes
+
+NEW IN VERSION 1.1
+
+o CHORD supports transposition. See the man page.
+o miscellanious bug fixes, including dubious coding that kept IBM and
+  SGI from executing CHORD properly
+o the grids now indicate string played open
+o Error messages noe correctly report the name of the file and
+  the line number where the error was found
+
+===== PLATFORM =====
+
+CHORD has been developped on SPARCStations running Solaris 2.2 and
+OpenWindows 3.2. The PostScript previewer (PageView), SparcPrinters and
+LaserWriter II have had no problem with the output. Please report any
+changes your system requires.
+
+Known port include VMS, DOS, U*IX, AMIGA-DOS.
+
+===== CREDITS =====
+
+CHORD has been developped and is still being maintained by Martin
+Leclerc and Mario Dorion. 
+
+CHORD uses the GNU getopt() routine made available to the community by
+the Free Software Foundation.
+
+We would like to thanks the following individuals:
+
+Steve Putz, who has kindly contributed a number of suggestions, bug
+fixes and enhancements(?).
+
+Jim Gerland (GERLAND@ubvms.cc.buffalo.edu), who has performed the initial
+VMS port.
+
+Leo Bicknell (ab147@freenet.acsu.buffalo.edu) has provided the chord sorting
+routine.
+
+Additional thanks to Fred handloser (and his pal Duncan) and many
+others for providing many suggestions of features that were implemented
+in CHORD 3.5.
+
+
+===== COMPILING =====
+
+CHORD is written in fairly portable C and should work on most UNIX
+systems with little or no change. Let us know of your problems.
+
+Simply edit the Makefile to meet your environment and 'make'.
+
+Note: If your environment does not offer a getopt() routine edit the
+Makefile to de-comment the lines (INCL, SRC and OBJ) that mention the
+included getopt routine ... We reccomend using your system's getopt()
+if it is available.
+
+
+===== ARCHIVES =====
+
+The offical chord archive is maintained generously by Jan-Erik Schuch (f91-jsc@nada.kth.se)
+
+Check out the web page http://www.nada.kth.se/~f91-jsc/ 
+
+Another great source is ftp://ftp.nevada.edu or http://www.nevada.edu
+
+===== COPYRIGHT =====
+
+CHORD is licensed following the conditions of the
+general GNU license. You are authorized to use this program free of
+charge. You are authorized to distribute this program freely as long as
+the full source is included. You are not allowed to remove the
+`copyright' notices from the authors nor are you allowed to pretend you
+wrote it. You are not allowed to charge any money for CHORD. You are
+not allowed to distribute a modified version of CHORD without written
+authorizations from the authors. You are not allowed to use parts of
+CHORD in any other commercial or public-domain software. Sorry for all
+the negatives rules ... but we've been bitten once!
+
+
+
+
+Martin Leclerc (Martin.Leclerc@canada.sun.com)
+Mario Dorion   (Mario.Dorion@canada.sun.com)	

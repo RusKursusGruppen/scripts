@@ -1,0 +1,271 @@
+.TH chord l "September 1993" "Utilities"
+.SH NAME
+chord \- Produce a professional looking PostScript sheet-music from an ascii file containing lyrics and chords information.
+.SH SYNOPSIS
+.B chord
+[ option ...] [ filename... ]
+.SH DESCRIPTION
+.I chord
+produces a postscript document from a lyrics file containing chord
+indications and chorus delimiters. The document produced contains the
+lyrics of a song, with the guitar chords appearing above the right
+words. A representation of all chords used in the song is printed at
+the bottom of the last page.
+
+.SH OPTIONS
+.TP 8
+.B \-A
+Will print the "About CHORD..." message.
+.TP 8
+.B \-a 
+Automatically single spaces lines that have no chords.
+.TP 8
+.B \-c \fIchord_font_size\fB
+Sets the size, in points, of the font used to display chords to the specified
+integer value.
+.TP 8
+.B \-C \fIChord_font\fB
+Sets the font used to print chords to the specified name. That name must be
+known to your PostScript Interpreter.
+.TP 8
+.B \-d
+Generates a text chord chart of all internally known chords as well as
+chords defined in the $HOME/.chordrc file. Chords defined in the .chordrc file
+are identified with the "(local)" caption. The printout is suitable for input
+to the .chordrc file.
+.TP 8
+.B \-D
+Generates a PostScript chord chart of all internally known chords as well as
+chords defined in the $HOME/.chordrc file. Chords defined in the .chordrc file
+are identified with a small asterisk after the chord grid.
+.TP 8
+.B \-G
+Disable printing of the chord grids for the whole input file(s). The effect can
+be disable for any particular song by the usage of the \fBgrid\fR or \fBg\fR
+directive.
+.TP 8
+.B \-g
+Disable printing of grids for "easy" chords. Whether a builtin chord is easy
+or not has been arbitrarily decided by the authors. The general rule was that
+any chord in its major, minor, 7th or minor 7th was "easy" while everything
+else (maj7, aug, dim, sus, etc...) was "difficult". All chords defined in the
+$HOME/.chordrc file or in the input file are defined as "difficult".
+.TP 8
+.B \-h
+Prints a short options summary.
+.TP
+.B \-i
+Generates a table of contents with the song titles and page numbers.
+It implies page numbering through the document. Index pages
+are not numbered.
+.TP 8
+.B \-l
+Prints only the lyrics of the song.
+.TP 8
+.B \-L
+Places the odd and even page numbers in the lower right and left
+corners respectively (for two-sided output).  The default is all page
+numbers on the right.
+.TP 8
+.B \-o \fIfilename\fB
+Sends PostScript output to \fIfilename\fB
+.TP 8
+.B \-p " first_page" 
+Numbers the pages consecutively starting with \fIfirst_page\fR (e.g.
+1).  Without this option, each song restarts the page numbering at 1,
+and page numbers are only put on subsequent pages of multiple page
+songs.
+.TP 8
+.B \-P " paper_size" 
+Specifies the paper size, either "us" or "a4".
+.TP 8
+.B \-s \fIgrid_size\fB
+Sets the size of the chord grids.
+.TP 8
+.B \-t \fItext_font size\fB
+Sets the size, in points, of the font used to display the lyrics to the
+specified integer value. The title line is displayed using that point
+size + 5. The sub-tiltle is displayed using that point size -2. The
+\fItablature\fB is displayed using this point-size -2.
+.TP 8
+.B \-T \fIText_font\fB
+Sets the font used to print text to the specified name. That name must be
+known to your PostScript Interpreter.
+.TP 8
+.B \-V
+Prints version and patch level.
+.TP 8
+.B \-x \fIhalf-tones\fB
+Sets up transposition to that number of half-tones. Can not be zero. All
+chord names must be build in the following way in order to be recognized:
+
+{note-name}[#|b][^/]* [ '/' {note-name}[#|b][^/]* ]
+
+That is, a valid note name, possibly followed by '#' or 'b', followed by
+other modifier ('7', 'm', etc...). Many such construct can make up a chord
+name, as long as they are separated by '/'.
+
+{note-name} must appear in the list 'A','B','C','D','E','F','G'.
+.TP 8
+.B \-2
+Prints two logical pages per physical page.
+.TP 8
+.B \-4
+Prints four logical pages per physical page.
+
+.SH KEYWORDS
+A line starting with a '#' is interpreted as a comment, and generates no output.
+(although all your comments are automatically mailed to the authors, and we read them
+at parties...)
+
+Directives that  appear between french brackets ('{' and '}') have a
+special meaning. They must be alone on a line. Blanks before the
+opening bracket and after the closing bracket are not significant.
+
+Blanks inside a directive are not significant (except inside one of the \fIcomments\fB directives).
+
+Supported directives are:
+.TP 8
+.B \fBstart_of_chorus\fR or \fBsoc\fR
+which indicates the start of a chorus (yep). The complete chorus will
+be highlighted by a change bar, to be easily located by the player.
+.TP 8
+.B \fBend_of_chorus\fR or \fBeoc\fR
+marks the end of the chorus
+.TP 8
+.B \fBcomment:\fR or \fBc:\fR
+will call the printing of the rest of the line, highlighted by a grey box
+(Useful to call a chorus, for example)
+.TP 8
+.B \fBcomment_italic:\fR or \fBci:\fR
+will print the comment in an italic font ... well not really. It will print the comment in the font used for printing the CHORD names (which is normally italic unless you specified a different chord_font).
+.TP 8
+.B \fBcomment_box:\fR or \fBcb:\fR
+will print the comment inside a bounding box.
+.TP 8
+.B \fBnew_song\fR or \fBns\fR
+marks the beginning of a new song. It enables you to put multiple songs
+in one file. It is not required at the beginning of the file.
+.TP 8
+.B \fBtitle:\fR or \fBt:\fR
+specifies the title of the song. It will appear centered at the top of the first
+page, and at the bottom of every other page, accompanied there by the
+page number, within the current song.
+.TP 8
+.B \fBsubtitle:\fR or \fBst:\fR
+specifies a string to be printed right below the title. Many subtitles can be
+specified
+.TP 8
+.B \fBdefine: \fRname \fBbase-fret \fRoffset \fBfrets \fRstr1...str6\f
+defines a new chord called "name". The keyword "base-fret"
+indicates that the number that follows ("offset") is the first
+fret that is to be displayed when representing the way this chord is played.
+
+The keyword "frets" then appears and is followed by 6 values. 
+These values are the fret number [ 1 to n ] for each string
+[str1 to str6] and are RELATIVE to the offset.  A value of "-", "X" or
+"x" indicates a string that is not played.
+
+Keywords \fBbase-fret\fR and \fBfrets\fR are mandatory.
+
+A value of 0 for a given string means it is to be played open, and will be marked
+by a small
+open circle above the string in the grid.  The strings are numbered in ascending
+order of tonality, starting on the low E (the top string).  On
+output, a chord defined in the user's .chordrc file will have a small
+asterisk near its grid, a chord defined in a song will have two small
+asterixes.
+
+At the beginning of every song, the default chords are re-loaded and the
+user's .chordrc file is re-read. Chord definition of new chords inside
+the text of a song are only valid for that song.
+
+The syntax of a {define} directive has been modified in CHORD 3.5.
+CHORD will attempt to recognize an old-formar {define} and will accept
+it. It will, though, print a warning inviting you to modify your input
+file to use the new syntax (the exact {define} entry to use is provided
+as an example).
+.TP 8
+.B textfont: postscript_font
+same as -T command option
+.TP 8
+.B textsize: n
+same as -t command option
+.TP 8
+.B chordfont: postscript_font
+same as -C command option
+.TP 8
+.B chordsize: n
+same as -c command option
+.TP 8
+.B \fBno_grid\fR or \fBng\fR
+will disable printing of the chord grids for the current song.
+.TP 8
+.B \fBgrid\fR or \fBg\fR
+will enable the printing of the chord grids for the current song (subject to
+the limitation caused by the usage of the \fB-g\fR option). This
+directive will overide the runtime \fB-G\fR option for the current song.
+.TP 8
+.B \fBnew_page\fR or \fBnp\fR
+will force a logical page break (which will obviously turn out to be a physical
+page break if you are not in either 2-up or 4-up mode.
+.TP 8
+.B \fBnew_physical_page\fR or \fBnpp\fR
+will force a physical page break (in any mode).
+.TP 8
+.B \fBstart_of_tab\fR or \fBsot\fR
+will cause chord to use a monospace (ie: non-proportional) font for the
+printing of text. This can be used to enter 'tab' information where character
+positioning is crucial. The \fBCourier\fR font is used with a smaller point-size
+than the rest of the text.
+.TP 8
+.B \fBend_of_tab\fR or \fBeot\fR
+will stop using monospace font. The effect is implicit at the end of a song.
+.TP 8
+.B \fBcolumns: n\fR or \fBcol: n\fR
+specifies the number of columns on the pages of the current song.
+.TP 8
+.B \fBcolumn_break\fR or \fBcolb\fR
+forces a column break. The next line of the song will appear in the next available
+column, at the same height as the last "columns" statement if still
+on the same page, or at the top of the page otherwise.
+.TP 8
+.B \fBtranspose: half-tones\fR or \fBtp: half-tones\fR
+sets up transposition to that number of half-tones. Can not be zero.
+.SH FILES
+.TP 8
+.B $HOME/.chordrc
+Initial directives re-read after each song.
+.SH NOTES
+Run time options override settings from your .chordrc file. So the assignement sequence
+to, let's say, the text size will be: system default, .chordrc, run-time
+option, and finally from within the song itself.
+
+All keywords are case independent.
+.SH BUGS
+CHORD will not wrap long lines around the right margin.
+.br
+White space is not inserted inside the text line, even if white space
+is inserted in the "chord" line above the text. The net effect is that 
+chord names can appear further down the line than what was intended. This is
+a side effect from fixing an old "bug" that caused the chord names to overlap.
+This bug will only manifest itself if you have lots of chord but little text.
+Inserting white space in the text is a good workaround.
+.br
+In 2-up mode, if page-numbering is invoked on a document that has an
+odd number of page, the page number for the last page will be printed
+at the bottom right of the virtual page instead of the bottom right of
+the physical page.
+.SH COPYRIGHT
+Copyright 1990-91-92-93 by Martin Leclerc and Mario Dorion
+.SH AUTHORS
+Martin Leclerc (Martin.Leclerc@Sun.COM)
+.br
+and Mario Dorion (Mario.Dorion@Sun.COM)
+
+.SH CONTRIBUTORS
+Steve Putz (putz@parc.xerox.com)
+.br
+Jim Gerland (GERLAND@ubvms.cc.buffalo.edu)
+.br
+Leo Bicknell (ab147@freenet.acsu.buffalo.edu)

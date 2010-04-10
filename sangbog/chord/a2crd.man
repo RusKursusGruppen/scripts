@@ -1,0 +1,61 @@
+.TH a2crd l "December 1992" "Utilities"
+.SH NAME
+a2crd \- attempts the conversion of lyrics file into chord input
+.SH SYNOPSIS
+.B a2crd
+[ options...] [ filename... ]
+.SH DESCRIPTION
+.I a2crd
+reads the lyrics of one songs from a file, and attempts to produce
+a output suitable for 
+.I chord.
+Chord names can appear above or below
+the lyrics.
+.I a2crd
+will embed those names into the lyrics.
+
+The FAQ list of alt.guitar documents the way a ascii file should look,
+but this format is not recognized by everyone, or fully enforced. Thus,
+it is impossible to modify 
+.I chord
+itself to read *any* type of ascii input and produce good
+result. 
+.I a2crd 
+tries its best to to do the tedious conversion job.
+
+.I a2crd
+attempts to recognize mail/news headers, and comments them out.
+It preserves as is any line starting with a '{', which would indicates a
+.I chord
+command. It also preserves any lines starting with a '#'.
+
+.I a2crd
+prepends to the output the content of a file
+called $HOME/.a2crdsig, if it exists.
+
+The first line that is not a comment is assumed to be the title of the
+song. The nest lines until a blank one are assumed to be sub-titles.
+
+.SH OPTIONS
+.TP 8 
+.B \-r \fIratio\fR
+Sets the threshold for chord line recognition. a2crd looks at every
+line. If the ratio ( space_characters / (non-space_characters) is
+greater than \fIratio\fR, the line will be recognized as a chord line,
+and its content will be merge with the next available text line. The
+\fIratio\fR has a initial value of 1. It is defined as a floating precision
+value.
+.TP 8
+.B \-D
+Prints debugging information. For programmers only.
+.TP 8
+.B \-o \fIfilename\fB
+Sends output to \fIfilename\fB
+.TP 8
+.SH See Also
+chord(l)
+.SH COPYRIGHT
+Copyright 1992 by Martin Leclerc and Mario Dorion
+.SH AUTHORS
+Martin Leclerc
+(martin.leclerc@canada.sun.com)
