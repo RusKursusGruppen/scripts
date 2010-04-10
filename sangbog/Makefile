@@ -66,8 +66,7 @@ $(OUTPUTDIR)/sangbog.ps: $(WORKDIR)/tmp.ps
 	cat $(WORKDIR)/tmp.ps | psresize -Pletter -PA4 | psbook | psnup -2 > $(OUTPUTDIR)/sangbog.ps
 
 $(OUTPUTDIR)/sangbogprint.pdf: $(WORKDIR)/tmp.ps
-	ps2pdf $(WORKDIR)/tmp.ps
-	mv $(WORKDIR)/tmp.pdf $(OUTPUTDIR)/sangbogprint.pdf
+	ps2pdf $(WORKDIR)/tmp.ps $(OUTPUTDIR)/sangbogprint.pdf
 
 $(OUTPUTDIR)/nodebog.ps: sangbog.chord
 	chord/chord sangbog.chord > $(OUTPUTDIR)/nodebog.ps
