@@ -1,0 +1,43 @@
+Opskrifter placeres i 'opskrifter'-mappen.
+
+Formatet på opskriftfilerne er:
+=============================
+[TITEL]
+[ANTAL_PERS] pers
+[INGREDIENS1]
+[INGREDIENS2]
+[INGREDIENS3]
+
+[TEXT]
+=============================
+
+[TITEL]       = Opskriftens titel
+[ANTAL_PERS]  = Antal personer, som opskriften er beregnet til
+[INGREDIENSn] = En ingredienslinje
+[TEXT]        = Instruktioner til opskriften skrevet i LaTeX
+
+En ingredienslinje har følgende format:
+[KATEGORI];[NAVN];[MÆNGDE] [ENHED]
+
+[KATEGORI] = Ingredienstype/-kategori. Følgende shorthands eksisterer:
+             T = Tørvare
+             F = Frostvare
+             M = Mejeri
+             A = Andet
+             Shorthands er defineret i food.py
+[NAVN]     = Navn på ingrediens
+[MÆNGDE]   = Hvor meget der skal bruges (int eller float)
+[ENHED]    = Enheden som mængden er angivet i (kg, etc.)
+
+For at generere inkøbsliste og opskrifter køres 'make'. For at angive antal
+personer (default=42) køres:
+  make NUMPEOPLE=nnn
+
+For kun at generere indkøbsliste køres 'make shoppinglist'.
+For kun at generere opskrifter køres 'make recipes'.
+
+Opskriftfilerne bliver indlæst i alfabetisk orden. For at ændre orden kan man
+anvende et numerisk præfiks.
+
+For yderligere hjælp, læs kildekoden...
+

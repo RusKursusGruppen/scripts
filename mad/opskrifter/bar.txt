@@ -1,0 +1,14 @@
+Bar opskrift
+42 pers
+T;Pasta;6000 kg
+F;Kylling;1337 kg
+M;Æg;10 stk
+
+\begin{itemize}
+  \item Foo
+  \item Bar
+  \item Bland det hele sammen
+  \item ???
+  \item PROFIT!
+\end{itemize}
+
