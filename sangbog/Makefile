@@ -13,8 +13,9 @@ OUTPUTDIR=./output
 
 SONGSDIRTOKEN=$(SONGSDIR)up2date
 
-# Ensure we have a work directory.
+# Ensure we have the necessary directories.
 $(shell mkdir -p $(WORKDIR))
+$(shell mkdir -p $(OUTPUTDIR))
 
 all: $(OUTPUTDIR)/sangbog.ps $(OUTPUTDIR)/sangbogprint.pdf $(OUTPUTDIR)/nodebog.ps
 
