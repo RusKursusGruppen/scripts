@@ -61,7 +61,7 @@ def gen_recipes(food, out_dir, num_people):
             f.write(str)
             i = i + 1
     with codecs.open("{0}/recipes.tex".format(out_dir), "w", "utf-8") as f:
-        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i - 1))), tpl_recipes)
+        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i))), tpl_recipes)
         f.write(str)
 
 
