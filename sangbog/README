@@ -5,6 +5,10 @@ Sangsbogsgeneratoren bruges som følgende:
     denne, du bør ændre for at redigere i udvalget af sange.
     Kategoriseringen (for krydsreferencer) foregår via kommentarer
     (igen, se de eksisterende sange).
+    
+  * Mappen tex/ indeholder LaTeX filer til formatering af diverse dele
+    af sangbogen. Navnene på filerne burde give et tilpas tydeligt hint
+    om hvad inholdet bruges til.
 
   * Den vedlagte Makefile afvikles (med et simpelt 'make'), hvilket i
     sidste ende resulterer i tre filer:
