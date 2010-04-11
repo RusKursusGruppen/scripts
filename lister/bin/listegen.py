@@ -24,16 +24,15 @@ headers = []
 
 for line in open(desc_file, 'r'):
     match = re.match("^([^ ]*) (.*)$", line)
-    widths.append("p{%s}" % match.group(1))
-    headers.append(r"\vspace{0.2cm}" + match.group(2))
+    widths.append(match.group(1))
+    headers.append(match.group(2))
 
 russes = sorted(open(data_file))
-empties = '&'*(len(headers)-1) + r'\\\hline'
-
+empties = '& '*(len(headers)-1) + r'\\\hline'
 title = os.path.basename(desc_file).rsplit('.',1)[0]
 
 templ = file('templates/list.tex').read()
-print tempita.sub(templ, papersize=papersize, widths="|%s|" % ("|".join(widths)),
-                  headers=" & ".join(headers), russes=russes, title=title,
+print tempita.sub(templ, papersize=papersize, widths=widths,
+                  headers=headers, russes=russes, title=title,
                   empties=empties)
 

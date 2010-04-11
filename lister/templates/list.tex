@@ -12,8 +12,15 @@
 
 \begin{center}
 \textsc{ {{title}} }
-\begin{longtable}{ {{widths}} }\hline
-{{headers}}\endhead
+\begin{longtable}{ | {{for w in widths}}p{ {{w}} }|{{endfor}} }
+\hline
+
+{{for header in headers[:-1]}}
+  \vspace{0.2cm} {{header}} &
+{{endfor}}
+\vspace{0.2cm} {{headers[-1]}}
+
+\endhead
 \hline
 {{for rus in russes}}
   {{rus}} \vspace{0.2cm} {{empties}}
