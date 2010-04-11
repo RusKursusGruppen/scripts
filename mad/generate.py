@@ -23,12 +23,19 @@ def rtfm(msg):
     sys.exit(2)
 
 def float2hex(f):
-    a, b = str(f).split('.')
-    return (hex(int(a)) + "." + hex(int(b)).lstrip("0x")).rstrip('.')
+    res = "0x%x." % abs(f)
+    if f < 0:
+    	res = "-" + res
+    x = abs(f) - int(abs(f))
+    while x > 0:
+        x *= 16
+        res += "%x" % x
+        x -= int(x)
+    return res.rstrip('.')
 
 def load_file(filename):
     with codecs.open(filename, "r", "utf-8") as f:
-        return "".join(f.readlines())
+        return f.read()
 
 def gen_recipes(food, out_dir, num_people):
     tpl_recipes = load_file("tpl/recipes.tex")
@@ -38,7 +45,6 @@ def gen_recipes(food, out_dir, num_people):
     re_text  = re.compile("##TEXT##", re.U | re.I)
     re_ingr  = re.compile("##INGREDIENTS##", re.U | re.I)
     i = 0
-    includes = []
     for r in food.get_recipes(num_people):
         with codecs.open("{0}/{1}.tex".format(out_dir, i), "w", "utf-8") as f:
             str = re_title.sub(r['title'], tpl_stub)
@@ -53,10 +59,9 @@ def gen_recipes(food, out_dir, num_people):
                 lines.append(ur"{0} & {1} {2} \\\\".format(ingr['name'], float2hex(ingr['amount']), ingr['unit']))
             str = re_ingr.sub("\\hline\n".join(lines), str)
             f.write(str)
-            includes.append("{0}".format(i))
             i = i + 1
     with codecs.open("{0}/recipes.tex".format(out_dir), "w", "utf-8") as f:
-        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + x + "}", includes)), tpl_recipes)
+        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i - 1))), tpl_recipes)
         f.write(str)
 
 
@@ -66,7 +71,6 @@ def gen_shoppinglist(food, out_dir, num_people):
     re_name = re.compile("##NAME##", re.U | re.I)
     re_items = re.compile("##ITEMS##", re.U | re.I)
     i = 0
-    includes = []
     for category, items in food.get_ingredients(num_people).iteritems():
         with codecs.open("{0}/{1}.tex".format(out_dir, i), "w", "utf-8") as f:
             lines = []
@@ -75,10 +79,9 @@ def gen_shoppinglist(food, out_dir, num_people):
             str = re_items.sub("\\hline\n".join(lines), tpl_cat)
             str = re_name.sub(category, str)
             f.write(str)
-            includes.append("{0}".format(i))
         i = i + 1
     with codecs.open("{0}/shoppinglist.tex".format(out_dir), "w", "utf-8") as f:
-        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + x + "}", includes)), tpl_list)
+        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i - 1))), tpl_list)
         f.write(str)
 
 
