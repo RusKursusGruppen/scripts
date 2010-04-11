@@ -34,6 +34,20 @@ with open(sys.argv[3], 'r') as f:
             empties = "&" + empties
         russes.append(line + "\\vspace{0.2cm}" + empties)
 
+meat = """\\begin{center}
+\\begin{longtable}{%(widths)s}\\hline
+%(headers)s\\endhead
+\\hline
+%(russes)s
+\\end{longtable}
+\\end{center}""" % {'papersize' : sys.argv[1],
+                    'widths': "|" + "|".join(widths) + "|",
+                    'headers': " & ".join(headers),
+                    'russes': "\n".join(russes) }
+
+if sys.argv[1] == "a3":
+    meat = "\\begin{landscape}\n" + meat + "\\end{landscape}\n"
+
 print """\\documentclass[11pt]{article}
 \\usepackage[utf8]{inputenc}
 \\usepackage{%(papersize)s,lscape}
@@ -43,17 +57,6 @@ print """\\documentclass[11pt]{article}
 \\usepackage[top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
 \\pagestyle{empty}
 \\begin{document}
-\\begin{landscape}
-\\begin{center}
-\\begin{longtable}{%(widths)s}\\hline
-%(headers)s\\endhead
-\\hline
-%(russes)s
-\\end{longtable}
-\\end{center}
-\\end{landscape}
+%(meat)s
 \\end{document}
-""" % {'papersize' : sys.argv[1],
-       'widths': "|" + "|".join(widths) + "|",
-       'headers': " & ".join(headers),
-       'russes': "\n".join(russes) }
+""" % { 'papersize': sys.argv[1], 'meat': meat }
