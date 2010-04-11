@@ -6,12 +6,20 @@
 \usepackage{longtable}
 \usepackage[top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
 \pagestyle{empty}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[table]{xcolor}
 \begin{document}
+
+
+\definecolor{LightGray}{RGB}{221,221,221}
+
 
 {{if papersize=='a3'}} \begin{landscape} {{endif}}
 
 \begin{center}
 \textsc{ {{title}} }
+
+\rowcolors{1}{white}{LightGray}
 \begin{longtable}{ | {{for w in widths}}p{ {{w}} }|{{endfor}} }
 \hline
 
