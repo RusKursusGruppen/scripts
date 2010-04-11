@@ -26,10 +26,12 @@ for line in open(desc_file, 'r'):
 russes = []
 
 for line in open(data_file):
-    empties = r"\\\hline"
+    empties = "\\\\\\hline"
     for i in range(1,len(headers)):
         empties = "&" + empties
-    russes.append(line + r"\vspace{0.2cm}" + empties)
+    russes.append(line + "\\vspace{0.2cm}" + empties)
+
+russes.sort()
 
 meat = r"""\begin{center}
 \begin{longtable}{%(widths)s}\hline
