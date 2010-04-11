@@ -68,5 +68,5 @@ $(OUTPUTDIR)/sangbog.ps: $(WORKDIR)/tmp.ps
 $(OUTPUTDIR)/sangbogprint.pdf: $(WORKDIR)/tmp.ps
 	ps2pdf $(WORKDIR)/tmp.ps $(OUTPUTDIR)/sangbogprint.pdf
 
-$(OUTPUTDIR)/nodebog.ps: sangbog.chord
+$(OUTPUTDIR)/nodebog.ps: $(WORKDIR)/autosangbog.chord
 	chord/chord sangbog.chord > $(OUTPUTDIR)/nodebog.ps
