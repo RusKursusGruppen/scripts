@@ -1,0 +1,26 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{ {{papersize}} ,lscape}
+\usepackage[danish]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage[top=1cm, bottom=1cm, left=1cm, right=1cm]{geometry}
+\pagestyle{empty}
+\begin{document}
+
+{{if papersize=='a3'}} \begin{landscape} {{endif}}
+
+\begin{center}
+\textsc{ {{title}} }
+\begin{longtable}{ {{widths}} }\hline
+{{headers}}\endhead
+\hline
+{{for rus in russes}}
+  {{rus}} \vspace{0.2cm} {{empties}}
+{{endfor}}
+\end{longtable}
+\end{center}
+
+{{if papersize=='a3'}} \end{landscape} {{endif}}
+
+\end{document}
