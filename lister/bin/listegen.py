@@ -13,7 +13,7 @@ if len(sys.argv) != 4:
     print "Requires exactly three parameters: paper size, column description file, and first column data"
     exit(os.EX_USAGE)
 
-(_, paper_size, desc_file, data_file) = sys.argv
+paper_size, desc_file, data_file = sys.argv[1:]
 
 widths = []
 headers = []
