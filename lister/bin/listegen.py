@@ -12,14 +12,14 @@ import sys
 import os
 import re
 
-if len(sys.argv) != 3:
-    print "Requires exactly two parameters."
+if len(sys.argv) != 4:
+    print "Requires exactly three parameters: paper size, column description file, and first column data"
     exit(os.EX_USAGE)
 
 widths = []
 headers = []
 
-with open(sys.argv[1], 'r') as f:
+with open(sys.argv[2], 'r') as f:
     for line in f:
         match = re.match("^([^ ]*) (.*)$", line)
         widths.append("p{" + match.group(1) + "}")
@@ -27,7 +27,7 @@ with open(sys.argv[1], 'r') as f:
 
 russes = []
 
-with open(sys.argv[2], 'r') as f:
+with open(sys.argv[3], 'r') as f:
     for line in f:
         empties = "\\\\\\hline"
         for i in range(1,len(headers)):
@@ -36,7 +36,7 @@ with open(sys.argv[2], 'r') as f:
 
 print """\\documentclass[11pt]{article}
 \\usepackage[utf8]{inputenc}
-\\usepackage{a3,lscape}
+\\usepackage{%(papersize)s,lscape}
 \\usepackage[danish]{babel}
 \\usepackage[T1]{fontenc}
 \\usepackage{longtable}
@@ -53,6 +53,7 @@ print """\\documentclass[11pt]{article}
 \\end{center}
 \\end{landscape}
 \\end{document}
-""" % {'widths': "|" + "|".join(widths) + "|",
+""" % {'papersize' : sys.argv[1],
+       'widths': "|" + "|".join(widths) + "|",
        'headers': " & ".join(headers),
        'russes': "\n".join(russes) }

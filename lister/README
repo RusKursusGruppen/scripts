@@ -1,0 +1,28 @@
+*** DET AUTOMAGISKE LISTEGENERINGSSYSTEM ***
+******** GENÉR ALLE MED DINE LISTER ********
+
+Dette system gør det muligt at generere tabeller til udprint (i
+PDF-format), hvori russene udgør første (venstrestillede) kolonne.
+Listerne genereres ud fra én central fil indeholdende russer, og et
+antal lister der angiver hvilke kolonner der skal optræde på konkrete
+lister.
+
+RUSLISTEN udgøres af filen "russer", og formatet er et enkelt navn per
+linje.  Sørg for at filen er i UTF-8 format, gør brug af iconv om
+nødvendigt:
+
+  iconv -f latin1 -t utf8 nederen_rusliste > russer
+
+KOLONNELISTERNE placeres i undermappen 'lister', og de skal alle
+slutte på enten '.a3' eller '.a4', hvilket angiver størrelsen på det
+papir de skal udskrives på.  Formatet er en enkelt kolonne per linje,
+hvor man starter med at angive bredden på kolonnen med tekst som '5cm'
+(enhver enhed der kan forstås af LaTeX er acceptabel), fulgt af et
+mellemrum, fulgt af titlen på kolonnen.  Som med ruslisten skal
+indkodningen være UTF-8.
+
+Det kære system startes med et simpelt 'make', omend det egentlige
+arbejde udføres af et dunkelt shellscript.
+
+TROELS HENRIKSEN er ansvarlig for denne skændige dåd, der blev begået
+11. april 2010 i ledtog med RKG.
