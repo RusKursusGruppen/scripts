@@ -6,7 +6,6 @@
 # Hacket sammen af Troels Henriksen <athas@sigkill.dk> den 11. april
 # 2010.
 
-from __future__ import with_statement
 import sys, os, re
 
 sys.path += [sys.path[0] + '/..']
