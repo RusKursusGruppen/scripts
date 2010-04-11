@@ -26,7 +26,8 @@ for line in open(desc_file, 'r'):
     widths.append(match.group(1))
     headers.append(match.group(2))
 
-russes = sorted(open(data_file))
+cap = lambda names: ' '.join(name.capitalize() for name in names.split())
+russes = sorted(map(cap, open(data_file)))
 empties = '& '*(len(headers)-1) + r'\\\hline'
 title = os.path.basename(desc_file).rsplit('.',1)[0]
 
