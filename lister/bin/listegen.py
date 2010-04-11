@@ -34,6 +34,8 @@ with open(sys.argv[3], 'r') as f:
             empties = "&" + empties
         russes.append(line + "\\vspace{0.2cm}" + empties)
 
+russes.sort()
+
 meat = """\\begin{center}
 \\begin{longtable}{%(widths)s}\\hline
 %(headers)s\\endhead
