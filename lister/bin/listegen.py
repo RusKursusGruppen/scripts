@@ -44,6 +44,8 @@ meat = r"""\begin{center}
                    'headers': " & ".join(headers),
                    'russes': "\n".join(russes) }
 
+title = os.path.basename(desc_file).rsplit('.',1)[0]
+meat = (r'\begin{center}\textsc{%s}\end{center}' % title) + meat
 if paper_size == "a3":
     meat = "\\begin{landscape}\n%s\\end{landscape}\n" % meat
 
