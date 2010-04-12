@@ -8,13 +8,15 @@ Formatet på opskriftfilerne er:
 [INGREDIENS2]
 [INGREDIENS3]
 
-[TEXT]
+[INSTRUKTION1: Forklaring]
+[INSTRUKTION2: Forklaring]
+[INSTRUKTION3: Forklaring]
 =============================
 
 [TITEL]       = Opskriftens titel
 [ANTAL_PERS]  = Antal personer, som opskriften er beregnet til
 [INGREDIENSn] = En ingredienslinje
-[TEXT]        = Instruktioner til opskriften skrevet i LaTeX
+[INSTRUTIONn] = En Instruktion med valgfri forklaring
 
 En ingredienslinje har følgende format:
 [KATEGORI];[NAVN];[MÆNGDE] [ENHED]
@@ -29,9 +31,40 @@ En ingredienslinje har følgende format:
 [MÆNGDE]   = Hvor meget der skal bruges (int eller float)
 [ENHED]    = Enheden som mængden er angivet i (kg, etc.)
 
-For at generere inkøbsliste og opskrifter køres 'make'. For at angive antal
-personer (default=42) køres:
-  make NUMPEOPLE=nnn
+
+En instruktionslinje kan f.eks. være:
+Skræl gullerøderne
+Steg kyllingen: På en pande!
+
+Hvorvidt en forklaring følger (efter et :) er valgfrit.
+
+
+Her præsenteres et eksempel på en opskrift:
+<<<
+Kaos-gryde
+2 pers
+T;Oksefars;500 gram
+T;Løg;3 stk
+T;Hvidløg;3 fed
+T;Flåede tomater;2 dåser
+T;Chili;2 frisk
+T;Grøn peber;2 stk
+T;Brune bønner;200 gram
+M;Chreme Fraiche;1 bøtte 
+
+Hak løgene
+Svits løg og fars samme: I en gryde! 
+Hak hvidløg og skær peberfrugten ud i tern
+Tilsæt grønsagerne: Lad det simre i 30 minutter (tilsæt lidt vand hvis nødvendigt)
+Hæld bønnerne i
+Lad hele molevitten simre i 30 minutter
+Server!
+<<<
+
+
+For at generere en inkøbsliste med tilhørende opskrifter køres
+'make'. For at angive antal personer (default=42) køres:
+make NUMPEOPLE=nnn
 
 For kun at generere indkøbsliste køres 'make shoppinglist'.
 For kun at generere opskrifter køres 'make recipes'.
@@ -39,5 +72,6 @@ For kun at generere opskrifter køres 'make recipes'.
 Opskriftfilerne bliver indlæst i alfabetisk orden. For at ændre orden kan man
 anvende et numerisk præfiks.
 
-For yderligere hjælp, læs kildekoden...
+For yderligere hjælp, læs kildekoden... Denne er oprindeligt skrevet
+af Daniel og efterfølgende rengjort/gennemhacket af Johan Brinch.
 
