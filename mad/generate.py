@@ -33,39 +33,36 @@ def float2hex(f):
         x -= int(x)
     return res.rstrip('.')
 
+def open_file(filename, mode='r'):
+    return codecs.open(filename, mode, 'utf-8')
 def load_file(filename):
-    return codecs.open(filename, "r", "utf-8").read()
+    return open_file(filename).read()
 def load_template(filename):
-    tpl = Template(load_file(filename))
-    print tpl.default_namespace
-    return tpl
+    return Template(load_file(filename))
+
+
+def build_generator(tpl_single_path, tpl_list_path):
+    tpl_single = load_template(tpl_single_path)
+    tpl_list   = load_template(tpl_list_path)
+    def generator(out_dir, list):
+        for i,items in enumerate(list):
+            print items
+            with open_file('%s/%i.tex' % (out_dir, i), mode='w') as f:
+                f.write(tpl_single.substitute(**items))
+        with open_file('%s/list.tex' % (out_dir), mode='w') as f:
+            print "LENGTH", len(list)
+            f.write(tpl_list.substitute(count=len(list)))
+    return generator
 
 def gen_recipes(food, out_dir, num_people):
-    tpl_recipes = load_template("templates/recipes.tex")
-    tpl_stub    = load_template("templates/recipe_stub.tex")
+    gen = build_generator('templates/recipe_stub.tex', 'templates/recipes.tex')
     recipes = food.get_recipes(num_people)
-    for i,r in enumerate(recipes):
-        with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
-            rendered = tpl_stub.substitute(title=r['title'], num_persons=r['people'],
-                                           text=r['text'], ingredients=r['ingredients'])
-            f.write(rendered)
-    with codecs.open("%s/recipes.tex" % out_dir, "w", "utf-8") as f:
-        txt = tpl_recipes.substitute(count=len(recipes))
-        f.write(txt)
-
+    gen(out_dir, recipes)
 
 def gen_shoppinglist(food, out_dir, num_people):
-    tpl_list = load_template("templates/shoppinglist.tex")
-    tpl_cat  = load_template("templates/shoppinglist_category.tex")
-    ingredients = tuple(food.get_ingredients(num_people).iteritems())
-    for i, (category, items) in enumerate(ingredients):
-        with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
-            rendered = tpl_cat.substitute(name=category, items=items)
-            f.write(rendered)
-    with codecs.open("%s/shoppinglist.tex" % out_dir, "w", "utf-8") as f:
-        txt = tpl_list.substitute(includes='\n'.join(
-            map(lambda x: r'\include{%s}' % unicode(x), range(len(ingredients)-1))))
-        f.write(txt)
+    gen = build_generator('templates/shoppinglist_category.tex', 'templates/shoppinglist.tex')
+    ingredients = food.get_ingredients(num_people)
+    gen(out_dir, ingredients)
 
 
 GENERATORS = {'recipes' : gen_recipes, 'shoppinglist': gen_shoppinglist}
