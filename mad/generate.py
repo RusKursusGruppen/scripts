@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # vim: et ts=4 sw=4
 
+from __future__ import with_statement
 from food import Food
 import getopt
 import sys
@@ -46,23 +47,23 @@ def gen_recipes(food, out_dir, num_people):
     re_ingr  = re.compile("##INGREDIENTS##", re.U | re.I)
     i = 0
     for r in food.get_recipes(num_people):
-        with codecs.open("{0}/{1}.tex".format(out_dir, i), "w", "utf-8") as f:
-            str = re_title.sub(r['title'], tpl_stub)
-            str = re_pers.sub(unicode(hex(r['people'])), str)
+        with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
+            txt = re_title.sub(r['title'], tpl_stub)
+            txt = re_pers.sub(unicode(hex(r['people'])), txt)
             # <hack>
             if (re.match(r'^\\', r['text'])):
                 r['text'] = "\\" + r['text']
             # </hack>
-            str = re_text.sub(r['text'], str)
+            txt = re_text.sub(r['text'], txt)
             lines = []
             for ingr in r['ingredients']:
-                lines.append(ur"{0} & {1} {2} \\\\".format(ingr['name'], float2hex(ingr['amount']), ingr['unit']))
-            str = re_ingr.sub("\\hline\n".join(lines), str)
-            f.write(str)
+                lines.append(ur"%s & %s %s \\\\" % (ingr['name'], float2hex(ingr['amount']), ingr['unit']))
+            txt = re_ingr.sub("\\hline\n".join(lines), txt)
+            f.write(txt)
             i = i + 1
-    with codecs.open("{0}/recipes.tex".format(out_dir), "w", "utf-8") as f:
-        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i))), tpl_recipes)
-        f.write(str)
+    with codecs.open("%s/recipes.tex" % out_dir, "w", "utf-8") as f:
+        txt = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i))), tpl_recipes)
+        f.write(txt)
 
 
 def gen_shoppinglist(food, out_dir, num_people):
@@ -72,17 +73,17 @@ def gen_shoppinglist(food, out_dir, num_people):
     re_items = re.compile("##ITEMS##", re.U | re.I)
     i = 0
     for category, items in food.get_ingredients(num_people).iteritems():
-        with codecs.open("{0}/{1}.tex".format(out_dir, i), "w", "utf-8") as f:
+        with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
             lines = []
             for name, info in items.iteritems():
-                lines.append(ur"{0} & {1} {2} \\\\".format(name, float2hex(info['amount']), info['unit']))
-            str = re_items.sub("\\hline\n".join(lines), tpl_cat)
-            str = re_name.sub(category, str)
-            f.write(str)
+                lines.append(ur"%s & %s %s \\\\" % (name, float2hex(info['amount']), info['unit']))
+            txt = re_items.sub("\\hline\n".join(lines), tpl_cat)
+            txt = re_name.sub(category, txt)
+            f.write(txt)
         i = i + 1
-    with codecs.open("{0}/shoppinglist.tex".format(out_dir), "w", "utf-8") as f:
-        str = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i - 1))), tpl_list)
-        f.write(str)
+    with codecs.open("%s/shoppinglist.tex" % out_dir, "w", "utf-8") as f:
+        txt = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i - 1))), tpl_list)
+        f.write(txt)
 
 
 def main(args):
@@ -105,7 +106,7 @@ def main(args):
             if arg in ('recipes', 'shoppinglist'):
                 type = arg
             else:
-                rtmf("invalid type: {0}".format(arg))
+                rtmf("invalid type: %s" % arg)
         elif opt in ('-h', '--help'):
             usage()
             sys.exit()
