@@ -87,12 +87,13 @@ def gen_shoppinglist(food, out_dir, num_people):
 
 
 def main(args):
+    # parse options
     try:
         opts, args = getopt.getopt(args, "ho:i:t:n:", ["help"])
     except getopt.GetoptError, err:
         rtfm(str(err))
-    out_dir = None
-    in_dir = None
+    # set options
+    out_dir = in_dir = None
     listtype = None
     num_people = None
     for opt, arg in opts:
@@ -106,8 +107,10 @@ def main(args):
         elif opt in ('-h', '--help'):
             usage()
             sys.exit()
+    # not correctly filled
     if None in (out_dir,in_dir,listtype,num_people):
         rtfm("missing required options")
+    # generate list
     food = Food()
     food.load_dir(in_dir)
     if listtype == 'recipes':
