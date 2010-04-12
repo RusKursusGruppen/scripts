@@ -4,6 +4,7 @@
 
 from __future__ import with_statement
 from food import Food
+from lib import tempita
 import getopt, sys, codecs, re
 
 def usage():
@@ -32,54 +33,41 @@ def float2hex(f):
     return res.rstrip('.')
 
 def load_file(filename):
-    with codecs.open(filename, "r", "utf-8") as f:
-        return f.read()
+    return codecs.open(filename, "r", "utf-8").read()
+def load_template(filename):
+    return tempita.Template(load_file(filename))
 
 def gen_recipes(food, out_dir, num_people):
-    tpl_recipes = load_file("tpl/recipes.tex")
-    tpl_stub    = load_file("tpl/recipe_stub.tex")
-    re_title = re.compile("##TITLE##", re.U | re.I)
-    re_pers  = re.compile("##PERS##", re.U | re.I)
-    re_text  = re.compile("##TEXT##", re.U | re.I)
-    re_ingr  = re.compile("##INGREDIENTS##", re.U | re.I)
-    i = 0
-    for r in food.get_recipes(num_people):
+    tpl_recipes = load_template("templates/recipes.tex")
+    tpl_stub    = load_template("templates/recipe_stub.tex")
+    recipes = food.get_recipes(num_people)
+    for i,r in enumerate(recipes):
         with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
-            txt = re_title.sub(r['title'], tpl_stub)
-            txt = re_pers.sub(unicode(hex(r['people'])), txt)
-            # <hack>
-            if (re.match(r'^\\', r['text'])):
-                r['text'] = "\\" + r['text']
-            # </hack>
-            txt = re_text.sub(r['text'], txt)
             lines = []
             for ingr in r['ingredients']:
-                lines.append(ur"%s & %s %s \\\\" % (ingr['name'], float2hex(ingr['amount']), ingr['unit']))
-            txt = re_ingr.sub("\\hline\n".join(lines), txt)
-            f.write(txt)
-            i = i + 1
+                lines.append(ur"%s & %s %s \\" % (ingr['name'], float2hex(ingr['amount']), ingr['unit']))
+            rendered = tpl_stub.substitute(title=r['title'], num_persons=r['people'],
+                                           text=r['text'], ingredients='\hline\n'.join(lines))
+            f.write(rendered)
     with codecs.open("%s/recipes.tex" % out_dir, "w", "utf-8") as f:
-        txt = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i))), tpl_recipes)
+        txt = tpl_recipes.substitute(includes='\n'.join(map(lambda x: r'\include{%s}' % unicode(x), xrange(len(recipes)))))
         f.write(txt)
 
 
 def gen_shoppinglist(food, out_dir, num_people):
-    tpl_list = load_file("tpl/shoppinglist.tex")
-    tpl_cat  = load_file("tpl/shoppinglist_category.tex")
-    re_name = re.compile("##NAME##", re.U | re.I)
-    re_items = re.compile("##ITEMS##", re.U | re.I)
-    i = 0
-    for category, items in food.get_ingredients(num_people).iteritems():
+    tpl_list = load_template("templates/shoppinglist.tex")
+    tpl_cat  = load_template("templates/shoppinglist_category.tex")
+    ingredients = tuple(food.get_ingredients(num_people).iteritems())
+    for i, (category, items) in enumerate(ingredients):
         with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
             lines = []
             for name, info in items.iteritems():
-                lines.append(ur"%s & %s %s \\\\" % (name, float2hex(info['amount']), info['unit']))
-            txt = re_items.sub("\\hline\n".join(lines), tpl_cat)
-            txt = re_name.sub(category, txt)
-            f.write(txt)
-        i = i + 1
+                lines.append(ur"%s & %s %s \\" % (name, info['amount'], info['unit']))
+            rendered = tpl_cat.substitute(name=category, items='\\hline\n'.join(lines))
+            f.write(rendered)
     with codecs.open("%s/shoppinglist.tex" % out_dir, "w", "utf-8") as f:
-        txt = re.sub(r"##INCLUDES##", "\n".join(map(lambda x: "\\include{" + unicode(x) + "}", range(i - 1))), tpl_list)
+        txt = tpl_list.substitute(includes='\n'.join(
+            map(lambda x: r'\include{%s}' % unicode(x), range(len(ingredients)-1))))
         f.write(txt)
 
 
