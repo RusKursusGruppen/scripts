@@ -4,10 +4,7 @@
 
 from __future__ import with_statement
 from food import Food
-import getopt
-import sys
-import codecs
-import re
+import getopt, sys, codecs, re
 
 def usage():
     print """Usage:
@@ -24,7 +21,7 @@ def rtfm(msg):
     sys.exit(2)
 
 def float2hex(f):
-    res = "0x%x." % abs(f)
+    res = "0x%x." % int(abs(f))
     if f < 0:
     	res = "-" + res
     x = abs(f) - int(abs(f))
