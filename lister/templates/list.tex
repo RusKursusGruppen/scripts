@@ -10,16 +10,17 @@
 \usepackage[table]{xcolor}
 \begin{document}
 
-
-\definecolor{LightGray}{RGB}{221,221,221}
-
+%% Background color of odd rows
+\definecolor{BackgroundOdd}{RGB}{221,221,221}
+%% Background color of even rows
+\definecolor{BackgroundEven}{RGB}{255,255,255}
 
 {{if papersize=='a3'}} \begin{landscape} {{endif}}
 
 \begin{center}
 \textsc{ {{title}} }
 
-\rowcolors{1}{white}{LightGray}
+\rowcolors{1}{BackgroundEven}{BackgroundOdd}
 \begin{longtable}{ | {{for w in widths}}p{ {{w}} }|{{endfor}} }
 \hline
 
