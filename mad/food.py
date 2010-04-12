@@ -53,7 +53,9 @@ class Food:
     def get_recipes(self, num_people):
         ret = []
         for r in self.recipes:
-            r['ingredients'] = map(lambda x: {'cat':x['cat'],'unit':x['unit'],'name':x['name'],'amount':x['amount'] / r['people'] * num_people}, r['ingredients'])
+            # scale amount in each recipe (lambda function returns x) - TODO: more readable?
+            r['ingredients'] = map(lambda x: (x.update(amount=x['amount'] / r['people'] * num_people),x)[1],
+                                   r['ingredients'])
             r['people'] = num_people
             ret.append(r)
         return ret
