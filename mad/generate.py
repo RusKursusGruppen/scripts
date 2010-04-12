@@ -93,7 +93,7 @@ def main(args):
         rtfm(str(err))
     out_dir = None
     in_dir = None
-    type = None
+    thetype = None
     num_people = None
     for opt, arg in opts:
         if opt == '-o':   out_dir = arg
@@ -102,17 +102,17 @@ def main(args):
         elif opt == '-t':
             if arg not in ('recipes', 'shoppinglist'):
                 rtmf("invalid type: %s" % arg)
-            type = arg
+            thetype = arg
         elif opt in ('-h', '--help'):
             usage()
             sys.exit()
-    if out_dir == None or in_dir == None or type == None or num_people == None:
+    if out_dir == None or in_dir == None or thetype == None or num_people == None:
         rtfm("missing required options")
     food = Food()
     food.load_dir(in_dir)
-    if type == 'recipes':
+    if thetype == 'recipes':
         gen_recipes(food, out_dir, num_people)
-    elif type == 'shoppinglist':
+    elif thetype == 'shoppinglist':
         gen_shoppinglist(food, out_dir, num_people)
 
 if __name__ == '__main__':
