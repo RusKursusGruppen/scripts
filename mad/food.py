@@ -27,12 +27,12 @@ class Food:
 
     def load_dir(self, dir):
         pers_regex = re.compile(r"^([0-9]+)")
-
-        for file in glob(dir + "/*"):
+        
+        for path in glob(dir + "/*"):
             parsed_ingredients = False
             lines_rest = []
             ingredients = []
-            with codecs.open(file, 'r', 'utf-8') as f:
+            with codecs.open(path, 'r', 'utf-8') as f:
                 i = 0
                 for line in f:
                     line = line.strip()
