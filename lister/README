@@ -3,15 +3,18 @@
 
 Dette system gør det muligt at generere tabeller til udprint (i
 PDF-format), hvori russene udgør første (venstrestillede) kolonne.
-Listerne genereres ud fra én central fil indeholdende russer, og et
-antal lister der angiver hvilke kolonner der skal optræde på konkrete
-lister.
+Listerne genereres ud fra to centrale filer indeholdende russer og
+vejledere, og et antal lister der angiver hvilke kolonner der skal
+optræde på de konkrete lister.
 
 RUSLISTEN udgøres af filen "russer", og formatet er et enkelt navn per
 linje.  Sørg for at filen er i UTF-8 format, gør brug af iconv om
 nødvendigt:
 
   iconv -f latin1 -t utf8 nederen_rusliste > russer
+
+VEJLEDERE listen udgøres af filen "vejledere". Formatet er det samme
+som i RUSLISTEN.
 
 KOLONNELISTERNE placeres i undermappen 'lister', og de skal alle
 slutte på enten '.a3' eller '.a4', hvilket angiver størrelsen på det

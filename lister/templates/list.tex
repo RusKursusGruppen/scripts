@@ -43,11 +43,21 @@
 \hline
 
 %% List russes (already sorted)
-{{for i,rus in enumerate(russes)}}
-  \vspace{0.2cm} {{i}} & {{rus}} {{empties}} & {{i}} \\ \hline
-  {{if (i+1)%5 == 0}}
+{{for id,rus in enumerate(russes)}}
+  \vspace{0.2cm} {{id}} & {{rus}} {{empties}} & {{id}} \\ \hline
+  {{if (id+1)%5 == 0}}
     \hline\hline
   {{endif}}
+{{endfor}}
+
+%% Delimeter between russes and pwners
+\hline\hline\hline\hline
+
+%% Add pwners
+{{for j,super in enumerate(supers)}}
+  {{py:id=len(russes)+j}}
+  \vspace{0.2cm} {{id}} & {{super}} {{empties}} & {{id}} \\
+  \hline
 {{endfor}}
 
 %% End table
