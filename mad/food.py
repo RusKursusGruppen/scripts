@@ -72,4 +72,5 @@ class Food:
             item = summed[cat][name]
             item['unit']   = unit
             item['amount'] = item.get('amount',0) + amount
+        # return as list of categories
         return [ {'category':category,'items':items} for category,items in summed.items() ]
