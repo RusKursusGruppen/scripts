@@ -8,47 +8,46 @@ import re
 import codecs
 
 class Food:
+    re_pers = re.compile(r'^([0-9]+)')
+    re_ingr = re.compile(r'^(?P<cat>\w+?);(?P<name>\w+?);(?P<amount>[0-9.]+?) (?P<unit>\w*)$', re.U | re.M)
+    re_inst = re.compile(r'\\begin\{enumerate\}.*\\end\{enumerate\}', re.U | re.DOTALL | re.M)
+    categories = {
+        "T": u"Tørvarer",
+        "F": u"Frostvarer",
+        "M": u"Mejeri",
+        "D": u"Diverse"
+    }
+
     def __init__(self):
-        self.ingd_regex = re.compile(r"^(?P<cat>\w+?);(?P<name>\w+?);(?P<amount>[0-9.]+?) (?P<unit>\w*)$", re.U)
-        self.categories = {
-            "T": u"Tørvarer",
-            "F": u"Frostvarer",
-            "M": u"Mejeri",
-            "D": u"Diverse"
-        }
         self.recipes = []
 
-    def parse_ingredient(self, line):
-        ingd = self.ingd_regex.search(line).groupdict()
+    def parse_ingredient(self, match):
+        ingd = match.groupdict()
         ingd['amount'] = float(ingd['amount'])
-        if (ingd['cat'] in self.categories.keys()):
-            ingd['cat'] = self.categories[ingd['cat']]
+        ingd['cat'] = self.categories.get(ingd['cat'], ingd['cat'])
         return ingd
 
     def load_dir(self, dir):
-        pers_regex = re.compile(r"^([0-9]+)")
-        
         for path in glob(dir + "/*"):
-            parsed_ingredients = False
-            lines_rest = []
-            ingredients = []
+            title = pers = None
+            ingredients  = None
+            instructions = None
             with codecs.open(path, 'r', 'utf-8') as f:
-                i = 0
-                for line in f:
-                    line = line.strip()
-                    if i == 0:
-                        title = line
-                    elif i == 1:
-                        pers = int(pers_regex.search(line).group(1))
-                    elif parsed_ingredients:
-                        lines_rest.append(line)
-                    else:
-                        if (len(line) > 0):
-                            ingredients.append(self.parse_ingredient(line))
-                        else:
-                            parsed_ingredients = True
-                    i = i + 1
-            self.recipes.append({'title':title, 'people':pers, 'ingredients':ingredients, 'text':"\n".join(lines_rest)})
+                # first line is title
+                title = f.readline().strip()
+                # second is number of persons
+                pers  = int(Food.re_pers.search(f.readline()).group(1))
+                # read rest of file
+                rest = ''
+                read = f.read()
+                while len(read) > 0:
+                    rest += read
+                    read = f.read()
+                # next is ingredient list
+                ingredients = map(self.parse_ingredient, self.re_ingr.finditer(rest))
+                # then instructions
+                instructions = Food.re_inst.search(rest).group(0)
+            self.recipes.append({'title':title, 'people':pers, 'ingredients':ingredients, 'text':instructions})
 
     def get_recipes(self, num_people):
         ret = []
