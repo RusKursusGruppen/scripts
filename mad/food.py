@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 # vim: et ts=4 sw=4
 
+from __future__ import with_statement
 from glob import glob
 import re
 import codecs
@@ -23,10 +24,10 @@ class Food:
         if (ingd['cat'] in self.categories.keys()):
             ingd['cat'] = self.categories[ingd['cat']]
         return ingd
-    
+
     def load_dir(self, dir):
         pers_regex = re.compile(r"^([0-9]+)")
-        
+
         for file in glob(dir + "/*"):
             parsed_ingredients = False
             lines_rest = []
@@ -48,7 +49,7 @@ class Food:
                             parsed_ingredients = True
                     i = i + 1
             self.recipes.append({'title':title, 'people':pers, 'ingredients':ingredients, 'text':"\n".join(lines_rest)})
-    
+
     def get_recipes(self, num_people):
         ret = []
         for r in self.recipes:
