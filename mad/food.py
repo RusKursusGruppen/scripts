@@ -63,7 +63,6 @@ class Food:
         all_as_list = reduce(lambda l,m: l+m, ingredients)
         summed = {}
         for i in all_as_list:
-            #print i
             # unpack
             cat, name, amount, unit = i['cat'], i['name'], i['amount'], i['unit']
             # initialize if needed
