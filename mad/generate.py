@@ -96,17 +96,13 @@ def main(args):
     type = None
     num_people = None
     for opt, arg in opts:
-        if opt == '-o':
-            out_dir = arg
-        elif opt == '-i':
-            in_dir = arg
-        elif opt == '-n':
-            num_people = int(arg)
+        if opt == '-o':   out_dir = arg
+        elif opt == '-i': in_dir  = arg
+        elif opt == '-n': num_people = int(arg)
         elif opt == '-t':
-            if arg in ('recipes', 'shoppinglist'):
-                type = arg
-            else:
+            if arg not in ('recipes', 'shoppinglist'):
                 rtmf("invalid type: %s" % arg)
+            type = arg
         elif opt in ('-h', '--help'):
             usage()
             sys.exit()
