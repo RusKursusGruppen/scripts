@@ -8,6 +8,7 @@ WORKDIR=work
 OUTPUTDIR=output
 COLUMNDIR=lister
 RUSFILE=russer
+SUPFILE=vejledere
 LIBDIR=lib
 
 mkdir -p $WORKDIR
@@ -23,9 +24,9 @@ for file in $TABLEDATA; do
     OUTPUTFILE=$(echo $file | sed 's/a[34]/tex/g' | sed s/$COLUMNDIR/$WORKDIR/)
     if [ $(echo $file | grep a3) ]
     then
-        $BINDIR/listegen.py a3 "$file" "$RUSFILE" > $OUTPUTFILE
+        $BINDIR/listegen.py a3 "$file" "$RUSFILE" "$SUPFILE" > $OUTPUTFILE
     else
-        $BINDIR/listegen.py a4 "$file" "$RUSFILE" > $OUTPUTFILE
+        $BINDIR/listegen.py a4 "$file" "$RUSFILE" "$SUPFILE" > $OUTPUTFILE
     fi
     pdflatex -output-directory=$WORKDIR $OUTPUTFILE
     PDFFILE=$(echo $OUTPUTFILE | sed 's/tex/pdf/')
