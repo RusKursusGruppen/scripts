@@ -36,7 +36,7 @@ import urllib
 import os
 import tokenize
 from cStringIO import StringIO
-from lib.tempita._looper import looper
+from _looper import looper
 
 __all__ = ['TemplateError', 'Template', 'sub', 'HTMLTemplate',
            'sub_html', 'html', 'bunch']
@@ -346,7 +346,7 @@ class Template(object):
                         '(no default_encoding provided)' % value)
                 value = value.encode(self.default_encoding)
             return value
-        
+
 
     def _add_line_info(self, msg, pos):
         msg = "%s at line %s column %s" % (
@@ -539,7 +539,7 @@ class TemplateDef(object):
                 break
             else:
                 raise TypeError(
-                    'Extra position arguments: %s' 
+                    'Extra position arguments: %s'
                     % ', '.join(repr(v) for v in args))
         for name, value_expr in defaults.items():
             if name not in values:
@@ -699,7 +699,7 @@ def trim_lex(tokens):
                     next = next[m.end():]
                     tokens[i+1] = next
     return tokens
-        
+
 
 def find_position(string, index, line_offset):
     """Given a string and index, return (line, column)"""
@@ -726,7 +726,7 @@ def parse(s, name=None, line_offset=0):
         [('cond', (1, 3), ('if', (1, 3), 'x', ['a']), ('elif', (1, 12), 'y', ['b']), ('else', (1, 23), None, ['c']))]
 
     Some exceptions::
-        
+
         >>> parse('{{continue}}')
         Traceback (most recent call last):
             ...
@@ -855,7 +855,7 @@ def parse_one_cond(tokens, name, context):
             return part, tokens
         next, tokens = parse_expr(tokens, name, context)
         content.append(next)
-        
+
 def parse_for(tokens, name, context):
     first, pos = tokens[0]
     tokens = tokens[1:]
@@ -1003,7 +1003,7 @@ def parse_signature(sig_text, name, pos):
                 if tok_type == tokenize.ENDMARKER and nest_count:
                     raise TemplateError('Invalid signature: (%s)' % sig_text,
                                         position=pos, name=name)
-                if (not nest_count and 
+                if (not nest_count and
                     (tok_type == tokenize.ENDMARKER or (tok_type == tokenize.OP and tok_string == ','))):
                     default_expr = isolate_expression(sig_text, start_pos, end_pos)
                     defaults[var_name] = default_expr
@@ -1107,5 +1107,5 @@ def fill_command(args=None):
 
 if __name__ == '__main__':
     fill_command()
-        
-    
+
+
