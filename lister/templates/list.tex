@@ -28,21 +28,26 @@
 \rowcolors{1}{BackgroundEven}{BackgroundOdd}
 
 %% Begin table, set width of each column
-\begin{longtable}{ | {{for w in widths}}p{ {{w}} }|{{endfor}} }
+\begin{longtable}{ | p{.5cm} | {{for w in widths}}p{ {{w}}}|
+    {{endfor}} p{.5cm} | }
 \hline
 
 %% Set headers
-{{for header in headers[:-1]}}
+\vspace{0.2cm}  &
+{{for header in headers}}
   \vspace{0.2cm} {{header}} &
 {{endfor}}
 %% Last header has no following &
-\vspace{0.2cm} {{headers[-1]}}
+\vspace{0.2cm}
 \endhead
 \hline
 
 %% List russes (already sorted)
-{{for rus in russes}}
-  {{rus}} \vspace{0.2cm} {{empties}}
+{{for i,rus in enumerate(russes)}}
+  \vspace{0.2cm} {{i}} & {{rus}} {{empties}} & {{i}} \\ \hline
+  {{if (i+1)%5 == 0}}
+    \hline\hline
+  {{endif}}
 {{endfor}}
 
 %% End table

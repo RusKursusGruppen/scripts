@@ -28,7 +28,7 @@ for line in open(desc_file, 'r'):
 
 cap = lambda names: ' '.join(name.capitalize() for name in names.split())
 russes = sorted(map(cap, open(data_file)))
-empties = '& '*(len(headers)-1) + r'\\\hline'
+empties = '& '*(len(headers)-1)
 title = os.path.basename(desc_file).rsplit('.',1)[0]
 
 templ = file('templates/list.tex').read()
