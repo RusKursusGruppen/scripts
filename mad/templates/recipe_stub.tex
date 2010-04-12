@@ -1,4 +1,4 @@
-% vim: et ts=2 sw=2
+% vim: et ts=2 sw=2e
 \section{ {{title}} ({{num_persons}} personer)}
 
 \subsection*{Ingredienser}
@@ -7,7 +7,11 @@
   \hline
   \bf{Navn:} & \bf{Mængde:} \\
   \hline\hline
-  {{ingredients}}
+
+  {{for i in ingredients}}
+    {{i['name']}} & {{i['amount']}} {{i['unit']}} \\
+  {{endfor}}
+
   \hline
 \end{tabular}
 

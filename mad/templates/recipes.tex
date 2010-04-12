@@ -7,6 +7,10 @@
 
 \begin{document}
 
-{{includes}}
+{{for i in xrange(count)}}
+  {{py: out=r'\include{%i}' % i
+  }}
+  {{out}}
+{{endfor}}
 
 \end{document}

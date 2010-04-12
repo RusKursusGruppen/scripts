@@ -4,8 +4,9 @@
 
 from __future__ import with_statement
 from food import Food
-from lib import tempita
+from lib.tempita import Template
 import getopt, sys, codecs, re
+
 
 def usage():
     print """Usage:
@@ -35,7 +36,9 @@ def float2hex(f):
 def load_file(filename):
     return codecs.open(filename, "r", "utf-8").read()
 def load_template(filename):
-    return tempita.Template(load_file(filename))
+    tpl = Template(load_file(filename))
+    print tpl.default_namespace
+    return tpl
 
 def gen_recipes(food, out_dir, num_people):
     tpl_recipes = load_template("templates/recipes.tex")
@@ -43,14 +46,11 @@ def gen_recipes(food, out_dir, num_people):
     recipes = food.get_recipes(num_people)
     for i,r in enumerate(recipes):
         with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
-            lines = []
-            for ingr in r['ingredients']:
-                lines.append(ur"%s & %s %s \\" % (ingr['name'], float2hex(ingr['amount']), ingr['unit']))
             rendered = tpl_stub.substitute(title=r['title'], num_persons=r['people'],
-                                           text=r['text'], ingredients='\hline\n'.join(lines))
+                                           text=r['text'], ingredients=r['ingredients'])
             f.write(rendered)
     with codecs.open("%s/recipes.tex" % out_dir, "w", "utf-8") as f:
-        txt = tpl_recipes.substitute(includes='\n'.join(map(lambda x: r'\include{%s}' % unicode(x), xrange(len(recipes)))))
+        txt = tpl_recipes.substitute(count=len(recipes))
         f.write(txt)
 
 
@@ -60,10 +60,7 @@ def gen_shoppinglist(food, out_dir, num_people):
     ingredients = tuple(food.get_ingredients(num_people).iteritems())
     for i, (category, items) in enumerate(ingredients):
         with codecs.open("%s/%i.tex" % (out_dir, i), "w", "utf-8") as f:
-            lines = []
-            for name, info in items.iteritems():
-                lines.append(ur"%s & %s %s \\" % (name, info['amount'], info['unit']))
-            rendered = tpl_cat.substitute(name=category, items='\\hline\n'.join(lines))
+            rendered = tpl_cat.substitute(name=category, items=items)
             f.write(rendered)
     with codecs.open("%s/shoppinglist.tex" % out_dir, "w", "utf-8") as f:
         txt = tpl_list.substitute(includes='\n'.join(

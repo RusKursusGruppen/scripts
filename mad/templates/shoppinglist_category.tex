@@ -5,6 +5,8 @@
   \hline
   \bf{Navn:} & \bf{Mængde:} \\
   \hline\hline
-  {{items}}
+  {{for name,info in items.iteritems()}}
+    {{name}} & {{info['amount']}} {{info['unit']}} \\
+  {{endfor}}
   \hline
 \end{tabular}
