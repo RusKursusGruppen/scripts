@@ -59,13 +59,18 @@ class Food:
         return ret
 
     def get_ingredients(self, num_people):
-        ret = {}
-        for r in self.get_recipes(num_people):
-            for i in r['ingredients']:
-                if i['cat'] not in ret.keys():
-                    ret[i['cat']] = {}
-                if not i['name'] in ret[i['cat']].keys():
-                    ret[i['cat']][i['name']] = {'amount':i['amount'], 'unit':i['unit']}
-                else:
-                    ret[i['cat']][i['name']]['amount'] += i['amount']
-        return ret
+        ingredients = map(lambda r: r['ingredients'], self.get_recipes(num_people))
+        all_as_list = reduce(lambda l,m: l+m, ingredients)
+        summed = {}
+        for i in all_as_list:
+            #print i
+            # unpack
+            cat, name, amount, unit = i['cat'], i['name'], i['amount'], i['unit']
+            # initialize if needed
+            summed[cat]       = summed.get(cat,{})
+            summed[cat][name] = summed[cat].get(name, {})
+            # update
+            item = summed[cat][name]
+            item['unit']   = unit
+            item['amount'] = item.get('amount',0) + amount
+        return [ {'category':category,'items':items} for category,items in summed.items() ]
