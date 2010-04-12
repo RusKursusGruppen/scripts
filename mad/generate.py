@@ -86,6 +86,7 @@ def gen_shoppinglist(food, out_dir, num_people):
         f.write(txt)
 
 
+GENERATORS = {'recipes' : gen_recipes, 'shoppinglist': gen_shoppinglist}
 def main(args):
     # parse options
     try:
@@ -113,10 +114,7 @@ def main(args):
     # generate list
     food = Food()
     food.load_dir(in_dir)
-    if listtype == 'recipes':
-        gen_recipes(food, out_dir, num_people)
-    elif listtype == 'shoppinglist':
-        gen_shoppinglist(food, out_dir, num_people)
+    GENERATORS[listtype](food, out_dir, num_people)
 
 if __name__ == '__main__':
     main(sys.argv[1:])
