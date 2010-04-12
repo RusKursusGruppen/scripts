@@ -1,21 +1,33 @@
 % vim: et ts=2 sw=2e
 \section{ {{title}} ({{people}} personer)}
 
-\subsection*{Ingredienser}
+%\subsection*{Ingredienser}
 
-\begin{tabular}{|l|l|}
+\begin{center}
+\textsc{Ingredienser}
+
+\begin{tabular}{|p{4cm}|p{4cm}|}
   \hline
   \bf{Navn:} & \bf{Mængde:} \\
   \hline\hline
 
   {{for i in ingredients}}
-    {{i['name']}} & {{i['amount']}} {{i['unit']}} \\
+    {{i['name']}} & {{i['amount']}} {{i['unit']}} \\ \hline
   {{endfor}}
 
   \hline
 \end{tabular}
 
-\subsection*{Instruktioner}
+\vspace{.5cm}
 
-{{text}}
+\textsc{Instruktioner}\\
+\begin{description}
+{{for i,pair in enumerate(instructions)}}
+  {{py: title,desc = pair }}
+  {{py: out=r'\item[%i. %s,]' % (i,title) }}
+  {{out}} {{desc[1:]}}
+{{endfor}}
+\end{description}
+
+\end{center}
 

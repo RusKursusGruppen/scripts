@@ -1,14 +1,12 @@
-Foo opskrift
+Bolle opskrift
 5 pers
 T;Mel;5 kg
 M;Mælk;4 L
 M;Æg;2 stk
 
-\begin{itemize}
-  \item Foo
-  \item Bar
-  \item Bland det hele sammen
-  \item ???
-  \item PROFIT!
-\end{itemize}
+Læg æg!
+Tilsæt mælk
+Bland det hele sammen
+???
+PROFIT!
 

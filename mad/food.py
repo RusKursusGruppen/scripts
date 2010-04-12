@@ -10,7 +10,7 @@ import codecs
 class Food:
     re_pers = re.compile(r'^([0-9]+)')
     re_ingr = re.compile(r'^(?P<cat>\w+?);(?P<name>\w+?);(?P<amount>[0-9.]+?) (?P<unit>\w*)$', re.U | re.M)
-    re_inst = re.compile(r'\\begin\{enumerate\}.*\\end\{enumerate\}', re.U | re.DOTALL | re.M)
+    re_inst = re.compile(r'^([^:\n]+)(:.*)?$', re.U | re.M)
     categories = {
         "T": u"Tørvarer",
         "F": u"Frostvarer",
@@ -31,7 +31,7 @@ class Food:
         for path in glob(dir + "/*"):
             title = pers = None
             ingredients  = None
-            instructions = None
+            instructions = []
             with codecs.open(path, 'r', 'utf-8') as f:
                 # first line is title
                 title = f.readline().strip()
@@ -44,10 +44,13 @@ class Food:
                     rest += read
                     read = f.read()
                 # next is ingredient list
-                ingredients = map(self.parse_ingredient, self.re_ingr.finditer(rest))
+                ingr = tuple(self.re_ingr.finditer(rest))
+                ingredients = map(self.parse_ingredient, ingr)
                 # then instructions
-                instructions = Food.re_inst.search(rest).group(0)
-            self.recipes.append({'title':title, 'people':pers, 'ingredients':ingredients, 'text':instructions})
+                instructions = Food.re_inst.findall(rest[ingr[-1].end():])
+                print instructions
+            self.recipes.append({'title':title, 'people':pers,
+                                 'ingredients':ingredients, 'instructions':instructions})
 
     def get_recipes(self, num_people):
         ret = []

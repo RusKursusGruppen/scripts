@@ -4,11 +4,10 @@ T;Pasta;6000 kg
 F;Kylling;1337 kg
 M;Æg;10 stk
 
-\begin{itemize}
-  \item Foo
-  \item Bar
-  \item Bland det hele sammen
-  \item ???
-  \item PROFIT!
-\end{itemize}
+Kog pasta: Cirka 10 minutter
+Skræl persille: Det er hurtigt klaret
+Steg kylling: På en pande
+Læg æg!: øøh
+Bland det hele sammen
+Spis!
 

@@ -7,12 +7,12 @@ all: clean recipes shoppinglist
 recipes:
 	mkdir -p ${OUTDIR}/recipes
 	./generate.py -i ${INDIR} -o ${OUTDIR}/recipes -t recipes -n ${NUMPEOPLE}
-	(cd ${OUTDIR}/recipes; pdflatex recipes.tex && pdflatex recipes.tex && pdflatex recipes.tex)
+	(cd ${OUTDIR}/recipes; pdflatex list.tex && pdflatex list.tex && pdflatex list.tex && mv list.pdf recipelist.pdf)
 
 shoppinglist:
 	mkdir -p ${OUTDIR}/shoppinglist
 	./generate.py -i ${INDIR} -o ${OUTDIR}/shoppinglist -t shoppinglist -n ${NUMPEOPLE}
-	(cd ${OUTDIR}/shoppinglist; pdflatex shoppinglist.tex && pdflatex shoppinglist.tex && pdflatex shoppinglist.tex)
+	(cd ${OUTDIR}/shoppinglist; pdflatex list.tex && pdflatex list.tex && pdflatex list.tex && mv list.pdf shoppinglist.pdf)
 
 clean:
 	find ${OUTDIR} -type f -exec rm -f {} \;
