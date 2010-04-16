@@ -27,7 +27,7 @@ OUTDIR = 'src'
 # precompiled regular expressions
 RE_newsong = re.compile(r'\{\s*ns\s*\}')
 RE_title   = re.compile(r'\{t:([^}]*)\}') # TODO: title can be empty?
-RE_melody  = re.compile(r'\{st:(Mel:)?\s*([^}]*)\}') # TODO: ignore case?
+RE_melody  = re.compile(r'\{st:(Mel:)?\s*([^}]+)\}') # TODO: ignore case?
 
 # characters to use in file names
 SAFE_CHARS = set(string.letters+string.digits+'_')
@@ -42,8 +42,10 @@ def split_songs(data):
 
 def get_info(song_data):
     ''' extract title and melody from song '''
-    title  = RE_title.search(song_data).group(1)
-    melody = RE_melody.search(song_data).group(2)
+    print song_data
+    title = RE_title.search(song_data).group(1)
+    match = RE_melody.search(song_data)
+    melody = match and match.group(2) or ''
     return (title, melody)
 
 def sanitize_filename(filename):
