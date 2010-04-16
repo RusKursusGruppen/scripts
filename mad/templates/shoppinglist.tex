@@ -8,9 +8,8 @@
 \setcounter{secnumdepth}{0}
 \begin{document}
 
-{{for i in xrange(count)}}
-  {{py: out=r'\include{%i}' % i}}
-  {{out}}
-{{endfor}}
+<<for i in xrange(count)>>
+  \include{<<i>>}
+<<endfor>>
 
 \end{document}

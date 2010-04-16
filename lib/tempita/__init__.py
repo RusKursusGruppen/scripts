@@ -41,7 +41,7 @@ from _looper import looper
 __all__ = ['TemplateError', 'Template', 'sub', 'HTMLTemplate',
            'sub_html', 'html', 'bunch']
 
-token_re = re.compile(r'\{\{|\}\}')
+token_re = re.compile(r'\<\<|\>\>')
 in_re = re.compile(r'\s+in\s+')
 var_re = re.compile(r'^[a-z_][a-z0-9_]*$', re.I)
 
@@ -78,8 +78,8 @@ def get_file_template(name, from_template):
 class Template(object):
 
     default_namespace = {
-        'start_braces': '{{',
-        'end_braces': '}}',
+        'start_braces': '<<',
+        'end_braces': '>>',
         'looper': looper,
         }
 
@@ -618,13 +618,13 @@ def lex(s, name=None, trim_whitespace=True, line_offset=0):
     for match in token_re.finditer(s):
         expr = match.group(0)
         pos = find_position(s, match.end(), line_offset)
-        if expr == '{{' and in_expr:
-            raise TemplateError('{{ inside expression', position=pos,
+        if expr == '<<' and in_expr:
+            raise TemplateError('<< inside expression', position=pos,
                                 name=name)
-        elif expr == '}}' and not in_expr:
-            raise TemplateError('}} outside expression', position=pos,
+        elif expr == '>>' and not in_expr:
+            raise TemplateError('>> outside expression', position=pos,
                                 name=name)
-        if expr == '{{':
+        if expr == '<<':
             part = s[last:match.start()]
             if part:
                 chunks.append(part)

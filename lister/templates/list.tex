@@ -1,6 +1,6 @@
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage{ {{papersize}} ,lscape}
+\usepackage{<<papersize>>,lscape}
 \usepackage[danish]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{longtable}
@@ -16,55 +16,55 @@
 \definecolor{BackgroundEven}{RGB}{255,255,255}
 
 %% Use landscape when A3
-{{if papersize=='a3'}} \begin{landscape} {{endif}}
+<<if papersize=='a3'>> \begin{landscape} <<endif>>
 
 
 \begin{center}
 
 %% Set title
-\textsc{ {{title}} }
+\textsc{<<title>>}
 
 %% Set table colors
 \rowcolors{1}{BackgroundEven}{BackgroundOdd}
 
 %% Begin table, set width of each column
-\begin{longtable}{ | p{.5cm} | {{for w in widths}}p{ {{w}}}|
-    {{endfor}} p{.5cm} | }
+\begin{longtable}{ | p{.5cm} | <<for w in widths>> p{<<w>>}|
+    <<endfor>> p{.5cm} | }
 \hline
 
 %% Set headers
 \vspace{0.2cm}  &
-{{for header in headers}}
-  \vspace{0.2cm} {{header}} &
-{{endfor}}
+<<for header in headers>>
+  \vspace{0.2cm} <<header>> &
+<<endfor>>
 %% Last header has no following &
 \vspace{0.2cm}
 \endhead
 \hline
 
 %% List russes (already sorted)
-{{for id,rus in enumerate(russes)}}
-  \vspace{0.2cm} {{id}} & {{rus}} {{empties}} & {{id}} \\ \hline
-  {{if (id+1)%5 == 0}}
+<<for id,rus in enumerate(russes)>>
+  \vspace{0.2cm} <<id>> & <<rus>> <<empties>> & <<id>> \\ \hline
+  <<if (id+1)%5 == 0>>
     \hline\hline
-  {{endif}}
-{{endfor}}
+  <<endif>>
+<<endfor>>
 
 %% Delimeter between russes and pwners
 \hline\hline\hline\hline
 
 %% Add pwners
-{{for j,super in enumerate(supers)}}
-  {{py:id=len(russes)+j}}
-  \vspace{0.2cm} {{id}} & {{super}} {{empties}} & {{id}} \\
+<<for j,super in enumerate(supers)>>
+  <<py:id=len(russes)+j>>
+  \vspace{0.2cm} <<id>> & <<super>> <<empties>> & <<id>> \\
   \hline
-{{endfor}}
+<<endfor>>
 
 %% End table
 \end{longtable}
 \end{center}
 
 %% End A3 ?
-{{if papersize=='a3'}} \end{landscape} {{endif}}
+<<if papersize=='a3'>> \end{landscape} <<endif>>
 
 \end{document}

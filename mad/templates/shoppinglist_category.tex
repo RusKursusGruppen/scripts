@@ -1,14 +1,14 @@
 % vim: et ts=2 sw=2
 \begin{center}
-\textsc{ {{category}} }
+\textsc{<<category>>}
 
 \begin{tabular}{|p{5cm}|p{5cm}|}
   \hline
   \bf{Navn:} & \bf{Mængde:} \\
   \hline\hline
-  {{for name,info in items.iteritems()}}
-    {{name}} & {{info['amount']}} {{info['unit']}} \\
-  {{endfor}}
+  <<for name,info in items.iteritems()>>
+    <<name>> & <<info['amount']>> <<info['unit']>> \\
+  <<endfor>>
   \hline
 \end{tabular}
 \end{center}
