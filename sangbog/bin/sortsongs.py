@@ -41,7 +41,9 @@ for song in songs:
         endlist[43] = song
         songs.remove(song)
 
-songs.sort()
+# sort by first number as integer, not string ('100 ..' > '99 ..')
+getnum = lambda s: int(re.match(r'(\d+)', s[1].strip()).group(1))
+songs.sort(key=getnum)
 songs.reverse()
 
 for i in range(0, len(endlist)):
