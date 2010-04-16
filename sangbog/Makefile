@@ -24,7 +24,7 @@ clean:
 
 $(SONGSDIRTOKEN): sangbog.chord
 	# Split sangbog.chord into individual songs in src/
-	$(BINDIR)/splitit.pl ./sangbog.chord
+	$(BINDIR)/splitit.py ./sangbog.chord
 	touch $(SONGSDIRTOKEN)
 
 $(WORKDIR)/list.txt: $(SONGSDIRTOKEN)
