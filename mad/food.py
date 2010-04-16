@@ -9,7 +9,7 @@ import codecs
 
 class Food:
     re_pers = re.compile(r'^([0-9]+)')
-    re_ingr = re.compile(r'^(?P<cat>\w+?);(?P<name>\w+?);(?P<amount>[0-9.]+?) (?P<unit>\w*)$', re.U | re.M)
+    re_ingr = re.compile(r'^(?P<cat>\w+?);(?P<name>[^;]+?);(?P<amount>[0-9.]+?) (?P<unit>\w*)$', re.U | re.M)
     re_inst = re.compile(r'^([^:\n]+)(:.*)?$', re.U | re.M)
     categories = {
         "T": u"Tørvarer",
@@ -45,7 +45,7 @@ class Food:
                     read = f.read()
                 # next is ingredient list
                 ingr = tuple(self.re_ingr.finditer(rest))
-                ingredients = map(self.parse_ingredient, ingr)
+                ingredients = sorted(map(self.parse_ingredient, ingr))
                 # then instructions
                 instructions = Food.re_inst.findall(rest[ingr[-1].end():])
                 print instructions
