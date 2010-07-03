@@ -4,12 +4,12 @@
 # mklist.sh
 # ---------
 #
-# Dette lille script gennemsøger en masse enkelte single-song chord-filer i
-# underkataloget src/ og laver en simpel "playlist" ved at kalde ./info.pl på
+# Dette lille script gennemsÂÃ¸ger en masse enkelte single-song chord-filer i
+# underkataloget src/ og laver en simpel "playlist" ved at kalde ./info.pl pÂÃ¥
 # hver af dem.
 #
-# Skrevet i forbindelse med en hel suite af små dumme scripts til brug for
-# konstruktion af sangbog i rusturssammenhæng(TM).
+# Skrevet i forbindelse med en hel suite af smÂÃ¥ dumme scripts til brug for
+# konstruktion af sangbog i rusturssammenhÂÃ¦ng(TM).
 #
 ###############################################################################
 

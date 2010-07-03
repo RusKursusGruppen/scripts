@@ -5,12 +5,12 @@
 # sortsongs.py
 # --------
 #
-# Dette script tager på stdin en "playlist" i ./info.pl format, og
-# udspyr på stdout en sorteret rækkefølge der overholder (hardcodede)
+# Dette script tager pÃ¥ stdin en "playlist" i ./info.pl format, og
+# udspyr pÃ¥ stdout en sorteret rÃ¦kkefÃ¸lge der overholder (hardcodede)
 # krav til nummering.
 #
-# Skrevet i forbindelse med en hel suite af små dumme scripts til brug for
-# konstruktion af sangbog i rusturssammenhæng(TM).
+# Skrevet i forbindelse med en hel suite af smÃ¥ dumme scripts til brug for
+# konstruktion af sangbog i rusturssammenhÃ¦ng(TM).
 #
 # Slamkodet af: Troels Henriksen (athas@sigkill.dk)
 #               DIKU, 10. april 2000
@@ -23,14 +23,14 @@ import re
 songs = []
 endlist = []
 
-# Indlæs alle sange og put dem i songs-listen, lav samtidigt en tom
+# IndlÃ¦s alle sange og put dem i songs-listen, lav samtidigt en tom
 # plads i vores endelige liste.
 for line in sys.stdin:
     match = re.match("^(.): (.*) ([^ \n]+)$", line)
     songs.append(match.groups())
     endlist.append(None)
 
-# Gå nu sangene igennem og sæt de specielle tilfælde på deres rette
+# GÃ¥ nu sangene igennem og sÃ¦t de specielle tilfÃ¦lde pÃ¥ deres rette
 # plads...
 
 for song in songs:

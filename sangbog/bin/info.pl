@@ -4,11 +4,11 @@
 # info.pl
 # -------
 #
-# Dette lille script åbner og gennemlæser en single-song chord-fil og udskriver
+# Dette lille script Ã¥bner og gennemlÃ¦ser en single-song chord-fil og udskriver
 # en enkelt linie til stdout med en beskrivelse af sangen i filen.
 #
-# Skrevet i forbindelse med en hel suite af små dumme scripts til brug for
-# konstruktion af sangbog i rusturssammenhæng(TM).
+# Skrevet i forbindelse med en hel suite af smÃ¥ dumme scripts til brug for
+# konstruktion af sangbog i rusturssammenhÃ¦ng(TM).
 #
 # Slamkodet af: Uffe Friis Lichtenberg (uffefl@diku.dk)
 #               DIKU, 2. juli 2000

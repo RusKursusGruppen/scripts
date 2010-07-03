@@ -34,7 +34,7 @@ SAFE_CHARS = set(string.letters+string.digits+'_')
 
 # before sanitizing file names (and stripping characters)
 # perform following convertions
-CONVERTIONS = ( ('æ', 'ae'), ('ø', 'oe'), ('å', 'aa') )
+CONVERTIONS = ( ('Ã¦', 'ae'), ('Ã¸', 'oe'), ('Ã¥', 'aa') )
 
 def split_songs(data):
     ''' divide string into seperate songs '''

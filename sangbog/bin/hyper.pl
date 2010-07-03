@@ -4,14 +4,14 @@
 # hyper.pl
 # --------
 #
-# Dette (desværre ikke specielt lille) script løber, givet på stdin en
+# Dette (desvÃ¦rre ikke specielt lille) script lÃ¸ber, givet pÃ¥ stdin en
 # "playlist" i ./info.pl format, en masse sange igennem, finder ud af hvilke
 # kategorier de definerer, opretter hyperlinks imellem sangene og udskriver en
 # samlet multi-song chord-fil til stdout, der indeholder disse links som
 # {c:Kommentarer}.
 #
-# Skrevet i forbindelse med en hel suite af små dumme scripts til brug for
-# konstruktion af sangbog i rusturssammenhæng(TM).
+# Skrevet i forbindelse med en hel suite af smÃ¥ dumme scripts til brug for
+# konstruktion af sangbog i rusturssammenhÃ¦ng(TM).
 #
 # Slamkodet af: Uffe Friis Lichtenberg (uffefl@diku.dk)
 #               DIKU, 2. juli 2000
@@ -21,7 +21,7 @@ srand 42;
 
 @songs = <>;
 
-# Registrer alle kategorier (så kat:* virker)
+# Registrer alle kategorier (sÃ¥ kat:* virker)
 foreach $song (@songs)
 {
     chomp $song;
@@ -31,7 +31,7 @@ foreach $song (@songs)
     foreach $line (<FIL>)
     {
 	chomp $line;
-	if ($line =~ m/^\#kat:([abcdefghijklmnopqrstuvwxyzæøå].*)$/)
+	if ($line =~ m/^\#kat:([abcdefghijklmnopqrstuvwxyzÃ¦Ã¸Ã¥].*)$/)
 	{
 	    $kategorier{$1} = "A";
 	}
@@ -85,7 +85,7 @@ while (($kat,$what) = each %kategori)
     $kategori{$kat} = $whatever;
 }
 
-# Sørg for at ruten starter forfra
+# SÃ¸rg for at ruten starter forfra
 while (($kat,$what) = each %kategori)
 {
     $what =~ s/^([^ ]+)(.*)$/ $1$2$1/;
@@ -129,7 +129,7 @@ foreach $song (@songs)
 		    $what = $kategori{$kat};
 		    $what =~ s/.*? $n ([^ ]+).*/\1/;
 		   # $what++;
-		    $klump .= "{c:En $kat-sang? Gå til $what}\n";
+		    $klump .= "{c:En $kat-sang? GÃ¥ til $what}\n";
 		}
 	    }
 	    else
@@ -137,7 +137,7 @@ foreach $song (@songs)
 		$what = $kategori{$akt};
 		$what =~ s/.*? $n ([^ ]+).*/\1/;
 		#$what++;
-		$klump .= "{c:Endnu en $akt-sang? Gå til $what}\n";
+		$klump .= "{c:Endnu en $akt-sang? GÃ¥ til $what}\n";
 	    }
 	}
         else

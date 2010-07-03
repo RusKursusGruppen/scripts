@@ -55,7 +55,7 @@ sub doit ($)
 	doit($i) if($i);
     } elsif ($line =~ m/^\s*$/i)
     {
-	# blank linie, hvis efter \section, gør intet
+	# blank linie, hvis efter \section, gÃ¸r intet
 	if ($ignoreblank == 0 && $lastlinespace == 0) 
 	{
 	    $line = "\\\\\n";
@@ -73,7 +73,7 @@ sub doit ($)
 
 	chomp $line;
 
-	# tilføj \\\\ efter linjen
+	# tilfÃ¸j \\\\ efter linjen
 	$line =~ s/^(.*)$/$1 \\\\ \n/gs;
 
 	# escape "&"
