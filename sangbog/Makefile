@@ -68,5 +68,8 @@ $(OUTPUTDIR)/sangbog.ps: $(WORKDIR)/tmp.ps
 $(OUTPUTDIR)/sangbogprint.pdf: $(WORKDIR)/tmp.ps
 	ps2pdf $(WORKDIR)/tmp.ps $(OUTPUTDIR)/sangbogprint.pdf
 
-$(OUTPUTDIR)/nodebog.ps: $(WORKDIR)/autosangbog.chord
-	chord/chord $(WORKDIR)/autosangbog.chord > $(OUTPUTDIR)/nodebog.ps
+$(WORKDIR)/autosangbog-latin1.chord: $(WORKDIR)/autosangbog.chord
+	iconv -f utf8 -t latin1 $(WORKDIR)/autosangbog.chord > $(WORKDIR)/autosangbog-latin1.chord
+
+$(OUTPUTDIR)/nodebog.ps: $(WORKDIR)/autosangbog-latin1.chord
+	chord/chord $(WORKDIR)/autosangbog-latin1.chord > $(OUTPUTDIR)/nodebog.ps
