@@ -21,3 +21,4 @@ foreach $line (@lines)
 }
 
 print "\\end{multicols}\n \n";
+print "\\newpage";
