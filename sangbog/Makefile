@@ -63,7 +63,7 @@ $(WORKDIR)/sangbog.dvi: $(WORKDIR)/sangbog.tex
 	$(BINDIR)/nicelatex.sh -output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex
 
 $(WORKDIR)/tmp.ps: $(WORKDIR)/sangbog.dvi
-	dvips -o $(WORKDIR)/tmp.ps $(WORKDIR)/sangbog.dvi
+	dvips -o $(WORKDIR)/tmp.ps $(WORKDIR)/sangbog.dvi -Ppdf
 
 $(OUTPUTDIR)/sangbog.ps: $(WORKDIR)/tmp.ps
 	cat $(WORKDIR)/tmp.ps | psresize -Pletter -PA4 | psbook | psnup -2 > $(OUTPUTDIR)/sangbog.ps
