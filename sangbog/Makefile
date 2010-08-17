@@ -8,6 +8,8 @@ SONGSDIR=./src
 BINDIR=./bin
 # TeX bits and pieces that are used as the scaffold for the book.
 TEXDIR=./tex
+# Graphics and other resource files used
+RESDIR=./res
 # The output directory for the finished results
 OUTPUTDIR=./output
 
@@ -55,6 +57,7 @@ $(WORKDIR)/sangbog.tex: $(WORKDIR)/index.tex $(WORKDIR)/sangliste.tex
 	cat $(TEXDIR)/footer.tex >> $(WORKDIR)/sangbog.tex
 
 $(WORKDIR)/sangbog.dvi: $(WORKDIR)/sangbog.tex
+	cp $(RESDIR)/* $(WORKDIR)/
 	$(BINDIR)/nicelatex.sh -output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex
 	$(BINDIR)/nicelatex.sh -output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex
 	$(BINDIR)/nicelatex.sh -output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex
