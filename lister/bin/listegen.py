@@ -29,6 +29,11 @@ for line in open(desc_file, 'r'):
 prep = lambda names: ' '.join(name.capitalize() for name in names.split())
 read = lambda path: sorted(map(prep, open(path)))
 russes = read(rus_file)
+
+extra = 5-len(russes)%5
+extra = extra < 3 and extra+5 or extra
+russes = russes + ['']*extra
+
 supers = read(sup_file)
 empties = '& '*(len(headers)-1)
 title = os.path.basename(desc_file).rsplit('.',1)[0]
