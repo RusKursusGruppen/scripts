@@ -28,36 +28,39 @@
 \rowcolors{1}{BackgroundEven}{BackgroundOdd}
 
 %% Begin table, set width of each column
-\begin{longtable}{ | p{.5cm} | <<for w in widths>> p{<<w>>}|
-    <<endfor>> p{.5cm} | }
+\begin{longtable}{  | m{.5cm} | <<for w in widths>> m{<<w>>}|
+    <<endfor>> m{.5cm} | }
 \hline
 
 %% Set headers
 \vspace{0.2cm}  &
 <<for header in headers>>
-  \vspace{0.2cm} <<header>> &
+  <<header>> &
 <<endfor>>
 %% Last header has no following &
 \vspace{0.2cm}
 \endhead
-\hline
+\hline\hline
 
 %% List russes (already sorted)
 <<for id,rus in enumerate(russes)>>
-  \vspace{0.2cm} <<id>> & <<rus>> <<empties>> & <<id>> \\ \hline
+  <<id>> & <<rus>> <<empties>> \vspace{.4cm} & <<id>> \\ \hline
   <<if (id+1)%5 == 0>>
-    \hline\hline
+    \hline\hline\\\hline\hline
   <<endif>>
 <<endfor>>
 
 %% Delimeter between russes and pwners
-\hline\hline\hline\hline
+\hline\hline\\\ \\
+\hline\hline
 
 %% Add pwners
 <<for j,super in enumerate(supers)>>
   <<py:id=len(russes)+j>>
-  \vspace{0.2cm} <<id>> & <<super>> <<empties>> & <<id>> \\
-  \hline
+  <<id>> & <<super>> <<empties>> \vspace{0.4cm}  & <<id>> \\ \hline
+  <<if (j+1)%5 == 0>>
+    \hline\hline\\\hline\hline
+  <<endif>>
 <<endfor>>
 
 %% End table
