@@ -40,7 +40,8 @@ sub doit ($)
         print "\\end\{comment\}\n";
 	$ignoreblank = 1;
     } elsif ($line =~ m/^\{t:([^}]*)\}/) { # {t:
-        print "\\needspace{6cm}";
+        #print "\\needspace{6cm}";
+		print "\\newpage";
 	print "\\begin{center}\n";
         print "\\section\*\{$1\} \n";
 	print STDERR "++$line\n";
