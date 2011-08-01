@@ -22,3 +22,7 @@ Sangsbogsgeneratoren bruges som følgende:
     vertikale A4-ark.
 
     + output/nodebog.ps: Sange med noder i PostScript-format som A4-ark.
+
+    OBS: For at opdatere teksten i en sang eller tilføje sange skal 
+    filen "srcup2date" slettes, ellers opdateres kildekoden til sangene
+    ikke.
