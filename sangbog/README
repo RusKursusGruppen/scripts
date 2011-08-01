@@ -23,6 +23,7 @@ Sangsbogsgeneratoren bruges som følgende:
 
     + output/nodebog.ps: Sange med noder i PostScript-format som A4-ark.
 
-    OBS: For at opdatere teksten i en sang eller tilføje sange skal 
-    filen "srcup2date" slettes, ellers opdateres kildekoden til sangene
+    OBS: ALLE tekster skal være i UTF-8 (UDEN Byte Order Mark)
+    For at opdatere teksten i en sang eller tilføje sange skal filen
+    "srcup2date" slettes, ellers opdateres kildekoden til sangene
     ikke.
