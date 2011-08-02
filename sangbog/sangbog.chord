@@ -792,7 +792,7 @@ Du er på [Am]DIKU nu
 {st:Mel: Anden - Papas sang}
 {st:DIKUrevy 05}
 
-[Tales rytmisk] Uddannelse er en vigtig funktion
+(Tales rytmisk) Uddannelse er en vigtig funktion
 en funktion man bør tage alvorlig
 og datalogi, som er vigtig'r end nogen
 den er gået hen og blev't dårlig.
@@ -801,7 +801,7 @@ og kurser der slet ikke findes
 Det nymodens pjank, må jeg være fri!
 Så er der nog'n ting man bør mindes 
 
-[Synges] Man får ikke lært at bliv' en rigtig datalog
+(Synges) Man får ikke lært at bliv' en rigtig datalog
 uden at skrive kerne på en Motorola
 Det bør koste både tid og sved og hjerteblod
 man skal sidde hele natten med sin cola
@@ -810,7 +810,7 @@ så vær forvisset om, det er solide klask
 Man lærer aldrig noget ud'n at lave fejl
 så gør indlæringskurven stejl
 
-[Tales rytmisk] For dataloger skal man ha' respekt
+(Tales rytmisk) For dataloger skal man ha' respekt
 nærmest ærefrygt som i templer
 Der findes kun få i hver eneste slægt
 der kan mestre båd' C og assembler
@@ -819,7 +819,7 @@ De unge kan jo slet ikke vide
 i gamle dage, da jeg var ond
 hvordan vi da måtte slide
 
-[Synges](For) man får ikke lært at bliv' en rigtig datalog
+(Synges)(For) man får ikke lært at bliv' en rigtig datalog
 hvis man bare læser løsningen på nettet
 Man må starte forfra uden brok, det kan I tro
 når en op'ratør har fået din konto slettet
@@ -5936,10 +5936,7 @@ Sådan bliver du på DIKU uden at få point
 Bli'r du færdig her, ja
 Hey, hey, så er løbet kørt
 
-Bliv på DIKU baby (uh huh, uh huh)
-Bliv på DIKU baby (uh huh, uh huh)
-Bliv på DIKU baby (uh huh, uh huh)
-Man ku' tro at en der dumper er et kvaj --- nej jeg er ej
+Bliv på DIKU baby (uh huh, uh huh) ...
 {eoc}
 
 Jeg tager mange kurser, men dropper dem til sidst
@@ -5948,14 +5945,7 @@ Nu er jeg snart instruktor, i alle mine fag
 Så jeg dumper og består dem efter eget velbehag
 
 {soc}
-For ECTS, de gi'r dig stress
-Har du for mange, ja så bli'r du sparket ud!
-Kom nu stop det ræs, la' vær' at læs
-Så gør som mig, ja gør som mig
-For at være smart, tag instruktorat
-Sådan bliver du på DIKU uden at få point
-Bli'r du færdig her, ja
-Hey, hey, så er løbet kørt
+For ECTS, de gi'r dig stress ...
 {eoc}
 
 I sidste blok der tog jeg, et kursus hos mig selv
@@ -5964,10 +5954,7 @@ En TAP'er ville være flink, nu er min lykke vendt
 Hun gav mig et point, og nu er jeg cand. scient.
 
 {soc}
-Bliv på DIKU baby (uh huh, uh huh)
-Bliv på DIKU baby (uh huh, uh huh)
-Bliv på DIKU baby (uh huh, uh huh)
-Man ku' tro at en der dumper er et kvaj --- nej jeg er ej
+Bliv på DIKU baby (uh huh, uh huh) ...
 {eoc}
 
 Uno, dos, tres - har for mang' ECTS!
@@ -6089,10 +6076,7 @@ Rejs jer op, tøm jeres kop, i fællesskab får vi DIKU op!
 For all' skal vid', med dataslid, vi genvinder nu DIKUs storhedstid!
 
 
-Der er dem der koder VB, det er dem uden et CV
-Der er dem der koder Brainfuck, de kan ikke få det hårdt nok
-Der er dem der koder Java, det' det en'ste de kan lave.
-Der er dem der koder ML, det er os der gør det hel' selv!
+Der er dem der koder VB, det er dem uden et CV ...
 Kod!
 {eoc}
 
@@ -6124,6 +6108,8 @@ Kod nu!
 Kod! Kod nu!
 
 
+{soc}
+{c:Gentages 2 gange}
 DIKU, det er nu de skal lære
 DIKU, vi vil kæmp' for din ære!
 DIKU, det er nu de skal lære
@@ -6132,14 +6118,7 @@ Hack dem, det er nu i skal kode
 Hack dem, vi besejrer vor klode
 Hack dem, det er nu i skal kode
 Hack dem, vi besejrer vor klode
-DIKU, det er nu de skal lære
-DIKU, vi vil kæmp' for din ære
-DIKU, det er nu de skal lære
-DIKU, vi vil kæmp' for din ære
-Hack dem, det er nu i skal kode
-Hack dem, vi besejrer vor klode
-Hack dem, det er nu i skal kode
-Hack dem, vi besejrer vor klode
+{eoc}
 Moderkoder!
 Kod!
 {ns}
@@ -6212,18 +6191,7 @@ Hvis vi ::'er får vi en bastard
 Men hva' så? Vi kalder den F\#
 
 {soc}
-Polymorfi :: Head tail!
-lambda lambda! Head tail!
-Vi har typerne, vi har tupler,
-vi koder ML!
-Polymorfi :: Head tail!
-lambda lambda! Head tail!
-Vi har typerne, vi har tupler,
-vi koder ML!
-Erlang, Haskell!
-Lisp, Åh-Kamel!
-Vi har typerne, vi har tupler,
-vi koder ML!
+Polymorfi :: Head tail! ...
 {eoc}
 
 
@@ -6472,6 +6440,7 @@ et fejler
 Der er sgu knas med
 den server, der crashed.
 
+{soc}
 For åh nej.
 Vi sku' ha købt et nyt raid
 For åh nej
@@ -6479,6 +6448,7 @@ Jeg var sgu' ikke beredt.
 før vi så
 undtagelsen den kasted.
 Server'n er crashed
+{eoc}
 
 Men kan
 den tvinges
@@ -6487,13 +6457,9 @@ ku' pinges
 Nej, den er - helt trashed
 ja, server'n er crashed.
 
-For åh nej.
-Vi sku' ha købt et nyt raid
-For åh nej
-Jeg var sgu' ikke beredt.
-før vi så
-undtagelsen den kasted.
-Server'n er crashed
+{soc}
+For åh nej...
+{eoc}
 
 Tænkte, jeg fikser det bare i mor'n
 da den stod der og kasted' fejl
@@ -6516,21 +6482,11 @@ Vi har sgu ingen backup
 Disken er sikkert kvæstet
 Server'n er crashed
 
-For åh nej.
-Vi sku' ha købt et nyt raid
-For åh nej
-Jeg var sgu' ikke beredt.
-før vi så
-undtagelsen den kasted.
-Server'n er crashed
+{soc}
+For åh nej...
 
-For åh nej.
-Vi sku' ha købt et nyt raid
-For åh nej
-Jeg var sgu' ikke beredt.
-før vi så
-undtagelsen den kasted.
-Server'n er crashed
+For åh nej...
+{eoc}
 
 {ns}
 
@@ -6614,12 +6570,7 @@ Prøv at se!
 
 {soc}
 1: Prøv at se
-2: Jeg er en ener, jeg er datalog
-2: jeg' ret så cool på min egen måde
-2: Er du en ener, ja så er vi to
-2: Jeg er ret excentrisk
-1: Åh, jeg bli'r elektrisk
-1+2: Så ta' mig nu, værs'go
+2: Jeg er ...
 {eoc}
 
 Jeg (har) vær't lidt omkring
@@ -6706,16 +6657,14 @@ UP1
 #kat:revy
 #kat:DIKUrevy
 {st:DIKUrevy 2011}
-{st:Mel: Jim Steinman/Meatloaf - Bat Our of Hell}
+{st:Mel: Jim Steinman/Meatloaf - Bat Out of Hell}
 {col:2}
 
 Jeg sidder her på DIKU og jeg ser Futurama
-
 på en meget sen fredag nat.
 Gider ikke gå hjem, for der er ingen der savner mig
 derhjemme, ikke engang min kat.
 Blev' fyret fra mit job og har ikke mere SU,
-
 kun en konto fuld af røde tal.
 Hvis bare jeg kunne købte jeg alt i verden,
 men de onde, onde firmaers kapitalisme
@@ -6734,7 +6683,7 @@ for når jeg logger af er det måske farvel.
 Som en bit ud af Hel flyver mine data afsted.
 I mit hjem og på DIKU, som en bit ud af Hel er jeg altid med.
 Som en bit ud af Hel flyver mine data afsted.
-Og når ser at nye afsnit af mine serier er på vej
+Og når jeg ser at nye afsnit af mine serier er på vej
 kan jeg trygt hvile fordi jeg ved at mine peers
 vil seede tilbage til mig.
 {eoc}
@@ -6765,35 +6714,29 @@ Massevis af gigabytes.
 Åh, nettet er det eneste sted i verden her...
 
 Som en bit ud af Hel flyver mine data afsted...
-{eoc}
 
 Så når Antipiratgruppens folk banker på min dør,
 lagt i lænker bliver jeg trukket skrigende væk.
 Og jeg kommer aldrig til at downloade noget igen.
 Men det sidste jeg ser er min skærm.
+{eoc}
+
 Den seeder
-
 Mine filer bli'r delt
-
 og lever igen
 som en bit ud af Hel.
 
-Så når Antipiratgruppens folk banker på min dør,
-lagt i lænker bliver jeg trukket skrigende væk.
-Og jeg kommer aldrig til at downloade noget igen.
-Men det sidste jeg ser er min skærm.
+{soc}
+Så når Antipiratgruppens folk banker på min dør ...
+{eoc}
 Den seeder
 Den Seeder
 Mine filer bli'r delt
 og lever igen
  
-
-Som en bit ud af Hel flyver mine data afsted.
-I mit hjem og på DIKU, som en bit ud af Hel er jeg altid med.
-Som en bit ud af Hel flyver mine data afsted.
-Og når ser at nye afsnit af mine serier er på vej
-kan jeg trygt hvile fordi jeg ved at mine peers
-vil seede tilbage til mig.
+{soc}
+Som en bit ud af Hel flyver mine data afsted...
+{eoc}
 
 kan jeg trygt hvile fordi jeg ved at mine peers
 vil seede tilbage til mig. 
@@ -7029,13 +6972,15 @@ Her er der både kærlighed og ro
 Ren-gøringsdamen si'r at jeg skal gå min vej
 Jeg skynder mig at finde mine sko
 
+{soc}
 Jeg vågner på en sofa
 og mit hoved snurrer rundt
 Jeg husker ik' så meget
 Og min bagdel den gør ondt
 Man skulle tro, at der var piger nok til alle på Caféen?
 Men alting skal jo læres,
-Jeg har ingen varig' mén
+Jeg \textbf{h}ar \textbf{i}ngen \textbf{v}arig' mén
+{eoc}
 
 Jeg synger og danser, danser
 for jeg er så glad og så lyk'lig i dag
@@ -7054,13 +6999,8 @@ DIKU mangled' bare østrogen
 Jeg gør hvad jeg kan, når de andre lægger an *klap klap*
 En scoring er en scoring på caféen.
 
-Jeg vågner på en sofa
-og mit hoved snurrer rundt
-Jeg husker ik' så meget
-Og min bagdel den gør ondt
-Man skulle tro, at der var piger nok til alle på Caféen?
-Men alting skal jo læres,
-Jeg har ingen varig' mén
+{soc}
+Jeg vågner på en sofa ...
 
 Jeg synger og danser, danser
 for jeg er så glad og så lyk'lig i dag
@@ -7069,24 +7009,16 @@ Der er intet der kan pisse mig af
 Jeg synger og danser, danser
 Man må være tilfreds, og man må ta' hvad man får, på DIKU-UH
 
+{eoc}
 Jeg vil ha' en datalog
 helst en der bor på Østerbro
 hvor jeg kan bo, der bli'r kamp om min sofa på KU-A
 
-Jeg vågner på en sofa
-og mit hoved snurrer rundt
-Jeg husker ik' så meget
-Og min bagdel den gør ondt
-Man skulle tro, at der var piger nok til alle på Caféen?
-Men alting skal jo læres,
-Jeg har ingen varig' mén
+{soc}
+Jeg vågner på en sofa ...
 
-Jeg synger og danser, danser
-for jeg er så glad og så lyk'lig i dag
-Jeg synger og danser, danser
-Der er intet der kan pisse mig af
-Jeg synger og danser, danser
-Man må være tilfreds, og man må ta' hvad man får, på DIKU-UH
+Jeg synger og danser, danser ...
+{eoc}
 {ns}
 
 
@@ -7427,10 +7359,12 @@ Det er ikke særlig rart
 Vi bli'r verdens undergang
 Men nyd nu denne sang
 
+{soc}
 Vindmølle-energi
 (Og) solcelledrevne biler
 Det er der rigtig fremtid i
 Bliv nu miljøvenlig
+{eoc}
 
 Jorden bli'r udpint
 Alt forurenes
@@ -7454,15 +7388,14 @@ Det er ikke særlig rart
 Vi bli'r verdens undergang
 Men nyd nu denne sang
 
-Vindmølle-energi
-(Og) solcelledrevne biler
-Det er der rigtig fremtid i
-Bliv nu miljøvenlig
+{soc}
+Vindmølle-energi ...
+{eoc}
 
-Vindmølle-energi
-(Og) solcelledrevne biler
-Det er der rigtig fremtid i
-Bliv nu miljøvenlig
+{soc}
+Vindmølle-energi ...
+{eoc}
+
 {ns}
 
 
@@ -7561,11 +7494,13 @@ vide hvem Per hedegård egentlig er
 de andre griner
 men jeg
 
+{soc}
 forstår det ik'
 før jeg får kvantemekanik
 alle andre griner højt omkring mig
 men ik mig
 men ik mig
+{eoc}
 
 forstår det ik'
 før jeg får kvantemekanik
@@ -7587,17 +7522,13 @@ Hvad sker der når man pertuberer mer'?
 Hvor'n er det at kvante i måneskin?
 Er jeg til grin?
 
-forstår det ik'
-før jeg får kvantemekanik
-alle andre griner højt omkring mig
-men ik mig
-men ik mig
+{soc}
+forstår det ik' ...
+{eoc}
 
-forstår det ik'
-før jeg får kvantemekanik
-alle andre griner højt omkring mig
-men ik mig
-men ik mig
+{soc}
+forstår det ik' ...
+{eoc}
 
 forstår det ik
 for jeg har ik haft nok fysik
@@ -7606,11 +7537,13 @@ ikke nok til fysikrevyen
 *tales*:
 'Så kom andet år, og jeg fik kvant 1 og kvant 2. Jeg skulle regne på bølgeligninger, lære at pertubere i flere ordener, og regne på Bohrs brintatom! Jeg lærte både hvad en hæveoperator og en Eistein-solid egentlig er, men så kom eksamen og jeg...'
 
+{soc}
 forstår det ik'
 selv efter kvantemekanik
 alle andre griner højt omkring mig
 men ik mig
 men ik mig
+{eoc}
 {ns}
 
 
@@ -7802,10 +7735,12 @@ videnskaben taber til en astrolog
 Så vi må handle snart før det er forbi
 Slut med tavshed nu det tid at si'e
 
+{soc}
 Quod erat demonstrandum! Med disse ord skal sandhed skrives
 Quod erat demonstrandum! Uvidenheden må fordrives
 Quod erat demonstrandum! Skal verden vindes må vi stå den bi
 naturvidenskabs logik vil gør' dig fri!
+{eoc}
 
 En ungdomsgeneration
 's fornuft sat på auktion
@@ -7819,21 +7754,13 @@ Idiotiens lænker har holdt dig ned'
 så kom ind i kampen og syng med!
 
 
+{soc}
+Quod erat demonstrandum! Med disse ord ...!
 
-Quod erat demonstrandum! Med disse ord skal sandhed skrives
-Quod erat demonstrandum! Uvidenheden må fordrives
-Quod erat demonstrandum! Skal verden vindes må vi stå den bi
-naturvidenskabs logik vil gør' dig fri!
+Quod erat demonstrandum! Med disse ord ...
 
-Quod erat demonstrandum! Med disse ord skal sandhed skrives
-Quod erat demonstrandum! Uvidenheden må fordrives
-Quod erat demonstrandum! Skal verden vindes må vi stå den bi
-naturvidenskabs logik vil gør' dig fri!
-
-Quod erat demonstrandum! Med disse ord skal sandhed skrives
-Quod erat demonstrandum! Uvidenheden må fordrives
-Quod erat demonstrandum! Skal verden vindes må vi stå den bi
-naturvidenskabs logik vil gør' dig fri! (logik vil gør' dig fri)
+Quod erat demonstrandum! Med disse ord ...
+{eoc}
 
 Quod erat demonstrandum! Med disse ord skal sandhed skrives (Sandhed skrives)
 Quod erat demonstrandum! Uvidenheden må fordrives (må fordrives)
