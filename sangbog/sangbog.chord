@@ -1610,6 +1610,7 @@ så [D]nu er han ansat som sikkerheds[G]vagt.
 {soc}
 Jeg hacker, jeg cracker ...
 {eoc}
+
 {colb}
 Jeg [G]laved en virus, som [C]hed "I Love You".
 Jeg [D]indrømmer dog, jeg fortryder det [G]nu.
@@ -1892,6 +1893,7 @@ Det [C]spirer, hvor [F]Haarder han [G]sår.[G7]
 [Dm]I MORGEN ER [G7]VERDEN [C]VOR !
 {colb}
 
+{c:Alle der ikke rejser sig her er fysikere!}
 ÅH [C]EDB, [G/b]EDB,
 DU [C]ER DET [G]ORD,
 DER [C]FØRER OS [F]FREM MOD DE [G]ÅR,[G7]
@@ -2002,6 +2004,8 @@ indtil sidste år da aktierne gik ned
 {t:Jeg kender et sprog}
 {st:Mel: BassHunter - Boten Anna}
 {st:DIKUrevy 07}
+#kat:revy
+#kat:DIKUrevy
 {col:2}
 Jeg kender et sprog
 det hedder ML, ML hedder det
@@ -6134,9 +6138,9 @@ Kod!
 
 Jeg er hvid, og jeg gør hvad jeg kan
 for at outsource til negerland
-(men) jeg er faret vild
+men jeg er faret vild
 Kan I hjælpe til
-med et map over ørkenens sand
+med et MAP over ørkenens sand
 
 
 ja, vi mapper enhver fin funktion
@@ -6149,12 +6153,12 @@ og vi gi'r dig en fræk relation
 Jamen hvad er det dog for et liv
 Det er godt nok ganske primitivt
 men fat mod, jeg frelser jer til sidst
-Jeg er Microsoftevangelist
+Jeg er jo Microsoftevangelist
 
 
 nej min ven (min ven) Vi lever godt (ja godt)
 og koden her (ja her) er ganske flot (ja flot)
-vi har fun (ja fun) fordi vi kan.
+vi har FUN (ja fun) fordi vi kan.
 der' intet falsk (nej falsk) i ørkensand
 
 {soc}
@@ -6258,6 +6262,8 @@ head og
 tail.
 Nu vil jeg blive kandidat
 og gå ned med fail.
+
+{c:Gentages ad-nauseum!}
 
 {ns}
 
@@ -6660,7 +6666,7 @@ UP1
 {t:Bit ud af Hel}
 #kat:revy
 #kat:DIKUrevy
-{st:DIKUrevy 2011}
+{st:DIKUrevy 2010}
 {st:Mel: Jim Steinman/Meatloaf - Bat Out of Hell}
 {col:2}
 
@@ -6678,7 +6684,7 @@ gør at jeg ikke har noget valg.
 Åh, nettet er det eneste i verden her
 der er rart og godt og trygt.
 Uden ansigt og navn er jeg helt anonym,
-så jeg kan hente uden frygt.
+så kan jeg hente uden frygt.
 Men jeg ved godt at seederne de stoler på mig.
 Der er noget jeg må yde selv.
 Så jeg skynder mig at uploade alt hvad jeg kan,
