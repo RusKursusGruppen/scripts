@@ -20,6 +20,7 @@
 import sys
 import re
 
+
 songs = []
 endlist = []
 
@@ -44,7 +45,7 @@ for song in songs:
         endlist[44] = song
         songs.remove(song)
 
-songs.sort()
+songs = sorted(songs, key=lambda s: s[2].replace('$\lambda $' , 'lambda') )
 songs.reverse()
 
 for i in range(0, len(endlist)):
