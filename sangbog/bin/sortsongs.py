@@ -40,6 +40,9 @@ for song in songs:
     elif (song[1] == "DAT62(1/2)80 Slagsang (Fy Fy Skamme Skamme - McEwan og Ingerslev)"):
         endlist[43] = song
         songs.remove(song)
+    elif (song[1] == "Hey ho for våbenfysik (Kim Larsen - Jutlandia)"):
+        endlist[44] = song
+        songs.remove(song)
 
 songs.sort()
 songs.reverse()
