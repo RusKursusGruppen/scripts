@@ -6266,6 +6266,12 @@ TEXT_FONT setfont
 TEXT_FONT setfont
 72 585 moveto
 (del og hersk i N log N) show
+1  setlinewidth
+newpath
+62 668 moveto
+0 -83 rlineto
+closepath
+stroke
 TEXT_FONT setfont
 72 544 moveto
 (Man bør kode, ud'n at rode) show
@@ -6313,7 +6319,13 @@ TEXT_FONT setfont
 (da bli'r ML snart din bedste ven) show
 TEXT_FONT setfont
 72 169 moveto
-(del og hersk i $n\\log n$) show
+(del og hersk i N log N) show
+1  setlinewidth
+newpath
+62 252 moveto
+0 -83 rlineto
+closepath
+stroke
 TEXT_FONT setfont
 72 128 moveto
 (uden frygt for kvant og bomber) show
@@ -48847,7 +48859,7 @@ show
 /MONO_FONT { /Courier findfont 10 scalefont } def
 /Courier /Courier ISO ReEncode
 TEXT_FONT setfont
-(DIKUrevy 2011) dup stringwidth pop 2 div
+(DIKUrevy 20**) dup stringwidth pop 2 div
 612.000000 2 div exch sub 755 moveto
 show
 TEXT_FONT setfont

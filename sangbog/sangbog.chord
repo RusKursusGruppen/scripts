@@ -5875,10 +5875,12 @@ Så er der kød!
 
 Som datalog man har sin ære - drikker gylden T
 blot russer tager godt ved lære, så kan alting ske
+{soc}
 sæt dig ned og tast dit løsen ind
 lyt så til Nils Andersen
 da bli'r ML snart din bedste ven
 del og hersk i N log N
+{eoc}
 
 Man bør kode, ud'n at rode
 rekursere, med manerer
@@ -5895,10 +5897,12 @@ aldrig gå et skridt til side
 for den pøbel der må lide
 i gymnasieklasser
 
+{soc}
 sæt dig ned og tast dit løsen ind
 lyt så til Nils Andersen
 da bli'r ML snart din bedste ven
-del og hersk i $n\log n$
+del og hersk i N log N
+{eoc}
 
 uden frygt for kvant og bomber
 sær kemi og glade tumper
@@ -7077,7 +7081,7 @@ og om lidt, ser man folk omkring dem...
 {t:Vågner I Kantinen}
 #kat:revy
 #kat:DIKUrevy
-{st:DIKUrevy 2011}
+{st:DIKUrevy 20**}
 {st:Mel: Scissor Sisters - I Don't Feel Like Dancing}
 {col:2}
 
