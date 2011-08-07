@@ -63,7 +63,6 @@ a[G]lways l[Em]ook on the r[Am]ight s[D7]ide of l[G]ife.
 {ns}
 
 {t:AmagerDIKU}
-#kat:nørdet
 #kat:revy
 #kat:DIKUrevy
 {st: DIKUrevy 05}
@@ -130,7 +129,6 @@ Hvis jeg [Em7]må, du rektortøs, [A]så bli'r det [D]gjort.
 {t:Bundemanden}
 #kat:druk
 #kat:lejrbål
-#kat:akapella
 {st:Mel: Poul Kjøller - Bondemanden}
 [C]Bunde[G]manden [F]han har altid [C]travlt
 [F]med at [G]bunde [C]øl.
@@ -237,10 +235,8 @@ Så [G]vil jeg aldrig [A]ha' dat0 [D]igen!
 
 {t:Dat0-revysion}
 #kat:nørdet
-#kat:lejrbål
 #kat:revy
 #kat:DIKUrevy
-#kat:røver
 {st:Mel: Folk og røvere i Kardemomme By - Kasper og Jesper og Jonathan}
 {st:DIKUrevy 94}
 {col:2}
@@ -348,6 +344,7 @@ toogtredshalvfirs hent skål skål spy spy
 
 {c:Der skåles og fysikerne synger:\\}
 
+{c:Mel: Carberet - Tomorrow Belongs To Me}
 Se champignonskyer der tårner sig op.
 Se huder der sortner som blæk.
 Og strålingen smelter din fede krop.
@@ -377,8 +374,6 @@ Vi skrev vores svarvers først!
 #kat:revy
 #kat:DIKUrevy
 #kat:svær
-#kat:nørdet
-#kat:akapella
 {st:Mel: Skæbnesymfonien - Beethovens 5.}
 {st:DIKUrevy 98}
 DA-TA-LO-GIIIIII!
@@ -648,15 +643,10 @@ Mit liv er fandme [G]kedeligt ? et [A]pissedårligt [D]spil.
 så [D]bli'r man let nervøs.
 Så [G]tag dig blot et [D]medikit og [A]så ' du frisk [D]igen.
 
-Jeg spiller [G]doom [A]doom, og [D]doom doom [Bm]igen.
+||:Jeg spiller [G]doom [A]doom, og [D]doom doom [Bm]igen.
 Min [G]BFG har [A]altid vær't min [D]bedste [D7]ven.
 Jeg spiller [G]doom, [A]doom og [D]spiller som be[Bm]sat.
-Jeg [G]lemlæster og skyder dag og [A]nat
-
-Jeg spiller [G]doom [A]doom, og [D]doom doom [Bm]igen.
-Min [G]BFG har [A]altid vær't min [D]bedste [D7]ven.
-Jeg spiller [G]doom, [A]doom og [D]spiller som be[Bm]sat.
-Jeg [G]lemlæster og skyder dag og [A]nat
+Jeg [G]lemlæster og skyder dag og [A]nat:||
 
 Jeg spiller [G]doom, [A]doom og [D]spiller som be[Bm]sat.
 Jeg [G]lemlæster og skyder [A]dag og [D]nat
@@ -751,8 +741,7 @@ Du er på [Gm]DIKU nu
 Livet er andet end øl og sang
 
 {soc}
-Du er på [Gm]DIKU nu
-Åh-uh-åh du er på [Dm]DIKU - nu.
+Du er på [Gm]DIKU nu ...
 {eoc}
 
 
@@ -760,16 +749,14 @@ Du er på [Gm]DIKU nu
 Men alt hvad de si'r kan du ik' forstå
 
 {soc}
-Du er på [Gm]DIKU nu
-Åh-uh-åh du er på [Dm]DIKU - nu.
+Du er på [Gm]DIKU nu ...
 {eoc}
 
 [Dm]Pensum terpes hårdt ved øvelser
 En struktor pisker uden følelser
 
 {soc}
-Du er på [Gm]DIKU nu
-[Am]Åh-uh-åh du er på [Dm]DIKU - nu.
+Du er på [Gm]DIKU nu ...
 {eoc}
 
 [Dm]Rapportopgaverne de venter dig snart
@@ -783,24 +770,21 @@ Du er på [Gm]DIKU nu
 Drop din kæreste og fritid, hvis du er smart
 
 {soc}
-Du er på [Am]DIKU nu
-[Bm]Åh-uh-åh du er på [Em]DIKU - nu.
+Du er på [Am]DIKU nu ...
 {eoc}
 
 [Em]Der' meget at læse, men du har ikke tid
 Instruktoren skrig'r: [BREAK]"Bestå eller skrid!"
 
 {soc}
-Du er på [Am]DIKU nu
-[Bm]Åh-uh-åh du er på [Em]DIKU - nu.
+Du er på [Am]DIKU nu ...
 {eoc}
 
 [Em]Førstedelen slutter med 2A
 Det sidste du mangler er dit bifag
 
 {soc}
-Du er på [Am]DIKU nu
-[Bm]Åh-uh-åh du er på [Em]DIKU - nu.
+Du er på [Am]DIKU nu ...
 {eoc}
 
 #{c: break - guitarsolo}
@@ -812,13 +796,11 @@ Du er på [Am]DIKU nu
 Så klar forhindringen: mangel på fag
 
 {soc}
-Du er på [Am]DIKU nu
-[Bm]Åh-uh-åh du er på [Em]DIKU - nu.
+Du er på [Am]DIKU nu ...
 {eoc}
 
 {soc}
-Du er på [Am]DIKU nu
-[Bm]Åh-uh-åh du er på [Em]DIKU - nu.
+Du er på [Am]DIKU nu ...
 {eoc}
 {ns}
 
@@ -1075,9 +1057,7 @@ og [G]slipper for bal[C]laden.
 {t:Fulbert Og Beatrice}
 {st:Mel: Jeg plukker fløjlsgræs}
 #kat:lejrbål
-#kat:nørdet
 #kat:kinky
-#kat:Fløjlsgræs
 {col:2}
 I Frankens [Dm]rige, hvor floder [Gm7]rinde
 som sølver[A7]strømme i lune [Dm]dal,
@@ -1256,7 +1236,6 @@ jeg k[E]ommer i munden på [Am]dig - [E]tju [Am]hej!
 
 
 #kat:lejrbål
-#kat:druk
 #kat:kinky
 {ns}
 
@@ -1451,12 +1430,7 @@ let som ABC
 {colb}
 
 {soc}
-Kod i C
-hvis det skal kunne nog't
-for bruger og programmør er ej i samme båd
-nogen - koder haskell
-de si'r det ik' men de ved det
-skal det kunne nog't, skal det kodes i C
+Kod i C ...
 {eoc}
 
 Vi har [Eb]editoren klar som vi skal [F]kode i
@@ -1481,7 +1455,6 @@ skal det kunne nog't, skal det kodes i C
 #kat:revy
 #kat:DIKUrevy
 #kat:nørdet
-#kat:lejrbål
 {col:2}
 Jeg [C]søgte via [Am]K.O.T
 og [C]vidste godt, hvad [Am]der sku' ske
@@ -2054,10 +2027,7 @@ det rydder ud i vores studenter
 Og jeg skal sige til dig at jeg kender et sprog
 
 Jeg kender et sprog
-det hedder ML, ML hedder det
-og det kan straffe, straffe dig så hårdt
-det rydder ud i vores studenter
-Og jeg skal sige til dig at jeg kender et sprog
+det hedder ML, ...
 {eoc}
 
 Som altid skræmmer alle der er her
@@ -2072,10 +2042,7 @@ ja ingen forstår dette sprog.
 
 {soc}
 Jeg kender et sprog
-det hedder ML, ML hedder det
-og det kan straffe, straffe dig så hårdt
-det rydder ud i vores studenter
-Og jeg skal sige til dig at jeg kender et sprog
+det hedder ML, ...
 {eoc}
 
 {colb}
@@ -3044,9 +3011,6 @@ han har [Am]næsten ingen penge,
 men det [F]varer sikkert længe,
 inden [C]gamle McA[G]rine er [Bb]død,[F]    [C]
 inden [C]gamle McA[G]rine er [Bb]død.[F]    [C]
-#
-#
-#
 
 #kat:lejrbål
 #kat:druk
@@ -3084,9 +3048,6 @@ hver by har sin heks og hvert sogn sine trolde,
 dem vil vi fra livet med glædesblus holde:
 ||: Vi vil fred her til lands, sankte Hans, sankte Hans
 den kan vindes hvor hjerterne aldrig bli'r tvivlende kolde! :||
-#
-#
-#
 
 #kat:lejrbål
 {ns}
@@ -3125,9 +3086,6 @@ er det ikke til at sige, hvad der sker.
 {soc}
 For der er masser af lort, der skal knuses...
 {eoc}
-#
-#
-#
 
 #kat:røde
 #kat:lejrbål
@@ -3209,9 +3167,6 @@ og så udgiver Microsoft mit program!
 {c:(DEN DER OVERLEVER DEN SIDSTE}
 {c:SKÅL HAR VUNDET: UD OVER INDEN}
 {c:UNDER MED HOVEDET I ET ATX-kabinet}
-#
-#
-#
 
 #kat:druk
 #kat:nørdet
@@ -4203,14 +4158,7 @@ Tag joysticket [Ab]frem og vis mig dit [G]spil!
 
 {soc}
 Vi lukker [C]server'n ned
-Og [Em]logger ud af [F]spillet der[A7].
-Du vrænger [Dm]ansigt mens
-Jeg [G]ta'r din slashdot [C]hat[G7].
-Så smider [C]jeg mit tøj,
-Du [Em]tænker "nørj" og [F]piller her[A7],
-Og først når [Dm]solen
-Si'r [C]godmorgen og ta'r [Gsus4]fat[G],
-Si'r vi god[C]nat! (skat)
+Og [Em]logger ...
 {eoc}
  
 {c:Mellemspil:}
@@ -4223,14 +4171,7 @@ Si'r vi god[C]nat! (skat)
   
 {soc}
 Vi lukker [C]server'n ned
-Og [Em]logger ud af [F]spillet der[A7].
-Du vrænger [Dm]ansigt mens
-Jeg [G]ta'r din slashdot [C]hat[G7].
-Så smider [C]jeg mit tøj,
-Du [Em]tænker "nørj" og [F]piller her[A7],
-Og først når [Dm]solen
-Si'r [C]godmorgen og ta'r [Gsus4]fat[G],
-Si'r vi god[C]nat! (skat)
+Og [Em]logger ...
 {eoc}
 
 
@@ -5276,7 +5217,7 @@ Og så går jeg hjem til mig selv.
 Kvanter i måneskin.
 Jeg regner ud og ind
 på energi og spin.
-Kvanter i måneskin.4
+Kvanter i måneskin.
 {eoc}
 
 Når piger de synes, jeg er sær,
@@ -5292,10 +5233,7 @@ Ta' mig!"
 Og så går jeg hjem til mig selv!
 
 {soc}
-Kvanter i måneskin.
-Jeg regner ud og ind
-på energi og spin.
-Kvanter i måneskin.
+Kvanter i måneskin..
 {eoc}
 {ns}
 
@@ -5388,20 +5326,21 @@ Værre end den gang,
 jeg læste på DIKU
 hør min klagesang.
 
+{soc}
 '89, hvilket år
 Og nu spørg', jeg hvornår
 kan jeg vende, hjem til DIKU
 Aldrig mer', '89.
+{eoc}
 
 Kaffen her er, meget ringe
 Tar' min sjæl og, alle mine penge
 I kantinen, dengang jeg var ond
 Der var kaffen billig, velsmag'ne og sund
 
-'89, hvilket år
-Og nu spørg', jeg hvornår
-kan jeg vende, hjem til DIKU
-Aldrig mer', '89.
+{soc}
+'89, hvilket år...
+{eoc}
 
 Jeg kigger ud
 fra mit fængsel her på fjerde
@@ -5409,17 +5348,17 @@ Der er ingen glæder mer', jeg koder kun af nød
 Jeg hader VB-scripts og Excel-spreadsheats,
 livet uden DIKU bli'r min død, bli'r min død
 
-'89, hvilket år
-Og nu spørg', jeg hvornår
-kan jeg vende, hjem til DIKU
-Aldrig mer', '89.
+{soc}
+'89, hvilket år...
 
-'89, hvilket år
+'89,
+ hvilket år
 Og nu spørg', jeg hvornår
 kan jeg vende, hjem til DIKU
 Aldrig mer', '89.
 Aldrig mer', åh '89.
 Aldrig mer', åh '89.
+{eoc}
 {ns}
 
 {t:De koder ML}
@@ -5507,6 +5446,7 @@ end
 og programmet er slut
 {ns}
 
+
 {t:Gi mig gi mig gi mig}
 #kat:revy
 #kat:DIKUrevy
@@ -5575,6 +5515,7 @@ Nils Andersen beviste sætninger på Dat0GA.
 Jeg var rus, og teorien var endnu sort for mig.
 Men fra den dag der vidste jeg, jeg var på rette vej.
 
+{soc}
 Så jeg
 Koder ML
 Så jeg
@@ -5591,12 +5532,14 @@ Så jeg
 Koder ML
 Så jeg
 Koder ML
+{eoc}
 
 Dat0GB, Maskinarkitektur, så'n noget pjat.
 Java, C og MIPS assembler... jeg fik sgu næsten fnat.
 Nogen menn'sker fatter ej at $\lambda$-kalkylen er sej.
 Ellers ville de kode i det samme sprog som jeg.
 
+{soc}
 For jeg
 Koder ML
 For jeg
@@ -5613,25 +5556,14 @@ For jeg
 Koder ML
 For jeg
 Koder ML
+{eoc}
 
 Kod i samme sprog som jeg!
 
+{soc}
 For jeg
 Koder ML
-For jeg
-Koder ML
-For jeg
-Koder ML
-For jeg
-Koder ML
-For jeg
-Koder ML
-For jeg
-Koder ML
-For jeg
-Koder ML
-For jeg
-Koder ML
+{eoc}
 {ns}
 
 {t:Koder M, koder L}
@@ -5664,14 +5596,7 @@ for vi har (SML), rekursion (kod det selv)
 i en uend'lighed.
 
 {soc}
-Vi Koder M, koder L
-Koder alle linjer selv
-til den lyse morgen
-ved skærmene i Hel
-tag din bærbare med,
-hvis nu serveren går ned
-hver en rus på DIKU
-bør kode M, kode L.
+Vi Koder M, koder L...
 {eoc}
 
 Hvis ik' du taber modet, så går ML i blodet
@@ -5757,10 +5682,7 @@ forestil dig damen
 og resten laver du af træ
 
 {soc}
-For her kommer Rudolf Steiner
-med træ-gebis og trange kår
-Her kommer Rudolf Steiner
-med trætips fra i går
+For her kommer Rudolf Steiner...
 {eoc}
 
 Rudolf Steiner russer
@@ -5902,10 +5824,7 @@ for den pøbel der må lide
 i gymnasieklasser
 
 {soc}
-sæt dig ned og tast dit løsen ind
-lyt så til Nils Andersen
-da bli'r ML snart din bedste ven
-del og hersk i N log N
+sæt dig ned og tast dit løsen ind ...
 {eoc}
 
 uden frygt for kvant og bomber
@@ -5985,7 +5904,6 @@ Jeg læser XKCD.
 JEG' EN NØRD!
 Skriiiiiver i \LaTeX
 og jeg tænder på $dx$.
-{eoc}
 
 JEG' EN NØRD!
 \indent (og er stolt af det)
@@ -5997,6 +5915,7 @@ JEG' EN NØRD!
 \indent (og er stolt af det!)
 Og er stolt af det!
 Yeaaah...
+{eoc}
 
 Jeg er level 10 i sværd
 så spil nu ikke smart.
@@ -6009,26 +5928,8 @@ Når jeg læser Hitchikers'
 Guide to the Galaxy
 
 {soc}
-JEG' EN NØRD!
-\indent (og er stolt af det!)
-Jeg' stolt af det.
-Jeg læser XKCD.
-
-JEG' EN NØRD!
-Skriiiiiver i \LaTeX
-og jeg tænder på $dx$.
+JEG' EN NØRD! ...
 {eoc}
-
-JEG' EN NØRD!
-\indent (og er stolt af det)
-Nu er jeg ved
-at finde en at nørde med,
-som ka' ta' min uskyldighed
-
-JEG' EN NØRD!
-\indent (og er stolt af det!)
-Jeg er stolt af det
-Yeaaah...
 
 {ns}
 
@@ -6168,7 +6069,7 @@ Vi holder aldrig kæft om ML!
 De bruger magt, til at fjerne vores kantine.
 De bruger magt, til at fjerne vores rusture.
 Nu er det nok, vi sætter hårdt mod hårdt
-Vi er anonyme, vi er spiltirsdag!)
+Vi er anonyme, vi er DIKU!)
 
 Koder midt om natten!
 
@@ -6971,15 +6872,16 @@ Og tro mig, ja en amour,
 fra din søde tøz
 er grænseløs.
 
+{soc}
 Kære du
 Kære du
 (Nu er hun her)
 Min kære du
+{eoc}
 
-Kære du
-Kære du
-(Nu er hun her)
-Min kære du
+{soc}
+Kære du...
+{eoc}
 
 Kære du, du kender slet ikke mig
 men jeg kender dig.
@@ -7002,6 +6904,7 @@ Og skønt, du er skræmt af mig,
 er det bedst for dig,
 du ikk' si'r nej
 
+{soc}
 Kære du
 Kære du
 (Nu er hun her)
@@ -7011,6 +6914,7 @@ Kære du
 Kære du
 (Hun vil ha' mer)
 Min kære du.
+{eoc}
 
 Nu jeg er her
 Vil jeg ha' mer
@@ -7401,11 +7305,7 @@ de havde leget med ilden, og du var brændt helt af
 hønsenet bestod kun, jeg græd
 
 {soc}
-Der på Bandscenen du lå,
-men de kom og de stjal dig fra miiig
-hvad nu, mit liv er itu
-når du ikke er wrappet
-er wrappet, til mig på Cafeen?
+Der på Bandscenen du lå,...
 {eoc}
 
 Frygt ej - for nu kommer Kaj
@@ -7700,16 +7600,19 @@ men ik mig
 {st:Mel: Spice Girls - Spice Up Your Life}
 {col:2}
 
+{soc}
 La La La La La La La La La
 La La La La La La La
 La La La La La La La La La
 La La La La La La La
+{eoc}
 
 Vær velkommen på fysik
 Kære russer her er vor logik
 Om en uge går du i panik
 Læsegruppe du aldrig fik
 
+{soc}
 Hvad vil I gør'?
 (Vi gør oprør!)
 Tror du ej vi tør?
@@ -7731,38 +7634,22 @@ Skal ej blive plat
 (Men vores kære studie)
 Bliver' skakmat
 Hah Hah hvis det blir' indført
+{eoc}
 
-La La La La La La La La La
-La La La La La La La
-La La La La La La La La La
-La La La La La La La
+La La La La ...
 
 Rus du dumper dine fag
 Trods du fik 5 introdag'
 Studieleder sir' du får
 Ingen venner, men 9 studieår.
 
-Hvad vil I gør'?
-(Vi gør oprør!)
-Tror du ej vi tør?
-(Vi gør oprør!)
-Vejleder før!
-(Vi gør oprør!)
-Aaahh!
+{soc}
+Hvad vil I gør'? ...
 
-Her blir' grænsen sat
-(For vores kære studie)
-Skal ej blive plat
-(Men vores kære studie)
-Bliver' skakmat
-Hah Hah det er galt
+Her blir' grænsen sat ...
 
-Her blir' grænsen sat
-(For vores kære studie)
-Skal ej blive plat
-(Men vores kære studie)
-Bliver' skakmat
-Hah Hah hvis det blir' indført
+Her blir' grænsen sat ...
+{eoc}
 
 For Fys 1
 Matintro
@@ -7773,21 +7660,11 @@ Ved førsteårs prøve - Godnat
 Dekanen han blir' afsat!
 Arriba!!!
 
-Hvad vil I gør'?
-(Vi gør oprør!)
-Tror du ej vi tør?
-(Vi gør oprør!)
-Vejleder før!
-(Vi gør oprør!)
-Aaahh!
+{soc}
+Hvad vil I gør'? ...
 
-Her blir' grænsen sat
-(For vores kære studie)
-Skal ej blive plat
-(Men vores kære studie)
-Bliver' skakmat
-Hah Hah det er galt
-
+Her blir' grænsen sat ...
+{eoc}
 
 Her blir' grænsen sat
 (For vores kære studie)
@@ -7796,16 +7673,16 @@ Skal ej blive plat
 Bliver' skakmat
 Uh Uh Vi siger nu fra!
 
-La La La La La La La La La
-La La La La La La La
-La La La La La La La La La
-La La La La La La La
+{soc}
+La La La La ...
+{eoc}
 
 Nu er tredje akt forbi
 Før I smutter der må vi si'
 Tak til alle der hjalp det til at bli'
 En fantastisk revy uden li'
 
+{soc}
 Hvad vil I ha?
 (FysikRevy!)
 Hvad vil I se?
@@ -7813,6 +7690,7 @@ Hvad vil I se?
 Højere endnu
 (FysikRevy!)
 Aaahh!
+{eoc}
 
 Tak til Publikum  
 (For højt råbte toner)
@@ -7828,13 +7706,10 @@ Revysterne
 Bandets musik
 Hah Hah ses til næste år!  
 
-Hvad vil I ha?
-(FysikRevy!)
-Hvad vil I se?
-(FysikRevy!)
-Højere endnu
-(FysikRevy!)
+{soc}
+Hvad vil I ha? ...
 Aaahh!
+{eoc}
 
 
 Tak til Publikum  
