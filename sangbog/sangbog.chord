@@ -501,6 +501,7 @@ Sin Top i Bølgen blaa.
 {t:DIKUs stolte sale}
 {st:Mel: Internationale}
 {st:DIKUrevy 07}
+#kat:nørdet
 {col:2}
 Rejs jer forhånte datanørder
 Rejs dig fra skærmens kolde skær
@@ -824,6 +825,7 @@ Du er på [Am]DIKU nu
 {t:En gammel bitter mands klagesang}
 #kat:revy
 #kat:DIKUrevy
+#kat:faglig-bitterheds
 {st:Mel: Anden - Papas sang}
 {st:DIKUrevy 05}
 
@@ -3590,6 +3592,7 @@ Nu skal vi sejre i grevens fejde
 #kat:akapella
 #kat:revy
 #kat:DIKUrevy
+#kat:faglig-bitterheds
 {st:DIKUrevy 03}
 {st:Mel: Ørkenens sønner - Riv den af}
 {col:2}
@@ -4975,6 +4978,7 @@ Og lukker for min shell
 #kat:nørdet
 #kat:revy
 #kat:DIKUrevy
+#kat:faglig-bitterheds
 {st:DIKUrevy 2009}
 {st:Mel: Otto Brandenburg - Alle sømænd er glade for piger}
 
@@ -6101,6 +6105,7 @@ Hey, hey, så er løbet kørt
 {t:Her Skal Sangens Titel Stå}
 #kat:revy
 #kat:DIKUrevy
+#kat:meta
 {st:DIKUrevy 2011}
 {st:Mel: Bamses Venner - Hvorfor Går Luise til Bal}
 {col:2}
@@ -6862,6 +6867,7 @@ vil seede tilbage til mig.
 {t:Wait()}
 #kat:revy
 #kat:DIKUrevy
+#kat:nørdet
 {st:DIKUrevy 2011}
 {st:Mel: Poul Sørensen (Poeten) - Der kommer altid en sporvogn og en pige til}
 {col:2}
@@ -7248,6 +7254,7 @@ Tag hen på mat'matik
 {t:Stalinbanen}
 #kat:revy
 #kat:Matematikrevy
+#kat:druk
 {st:Matematikrevy 2009}
 {st:Mel: Pointer Sisters - I'm So Excited}
 {col:2}
@@ -7333,6 +7340,7 @@ jeg tror, jeg tror, jeg tror, jeg tror, jeg tror, jeg taber (du flæber)
 {t:Dendrofil}
 #kat:revy
 #kat:MolBioKemrevy
+#kat:kinky
 {st:MolBioKemrevy 2011}
 {st:Mel: Anden - Quangs Sang}
 {col:2}
@@ -7539,6 +7547,7 @@ Vindmølle-energi ...
 {t:Drop nu ud}
 #kat:revy
 #kat:fysikrevy
+#kat:faglig-bitterheds
 {st:Fysikrevy 2011}
 {st:Mel: The Lion King - Be Prepared}
 {col:2}
