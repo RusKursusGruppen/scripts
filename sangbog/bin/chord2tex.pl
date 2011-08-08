@@ -41,8 +41,7 @@ sub doit ($)
 	$ignoreblank = 1;
     } elsif ($line =~ m/^\{t:([^}]*)\}/) { # {t:
         print "\\Needspace{6cm}";
-        #print "\\needspace{6cm}";
-		#print "\\newpage";
+        
 	print "\\begin{center}\n";
         print "\\section\*\{$1\} \n";
 	print STDERR "++$line\n";
