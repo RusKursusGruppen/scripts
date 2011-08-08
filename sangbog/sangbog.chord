@@ -1582,8 +1582,8 @@ Vi nakker de [G]slyngel[Am7]sta[E7]ter!
 
 
 {t:Hjemmehackeriet}
-{st:Mel: De Gyldne Løver - Hjemmebrænderiet}
 {st:DIKUrevy 01}
+{st:Mel: De Gyldne Løver - Hjemmebrænderiet}
 #kat:revy
 #kat:DIKUrevy
 #kat:nørdet
@@ -3089,7 +3089,7 @@ For der er masser af lort, der skal knuses...
 
 #kat:røde
 #kat:lejrbål
-#kat:akapella
+ 
 {ns}
 
 
@@ -3544,7 +3544,7 @@ Nu skal vi sejre i grevens fejde
 
 {t:SML}
 #kat:nørdet
-#kat:akapella
+ 
 #kat:revy
 #kat:DIKUrevy
 #kat:faglig-bitterheds
@@ -3679,15 +3679,12 @@ Hip hurra for algebra,
 Euler, Gauss og Galois
 og for rum med en kompakt deformationsretrakt.
 {eoc}
-#kat:lejrbål
-#kat:nørdet
 
 {ns}
 
 {t:Sortsnak}
 #kat:lejrbål
 #kat:nørdet
-#kat:Storkespringvandet
 {st:Mel: Cæsar - Storkespringvandet}
 
 {soc}
@@ -4057,7 +4054,7 @@ Og rapporten fik naturligvis 03
 #kat:svær
 #kat:nørdet
 #kat:lejrbål
-#kat:akapella
+ 
 {ns}
 
 {t:Videospil Videospil}
@@ -4225,7 +4222,7 @@ Vi skal, vi skal kode...
 
 #kat:nørdet
 #kat:lejrbål
-#kat:akapella
+ 
 #kat:We Will Rock You
 {ns}
 
@@ -4340,7 +4337,7 @@ We will, we will rock you...
 #
 
 #kat:lejrbål
-#kat:akapella
+ 
 #kat:We Will Rock You
 {ns}
 
@@ -4941,10 +4938,7 @@ de skal ik' tro at valget er frit
 for de lærer jo ikke en pind
 
 {soc}
-Når de koder i Java, C\# eller Ada
-selv Fortran og Matlab, og HTML
-Foruden lidt Delphi, og Python og Ruby
-og Visual Basic med mySQL
+Når de koder i Java, C\# eller Ada ...
 {eoc}
 
 Efter tolv år er jeg kandidat
@@ -4953,10 +4947,7 @@ min doktrin havde nul resultat
 for på arbejdet der sidder jeg
 
 {soc}
-og koder i Java, C\# eller Ada
-selv Fortran og Matlab, og HTML
-Foruden lidt Delphi, og Python og Ruby
-og Visual Basic med mySQL
+og koder i Java, C\# eller Ada ...
 {eoc}
 {ns}
 
@@ -5418,7 +5409,6 @@ De allokerer hvor vi andre optimerer...
 #kat:revy
 #kat:DIKUrevy
 #kat:nørdet
-#kat:kinky
 {st:DIKUrevy 2009}
 {st:Mel: Sarah Brightman og Andrea Bocelli - Time to say goodbye}
 
@@ -5842,7 +5832,7 @@ Gammel, bitter, tung og klog.
 {t:Trololo...}
 #kat:druk
 #kat:svær
-#kat:akapella
+ 
 {st:Mel: I am very glad, because I'm finally returning back home}
 
 {col:1}
