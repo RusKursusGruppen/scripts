@@ -1,25 +1,39 @@
 \documentclass[a4paper,11pt,onecolumn]{book}
-%\usepackage[danish]{babel}
-\usepackage[utf8]{inputenc}
+
+\usepackage[latin1]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{times}
 \usepackage{a4wide}
 \usepackage{pslatex}
-%\usepackage{listings}
+
 \usepackage{verbatim}
-%\usepackage{fancyhdr}
-%\usepackage{lscape}
 \usepackage{multicol}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{amssymb}
-\usepackage{needspace}
-
+\usepackage[lyric]{songs}
+\setlength{\oddsidemargin}{0.5cm}
+\setlength{\evensidemargin}{0.5cm}
+%\setlength{\textwidth}{6.5in}
+%\setlength{\topmargin}{0in}
+%\setlength{\topskip}{0in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0.5cm}
+\settowidth{\versenumwidth}{1.\ }
 %\pagestyle{fancy}
+\authsepword{og}
 
-\addtolength{\hoffset}{-0.5cm}
-\addtolength{\textwidth}{1cm}
+\renewcommand{\chorusfont}{\it}
+
+
+\addtolength{\hoffset}{-1cm}
+%\addtolength{\textwidth}{1cm}
+
+\newindex{titleidx}{titleidx}
+
+
+
+%\noversenumbers
 
 \begin{document}
-
-%\tableofcontents
+  \newpage
