@@ -43,7 +43,7 @@ $(WORKDIR)/autosangbog.chord: $(WORKDIR)/list.txt
 
 $(WORKDIR)/sangliste.tex: $(WORKDIR)/autosangbog.chord
 	# Convert the generated song file to TeX format.
-	$(BINDIR)/chord2tex.pl $(WORKDIR)/autosangbog.chord > $(WORKDIR)/sangliste.tex
+	$(BINDIR)/chord2texv2.pl $(WORKDIR)/autosangbog.chord > $(WORKDIR)/sangliste.tex
 
 $(WORKDIR)/index.tex: $(WORKDIR)/sangliste.tex
 	$(BINDIR)/genindex.pl $(WORKDIR)/sangliste.tex > $(WORKDIR)/index.tex
@@ -55,6 +55,9 @@ $(WORKDIR)/sangbog.tex: $(WORKDIR)/index.tex $(WORKDIR)/sangliste.tex
 	cat $(WORKDIR)/sangliste.tex >> $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/bagside.tex >> $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/footer.tex >> $(WORKDIR)/sangbog.tex
+	mv $(WORKDIR)/sangbog.tex $(WORKDIR)/sangbog.tmp.tex
+	$(BINDIR)/replace_char.pl $(WORKDIR)/sangbog.tmp.tex >> $(WORKDIR)/sangbog.tex
+	cp $(TEXDIR)/songs.sty $(WORKDIR)/songs.sty
 
 $(WORKDIR)/sangbog.dvi: $(WORKDIR)/sangbog.tex
 	cp $(RESDIR)/* $(WORKDIR)/
@@ -72,7 +75,7 @@ $(OUTPUTDIR)/sangbogprint.pdf: $(WORKDIR)/tmp.ps
 	ps2pdf $(WORKDIR)/tmp.ps $(OUTPUTDIR)/sangbogprint.pdf
 
 $(WORKDIR)/autosangbog-latin1.chord: $(WORKDIR)/autosangbog.chord
-	iconv -f utf8 -t latin1 $(WORKDIR)/autosangbog.chord > $(WORKDIR)/autosangbog-latin1.chord
+	iconv -f UTF-8 -t latin1 $(WORKDIR)/autosangbog.chord > $(WORKDIR)/autosangbog-latin1.chord
 
 $(OUTPUTDIR)/nodebog.ps: $(WORKDIR)/autosangbog-latin1.chord
 	chord/chord $(WORKDIR)/autosangbog-latin1.chord > $(OUTPUTDIR)/nodebog.ps
