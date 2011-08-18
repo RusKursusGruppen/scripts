@@ -107,7 +107,7 @@ foreach $song (@songs)
     foreach $line (<FIL>)
     {
 	chomp $line;
-	if ($line =~ s/(.*)\{t:([^}]*)\}(.*)/\1\{t:$n. \2\}\3/)
+	if ($line =~ s/(.*)\{t:([^}]*)\}(.*)/\1\{t:\2\}\3/)
         {
 	    $title = $2;
 	    $title =~ s/^\s*//;
@@ -146,6 +146,6 @@ foreach $song (@songs)
 	}
     }
     close(FIL);
-    print $song . "\n" . $klump. "{ns}\n";
+    print $song . "\n\\\\\n" . $klump. "{ns}\n";
     $n++;
 }
