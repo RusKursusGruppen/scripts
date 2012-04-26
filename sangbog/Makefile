@@ -43,7 +43,7 @@ $(WORKDIR)/autosangbog.chord: $(WORKDIR)/list.txt
 
 $(WORKDIR)/sangliste.tex: $(WORKDIR)/autosangbog.chord
 	# Convert the generated song file to TeX format.
-	$(BINDIR)/chord2texv2.pl $(WORKDIR)/autosangbog.chord > $(WORKDIR)/sangliste.tex
+	$(BINDIR)/chord2tex.pl $(WORKDIR)/autosangbog.chord > $(WORKDIR)/sangliste.tex
 
 $(WORKDIR)/index.tex: $(WORKDIR)/sangliste.tex
 	$(BINDIR)/genindex.pl $(WORKDIR)/sangliste.tex > $(WORKDIR)/index.tex
@@ -55,8 +55,6 @@ $(WORKDIR)/sangbog.tex: $(WORKDIR)/index.tex $(WORKDIR)/sangliste.tex
 	cat $(WORKDIR)/sangliste.tex >> $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/bagside.tex >> $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/footer.tex >> $(WORKDIR)/sangbog.tex
-	mv $(WORKDIR)/sangbog.tex $(WORKDIR)/sangbog.tmp.tex
-	$(BINDIR)/replace_char.pl $(WORKDIR)/sangbog.tmp.tex >> $(WORKDIR)/sangbog.tex
 	cp $(TEXDIR)/songs.sty $(WORKDIR)/songs.sty
 
 $(WORKDIR)/sangbog.dvi: $(WORKDIR)/sangbog.tex
