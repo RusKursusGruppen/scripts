@@ -32,9 +32,9 @@ RE_melody  = re.compile(r'\{st:(Mel:)?\s*([^}]+)\}') # TODO: ignore case?
 # characters to use in file names
 SAFE_CHARS = set(string.letters+string.digits+'_')
 
-# before sanitizing file names (and stripping characters)
-# perform following convertions
-CONVERTIONS = ( ('Ã¦', 'ae'), ('Ã¸', 'oe'), ('Ã¥', 'aa') )
+## before sanitizing file names (and stripping characters)
+## perform following convertions
+CONVERTIONS = ( ('æ', 'zae'), ('ø', 'zoe'), ('å', 'zzaa') )
 
 def split_songs(data):
     ''' divide string into seperate songs '''

@@ -12,28 +12,29 @@
 \usepackage{float}
 \usepackage{amssymb}
 \usepackage[lyric]{songs}
+
 \setlength{\oddsidemargin}{0.5cm}
 \setlength{\evensidemargin}{0.5cm}
-%\setlength{\textwidth}{6.5in}
-%\setlength{\topmargin}{0in}
-%\setlength{\topskip}{0in}
 \setlength{\headheight}{0in}
 \setlength{\headsep}{0.5cm}
 \settowidth{\versenumwidth}{1.\ }
-%\pagestyle{fancy}
+
 \authsepword{og}
 
 \renewcommand{\chorusfont}{\it}
-
+\newcommand{\tm}{\texttrademark\ }
+\versesep=12pt plus 1pt minus 1pt
 
 \addtolength{\hoffset}{-1cm}
-%\addtolength{\textwidth}{1cm}
 
 \newindex{titleidx}{titleidx}
 
-
-
-%\noversenumbers
-
+% Hack for at få sangene til ikke at blive lange
+% http://tex.stackexchange.com/questions/59213/updated-the-songs-package-and-now-my-songs-are-stretched-out
+% \begin{hack}
+\chordson
 \begin{document}
-  \newpage
+\chordsoff
+% \end{hack}
+
+\newpage

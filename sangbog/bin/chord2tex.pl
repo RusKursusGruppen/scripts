@@ -24,8 +24,6 @@ sub doit ($) {
 	    # fjern chord-kommentarer og #kat
     } elsif ($line =~ m/^\{ns\}/) { 
         # {ns}
-	    ###print "\\end\{multicols\}\n";
-	    ###print "\\vspace\{0.5cm\}\n";
 	    
 	    if ($inChorus) {
 	        print "\\endchorus\n";
@@ -45,13 +43,12 @@ sub doit ($) {
         # {define
     } elsif ($line =~ m/^\{c:([^}]*)\}/) { 
         # {c:
-        ###print "\\textbf\{$1\} \\\\ \n";}
         
         print "\\noindent\\textbf\{$1\} \\\\ \n";
 	    $ignoreblank = 1;
     } elsif ($line =~ m/^\{soc\}/) { 
         # {soc}
-        ###print "\{\\it\n";
+        
         if ($inVerse) {
             print "\\endverse\n";
             $inVerse = 0;
@@ -61,51 +58,42 @@ sub doit ($) {
 	    $ignoreblank = 1;
     } elsif ($line =~ m/^\{eoc\}/) { 
         # {eoc
-        ###print "\}\n";
         print "\\endchorus \n";
         $inChorus = 0;
     } elsif ($line =~ m/^\{sot\}/) { 
         # {sot}
-        ###print "\\begin\{comment\}\n";
-	    $ignoreblank = 1;
+        $ignoreblank = 1;
     } elsif ($line =~ m/^\{eot\}/) { 
         # {eot}
-        ###print "\\end\{comment\}\n";
-	    $ignoreblank = 1;
+        $ignoreblank = 1;
     } elsif ($line =~ m/^\\\\/) {
-        # \\
         print "\\vspace*\{2mm\}\n";
-    } elsif ($line =~ m/^\{t:([^}]*)\}/) { # {t:
-        ###print "\\Needspace{6cm}";
-        ###print "\\begin{center}\n";
-        ###print "\\section\*\{$1\} \n";
-	    print STDERR "++$line\n";
+    } elsif ($line =~ m/^\{t:(.*?)\}$/) { 
+        # {t:
+        print STDERR "++$line\n";
 
 	    my $str;
-	    $str = "\\beginsong\{$1\}[";
+	    $str = "\n\\beginsong\{$1\}[";
 	    
 	    my $i;
 	    
 	    while($i = <$in>) { 
 	        # {st:
 	        if ($i =~ m/^\{st:([^}]*)\}/) {
-	            ###print "\\textbf\{$1\} \\\\ \n";
+	            next;
 	        } elsif($i =~ m/^\{[mM]el:([^}]*)\}/) {
-	            $str = $str . "sr=\{Mel: $1\}, \n";
-	        } elsif ($i =~ m/^{[bB]y:([^}]*)\}/) {
-	            $str = $str . "by=\{$1\}, \n"
+	            $str = $str . "sr=\{\\footnotesize Mel: $1\}, \n";
+	        } elsif ($i =~ m/^{[bB]y:(.*?)\}$/) {
+	            $str = $str . "by=\{\\footnotesize $1\}, \n"
 	        } else {
 	            last;
 	        }
 	    }
 	    
-        $str = $str . "cr=\{RKG\}] \n";
+        $str = $str . "cr=\{\}] \n";
         $str =~ s/\&/\\\&/gs;
 	    print $str;
 	    
-	    ###print "\\end{center}\n";
-	    ###print "\\begin\{multicols\}\{2\}\n";
-	    ###print "\\noindent\n";	
 	    $ignoreblank = 1;
 	
 	    doit($i) if($i);

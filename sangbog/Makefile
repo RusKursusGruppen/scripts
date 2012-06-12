@@ -19,8 +19,9 @@ SONGSDIRTOKEN=$(SONGSDIR)up2date
 $(shell mkdir -p $(WORKDIR))
 $(shell mkdir -p $(OUTPUTDIR))
 
-all: $(OUTPUTDIR)/sangbog.ps $(OUTPUTDIR)/sangbogprint.pdf $(OUTPUTDIR)/nodebog.ps
-
+# $(OUTPUTDIR)/nodebog.ps
+all: $(OUTPUTDIR)/sangbog.ps $(OUTPUTDIR)/sangbogprint.pdf 
+	
 clean:
 	rm -f $(WORKDIR)/* $(OUTPUTDIR)/* $(SONGSDIR)/* $(SONGSDIRTOKEN)
 
@@ -72,8 +73,8 @@ $(OUTPUTDIR)/sangbog.ps: $(WORKDIR)/tmp.ps
 $(OUTPUTDIR)/sangbogprint.pdf: $(WORKDIR)/tmp.ps
 	ps2pdf $(WORKDIR)/tmp.ps $(OUTPUTDIR)/sangbogprint.pdf
 
-$(WORKDIR)/autosangbog-latin1.chord: $(WORKDIR)/autosangbog.chord
-	iconv -f UTF-8 -t latin1 $(WORKDIR)/autosangbog.chord > $(WORKDIR)/autosangbog-latin1.chord
+#$(WORKDIR)/autosangbog-latin1.chord: $(WORKDIR)/autosangbog.chord
+#	iconv -f UTF-8 -t latin1 $(WORKDIR)/autosangbog.chord > $(WORKDIR)/autosangbog-latin1.chord
 
-$(OUTPUTDIR)/nodebog.ps: $(WORKDIR)/autosangbog-latin1.chord
-	chord/chord $(WORKDIR)/autosangbog-latin1.chord > $(OUTPUTDIR)/nodebog.ps
+#$(OUTPUTDIR)/nodebog.ps: $(WORKDIR)/autosangbog-latin1.chord
+#	chord/chord $(WORKDIR)/autosangbog-latin1.chord > $(OUTPUTDIR)/nodebog.ps
