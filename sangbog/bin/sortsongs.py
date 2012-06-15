@@ -13,7 +13,7 @@
 # konstruktion af sangbog i rusturssammenhæng(TM).
 #
 # Slamkodet af: Troels Henriksen (athas@sigkill.dk)
-#               DIKU, 10. april 2000
+#               DIKU, 10. april 2010
 #  (Som virkelig ikke kan Python)
 ###############################################################################
 
