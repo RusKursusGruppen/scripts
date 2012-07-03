@@ -1,4 +1,4 @@
-\documentclass[a4paper,11pt,onecolumn]{book}
+\documentclass[a4paper,11pt,oneside,openany]{book}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -15,6 +15,7 @@
 
 \setlength{\oddsidemargin}{0.5cm}
 \setlength{\evensidemargin}{0.5cm}
+\setlength{\textwidth}{6.5in}
 \setlength{\headheight}{0in}
 \setlength{\headsep}{0.5cm}
 \settowidth{\versenumwidth}{1.\ }
@@ -23,7 +24,13 @@
 
 \renewcommand{\chorusfont}{\it}
 \newcommand{\tm}{\texttrademark\ }
-\versesep=12pt plus 1pt minus 1pt
+
+\newcommand\Vtextvisiblespace[1][.3em]{%
+  \mbox{\kern.06em\vrule height.3ex}%
+  \vbox{\hrule width#1}%
+  \hbox{\vrule height.3ex}}
+
+\versesep=10pt plus 1pt minus 1pt
 
 \addtolength{\hoffset}{-1cm}
 

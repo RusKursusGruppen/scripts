@@ -26,15 +26,15 @@ OUTDIR = 'src'
 
 # precompiled regular expressions
 RE_newsong = re.compile(r'\{\s*ns\s*\}')
-RE_title   = re.compile(r'\{t:([^}]*)\}') # TODO: title can be empty?
-RE_melody  = re.compile(r'\{st:(Mel:)?\s*([^}]+)\}') # TODO: ignore case?
+RE_title   = re.compile(r'\{t:([^}]*)\}') 
+RE_melody  = re.compile(r'\{st:(Mel:)?\s*([^}]+)\}') 
 
 # characters to use in file names
 SAFE_CHARS = set(string.letters+string.digits+'_')
 
 ## before sanitizing file names (and stripping characters)
 ## perform following convertions
-CONVERTIONS = ( ('æ', 'zae'), ('ø', 'zoe'), ('å', 'zzaa') )
+CONVERTIONS = ( ('æ', 'zae'), ('Æ', 'ZAE'), ('ø', 'zoe'), ('Ø', 'zoe'), ('å', 'zzaa'), ('Å', 'ZZAA'), ('(', '') )
 
 def split_songs(data):
     ''' divide string into seperate songs '''

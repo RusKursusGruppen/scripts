@@ -23,9 +23,7 @@ sub doit ($) {
     if ($line =~ m/^#.*$/) {
 	    # fjern chord-kommentarer og #kat
     } elsif ($line =~ m/^\{ns\}/) { 
-        # {ns}
-	    
-	    if ($inChorus) {
+      if ($inChorus) {
 	        print "\\endchorus\n";
 	        $inChorus = 0;
 	    }
@@ -73,7 +71,7 @@ sub doit ($) {
         print STDERR "++$line\n";
 
 	    my $str;
-	    $str = "\n\\beginsong\{$1\}[";
+	    $str = "\\beginsong\{$1\}[";
 	    
 	    my $i;
 	    
@@ -127,14 +125,12 @@ sub doit ($) {
 
 	    chomp $line;
 
-	    # tilfÃ¸j \\\\ efter linjen
+	    # tilføk \\\\ efter linjen
 	    $line =~ s/^(.*)$/$1 \n/gs;
 
 	    # escape "&"
 	    $line =~ s/\&/\\\&/gs;
 	    
-	    # escape "'"
-	    #$line =~ s/'/\\'/gs;
 	    if ($line !~ m/^[\s\n]*$/i) {
 	        print $line;
 	    }

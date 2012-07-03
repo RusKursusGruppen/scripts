@@ -47,12 +47,11 @@ $(WORKDIR)/sangliste.tex: $(WORKDIR)/autosangbog.chord
 	$(BINDIR)/chord2tex.pl $(WORKDIR)/autosangbog.chord > $(WORKDIR)/sangliste.tex
 
 $(WORKDIR)/index.tex: $(WORKDIR)/sangliste.tex
-	$(BINDIR)/genindex.pl $(WORKDIR)/sangliste.tex > $(WORKDIR)/index.tex
+	$(BINDIR)/genindex.py $(WORKDIR)/sangliste.tex > $(WORKDIR)/titleidx.sbx
 
 $(WORKDIR)/sangbog.tex: $(WORKDIR)/index.tex $(WORKDIR)/sangliste.tex
 	cat $(TEXDIR)/header.tex > $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/forside.tex >> $(WORKDIR)/sangbog.tex
-	cat $(WORKDIR)/index.tex >> $(WORKDIR)/sangbog.tex
 	cat $(WORKDIR)/sangliste.tex >> $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/bagside.tex >> $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/footer.tex >> $(WORKDIR)/sangbog.tex
