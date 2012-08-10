@@ -1,0 +1,28 @@
+Programmerne i denne mappe gør det muligt at generere madhold og
+skemalægning for disse madhold.  Der gøres brug af to forskellige
+programmer, der begge er implementeret i SML.  Makefilen bruger MosML
+til at oversætte dem.  Kør blot 'make'.
+
+Hold-programmet tager to filer som inddata, en fil indeholdende en
+liste russer, samt en fil indeholdende navne på de madhold der skal
+genereres.  Uddata er en holdinddeling der forsøger at holde lige
+mange personer på hvert hold, med så god balance af køn og alder som
+muligt.  Brugseksempel:
+
+    ./Hold --rusfile eksempel/russer.txt --teamnamesfile eksempel/holdnavne.txt > hold.txt
+
+Skema-programmet tager også to filer som inddata, nemlig en
+holdinddelingsfil som genereret af Hold, samt en fil indeholdende de
+aktiviteter der skal udføres af holdene i løbet af ugen (se
+eksempel/opgaver.txt).  Uddata er LaTeX-kode for et ugeskema.  Der
+forsøges at tage højde for at et hold helst ikke skal gentage samme
+aktivitet to dage i træk, aldrig skal foretage to aktiviteter i træk,
+samt aldrig udføre sidste aktivitet på en dag og første aktivitetet på
+den derpå følgende.  Brugseksempel:
+
+    ./Skema --activityfile opgaver.txt --teamsfile hold.txt > ugeskema.tex
+
+Programmerne er skrevet af Troels Henriksen (athas@sigkill.dk) i 2011.
+Send gerne spørgsmål.  Bemærk at 64-bit MosML er noget bras, som
+muligvis ikke vil virke.  32-bit udgaven på rkg.diku.dk fungerer
+upåklageligt.
