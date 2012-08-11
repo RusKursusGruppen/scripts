@@ -1099,6 +1099,7 @@ jeg k[E]ommer i munden på [Am]dig - [E]tju [Am]hej!
 
 {t:Han koder slam}
 #kat:svær
+#kat:rap
 {mel:Østkyst Hustlers - Han får for lidt}
 {by:DIKU revy 1998}
 {col:2}
@@ -2714,6 +2715,7 @@ bommert
 {t:Mat'matik}
 #kat:revy
 #kat:FysikRevy
+#kat:Disney
 {by:FysikRevy\tm 2008}
 {mel:Tema fra Bubbi-bjørnene}
 
@@ -2937,6 +2939,7 @@ og så udgiver Microsoft mit program!
 
 {t:Quangs sang}
 {by:Anders Matthesen}
+#kat:børne
 
 [C]Her er en [G]historie om en [F]dreng der hedder [C]Quang 
 han er [F]7 år, bor i [C]Thailand og hans [D]arbejdsdag er [G]lang 
@@ -4258,6 +4261,7 @@ Hvor lavt kan i nå?
 #kat:nørdet
 #kat:revy
 #kat:DIKUrevy
+#kat:Disney
 {by:DIKUrevy 2010}
 {mel:Robert and Richard Sherman - I Wanna Be Like You}
 
@@ -4988,6 +4992,7 @@ Så er der kød!
 
 {t:De datalogiske herskaber}
 #kat:RKG
+#kat:Skatteøen
 {by:Lords and Ladies rustur 2009}
 {mel:De gamle dyder (Skatteøen)}
 
@@ -5820,6 +5825,7 @@ slår jeg dig ihjel
 
 {t:UniversitetsParken 1}
 #kat:nørdet
+#kat:DIKUrevy
 {mel:Portal - Still Alive}
 {by:DIKUrevy 2011 (Ikke opført)}
 {col:2}
@@ -6238,6 +6244,7 @@ Tro nu ik' du kan slip for mig, jeg kommer efter dig
 {t:Læs Mat'matik}
 #kat:revy
 #kat:Matematik Revyen
+#kat:Disney
 {by:Matematik Revyen 2009}
 {mel:Aladdin 2 - You're only second rate}
 {col:2}
@@ -6459,6 +6466,7 @@ og vi skal alle tragte øl af Kaj
 #kat:revy
 #kat:FysikRevy
 #kat:faglig-bitterheds
+#kat:Disney
 {by:FysikRevy\tm 2011}
 {mel:The Lion King - Be Prepared}
 {col:2}
@@ -7898,6 +7906,7 @@ Caféen? drak mig fuld ...
 {t:Kattemedley}
 #kat:revy
 #kat:FysikRevy
+#kat:Disney
 {mel:Assorterede kattesange}
 {by:FysikRevy\tm 2012}
 
@@ -8088,6 +8097,7 @@ Ingen rustur, I får en weekend-tur, det' sandt
 
 {ns}
 {t:Amish Paradise}
+#kat:rap
 {by:Weird Al Yankovic}
 
 As I walk through the valley where I harvest my grain
@@ -8174,6 +8184,7 @@ Living in an Amish paradise
 {t:Bademestrenes Storhedstid}
 {by:Gramsespektrum}
 #kat:svær
+#kat:rap
 
 Det var den gyldne tid
 dengang vi stod ude i svømmehallen
