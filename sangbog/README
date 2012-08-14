@@ -27,3 +27,7 @@ Sangsbogsgeneratoren bruges som følgende:
     For at opdatere teksten i en sang eller tilføje sange skal filen
     "srcup2date" slettes, ellers opdateres kildekoden til sangene
     ikke.
+ 
+  * Læg mærke til at 'make clean' sletter alle filer i work/, output/, 
+    src/ samt srcup2date. Når man laver ændring er i sangbog.chord, kan
+    man således blot køre 'make clean all' for at opdatere alt.
