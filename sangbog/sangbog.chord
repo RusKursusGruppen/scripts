@@ -63,55 +63,6 @@ a[G]lways l[Em]ook on the r[Am]ight s[D7]ide of l[G]ife.
 {c:Gentages ad nauseam...}
 {ns}
 
-{t:AmagerDIKU}
-#kat:revy
-#kat:DIKUrevy
-{by: DIKUrevy 2005}
-{mel:Himmelhunden}
-{col:2}
-På et [D]institut, hvor [C]alt var blevet meget [A]flosset
-Sad jeg [G]træt en dag på stolen og slapped' [D]af
-Da jeg [D]tænkte lidt, jeg [C]fandt på noget [A]tosset.
-Og jeg [G]fandt så min tele[A]fon, ringed' op og [A]sa'
-
-{soc}
-Hør du [D]rektortøs vil du sig' mig med det samme
-Og vær ærlig for jeg mener hvert et [A]ord
-Når vor bygning er blevet lidt for gammel
-Og jeg - ik' kan li' her hvor vi [D]bor [D7]
-
-Må jeg ta' [G]DIKU med mig ud på [D]Ama'r.
-Der er [A]langt, men der er rigeligt med [D]plads. [D7]
-Der er [G]grønt og brunt og der [D]lugter lidt af [Bm]lort.
-Hvis jeg [Em7]må, du rektortøs, [A]så bli'r det [D]gjort.
-{eoc}
-
-Hun [D]svared mig lidt [C]kort da hun sagde: [A]``Hør,
-skal [G]DIKU ud på Ama'r er du [D]skør?''
-Jeg ku' [D]hør' - hun [C]ik' ku' li' id[A]é'n,
-Så i [G]vanlig stil så [A]råbte jeg da bare til [D]hend'
-
-{soc}
-Hør du [D]rektortøs vil du sig' mig med det samme ...
-
-Må jeg ta' [G]DIKU med mig ud på [D]Ama'r ...
-{eoc}
-
-{colb}
-For [D]mig var [C]sagen nu så [A]vigtig.
-Hun ku' [G]høre jeg ville det så [D]godt.
-Hun sa' [D]Stig så [C]lad det blive [A]rigtigt.
-Så om [G]fire år, får [A]du og DIKU et [D]slot.
-
-{soc}
-Hør du [D]rektortøs vil du sig' mig med det samme ...
-
-Må jeg ta' [G]DIKU med mig ud på [D]Ama'r ...
-
-Må jeg ta' [G]DIKU med mig ud på [D]Ama'r ...
-{eoc}
-{ns}
-
 {t:Bundemanden}
 #kat:druk
 #kat:lejrbål
@@ -126,7 +77,7 @@ Må jeg ta' [G]DIKU med mig ud på [D]Ama'r ...
 [F]med at [G]bunde [C]øl.
 
 \\
-{c:De sidste 6 linier gentages,} 
+{c:De sidste 6 linier gentages,}
 {c:til I ikke har mere øl...}
 {ns}
 
@@ -140,7 +91,7 @@ Må jeg ta' [G]DIKU med mig ud på [D]Ama'r ...
 Dat[D]0 igen
 Jeg tror lig' jeg ta'r dat[F#7]0 igen
 den eksamen gik ik' [Em]særligt godt, min ven
-så [G]jeg skal lige [A]ha' Dat0 [D]igen  
+så [G]jeg skal lige [A]ha' Dat0 [D]igen
 
 Ta'r dat[D]0 igen
 for de sag'd ``du fatter [F#7]ej en pind''
@@ -155,14 +106,14 @@ lærer du ej det, så ses vi til ek[D]samen
 re-ek[A7]samen
 {eoc}
 
-{colb}  
+{colb}
 Ta'r dat[D]0 igen
 jeg tror lig' jeg ta'r dat[F#7]0 igen
 hvis jeg læser hårdt, så [Em]kan jeg tage hjem
 og [G]aldrig mere [A]tag' Dat0 [D]igen
 
 \\
-{soc}  
+{soc}
 Ta'r Dat0 igen ...
 {eoc}
 
@@ -201,51 +152,51 @@ Daa [C]dam da [C/b]dam da[C/a]dam da[C/g]dam
 
 Dat[C]0'erne har længe haft
 det alt for nemt i star[G]ten.
-Vi syn's Pascal det er for let,        
-vi ta'r det af pla[C]katen.               
-Og [F]re-gel-sty-ret ind-læs-ning           
-er [C]yt, det er en væm'li' ting.         
-Til [G]håndkøring vil vi nu sige farvel    
-og kør' Emerald, Lisp og så [C]S-M-L.     
+Vi syn's Pascal det er for let,
+vi ta'r det af pla[C]katen.
+Og [F]re-gel-sty-ret ind-læs-ning
+er [C]yt, det er en væm'li' ting.
+Til [G]håndkøring vil vi nu sige farvel
+og kør' Emerald, Lisp og så [C]S-M-L.
 
 {soc}
 Daa [C]dam ...
 {eoc}
-                                                       
-Vi [C]lægger ud med Common Lisp             
-og grafisk grænse[G]flade.                
-Dat0'erne de skriger gisp!             
-Men vi er lige[C]glade.                   
-Til [F]prøven kræves et bevis,            
-ved [C]induktion - naturligvis.          
+
+Vi [C]lægger ud med Common Lisp
+og grafisk grænse[G]flade.
+Dat0'erne de skriger gisp!
+Men vi er lige[C]glade.
+Til [F]prøven kræves et bevis,
+ved [C]induktion - naturligvis.
 Med [G]\texttt{CONS} og med \texttt{QUOTE} og med \texttt{CDR} og \texttt{CAR}
-så Dat0'erne ikke en [C]chance har.       
+så Dat0'erne ikke en [C]chance har.
 {colb}
 
 {soc}
 Daa [C]dam ...
 {eoc}
 
-Et [C]typet sprog det skal der til,         
-for det er godt at [G]kende.              
-Så de må lære om ML,                   
-hvor er vi ellers [C]henne?               
-Hvis [F]de har typedisciplin,             
-bli'r [C]koden ikke helt til grin.        
-Og [G]mønstre, exceptions og polymorfi    
-det er noget Dat0'erne [C]vil ku' li'.        
+Et [C]typet sprog det skal der til,
+for det er godt at [G]kende.
+Så de må lære om ML,
+hvor er vi ellers [C]henne?
+Hvis [F]de har typedisciplin,
+bli'r [C]koden ikke helt til grin.
+Og [G]mønstre, exceptions og polymorfi
+det er noget Dat0'erne [C]vil ku' li'.
 
 {soc}
 Daa [C]dam ...
 {eoc}
-                                                       
-Dat[C]0'erne skal også kunne                
-tænke i ob[G]jekter.                      
-Det' vigtigt at de lærer om det        
-uden brug af [C]hægter.                   
-Så [F]valget faldt på Emerald.            
-Jeg [C]kender det til hudløshed.          
-Nu [G]håber jeg bare det ikke går ned,    
+
+Dat[C]0'erne skal også kunne
+tænke i ob[G]jekter.
+Det' vigtigt at de lærer om det
+uden brug af [C]hægter.
+Så [F]valget faldt på Emerald.
+Jeg [C]kender det til hudløshed.
+Nu [G]håber jeg bare det ikke går ned,
 for så vil de ik' la' mig [C]vær' i fred.
 
 {soc}
@@ -253,13 +204,13 @@ Daa [C]dam ...
 {eoc}
 
 {colb}
-En [C]fordel har vor revision,             
-det må vi ikke [G]glemme.                 
-PC'erne skal på pension,               
-og det er bedst det [C]samme.             
-For [F]vi har altid ønsket os,            
-at [C]DIKU ville droppe DOS.              
-Der [G]spilles for meget på vores PC'r    
+En [C]fordel har vor revision,
+det må vi ikke [G]glemme.
+PC'erne skal på pension,
+og det er bedst det [C]samme.
+For [F]vi har altid ønsket os,
+at [C]DIKU ville droppe DOS.
+Der [G]spilles for meget på vores PC'r
 mens vor UNIX forhindrer at [C]dette sker.
 
 {soc}
@@ -273,9 +224,9 @@ Daa [C]dam ...
 #kat:slag
 Må vi [C]spy i datamaten,
 må vi [C]tæve den med [G7]køller
-må vi smadre automaten 
+må vi smadre automaten
 for at få en masse [C]øller
-må vi [E7]gå til forelæsning 
+må vi [E7]gå til forelæsning
 i DIKUs høje [Am]sale
 må vi [F]råbe øv og [C]foo og bar
 og [G7]håndkøre som [C]gale
@@ -283,7 +234,7 @@ og [G7]håndkøre som [C]gale
 [C]Ja ja ja ja ja - det [F]må vi [C]gerne
 
 [G7]Ørhn Ørhn hent hent skål skål spy spy
-toogtredshalvfirs hent skål skål spy spy 
+toogtredshalvfirs hent skål skål spy spy
 - [C]det var flot!
 
 [C]Ja [F]det [G7]må vi [C]godt!
@@ -323,7 +274,7 @@ toogtredshalvfirs hent skål skål spy spy
 # Vi skrev vores svarvers først!
 
 # Datalogi vers
-# 
+#
 # Hør har I slet intet at skrive om selv
 # I prøver at byde os trods
 # I har jo ej andet stof, har I vel
@@ -467,18 +418,18 @@ Hr. Studie[C]nævnsrepræsentant
 jeg skriver [G]til Dem nu[C]
 for [F]at de bedre kan [C]forstå
 min [G]smerte og min gru
-Jeg [F]er nervøs, mit [C]hjerte hult, 
+Jeg [F]er nervøs, mit [C]hjerte hult,
 mit [G]hoved helt stået af
-og [C]jeg håber de forstår 
+og [C]jeg håber de forstår
 at jeg ik' [G]aflever' [C]i dag
 
 Da jeg vil' starte mit projekt,
 jeg tænkte med det sam'
 ``Jeg bør nok lave et design
 og ikke kode slam''
-Jeg tænkte smart og alt var klart. 
+Jeg tænkte smart og alt var klart.
 Der sad jeg på min pind
-og ville gå igang, 
+og ville gå igang,
 men kunne ikke logge ind
 
 Jeg gik til op'ratøren ned
@@ -494,9 +445,9 @@ du får en konto til''
 gik jeg gang i hastigt jag
 Men sådan at få alt på plads
 var ik' så nem en sag
-Trods mit design var lækkert og 
+Trods mit design var lækkert og
 min kod' en fryd at se
-- måt' oversætter'n le: 
+- måt' oversætter'n le:
 ``det må man ik' i ANSI C''
 
 (Nå), da nu alt var rettet til
@@ -515,7 +466,7 @@ sad et magisk +5 sværd
 Den eksplodered' foran mig
 og tog mit øje af
 Så jeg håber du forstår
-jeg ikke aflever' i dag  
+jeg ikke aflever' i dag
 {ns}
 
 
@@ -540,8 +491,8 @@ Jeg ved jo at din [G]motorsav, den [A]står dig meget [D]nær.
 
 {soc}
 [G]Det er helt na[A]turligt, [D]blodet sprøjter løs.
-[G]Når en super [A]shotgun er din [D]ven. 
-(men) [G]Har man ingen [A]hitpoints, 
+[G]Når en super [A]shotgun er din [D]ven.
+(men) [G]Har man ingen [A]hitpoints,
 så [D]bli'r man let nervøs.
 Så [G]tag dig blot et [D]medikit og [A]så' du frisk [D]igen.
 {eoc}
@@ -661,7 +612,7 @@ den er gået hen og blev't dårlig.
 Med multimedier og HCI
 og kurser der slet ikke findes
 Det nymodens pjank, må jeg være fri!
-Så er der nog'n ting man bør mindes 
+Så er der nog'n ting man bør mindes
 \\
 
 {c:Synges}
@@ -823,18 +774,18 @@ Sir' du til mig jeg er en doper sir' jeg
 LØGNHALS!!
 {eoc}
 
-Hvis man træner hårdt kan man glemme 
+Hvis man træner hårdt kan man glemme
 Hvor det var man trænede henne
-og det var jo i... 
+og det var jo i...
 
 {soc}
 Mexico, Mexico...
-Den med italien den var go 
-14 dage helt i gult 
-For epo-testen er jeg skjult 
-Faktisk bor jeg ingen steder 
-Kører rundt på epo-slæder 
-Jeg var kyllingen i karry, nu er det slut 
+Den med italien den var go
+14 dage helt i gult
+For epo-testen er jeg skjult
+Faktisk bor jeg ingen steder
+Kører rundt på epo-slæder
+Jeg var kyllingen i karry, nu er det slut
 {eoc}
 {ns}
 
@@ -945,7 +896,7 @@ den ridder [E7]lagde for pigens [A7]fod.
 Og da hun øjnede hans ca[D]price,
 blev [D7]hjertet [G]mygt i den [B7]væne [Em]mår.
 Af lykke [A]dånede [A/g]Bea[D/f#]trice,
-og [B7]Bea[Em]trice var [A7]sytten [D]år. 
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
 
 Da banked [Dm]blodet i heltens [Gm7]tinding -
 thi ingen [A7]helte er gjort af [Dm]træ.
@@ -962,8 +913,8 @@ og under sange og djærven [Gm]tale
 blev Fulbert [E7]ført til sin jomfrus [A7]bur.
 Og følget hvisked' om øm kur[D]tise
 og [D7]skæmtsom [G]puslen blandt [B7]dun og [Em]vår,
-og det var [A]Fulbert og [A/g]Bea[D/f#]trice, 
-og [B7]Bea[Em]trice var [A7]sytten [D]år. 
+og det var [A]Fulbert og [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
 {colb}
 
 \\
@@ -984,57 +935,6 @@ når [B7]Bea[Em]trice var [A7]sytten [D]år.
 #
 {ns}
 
-{t:Gættefil}
-{mel:Onkel dum og bananerne - Gætteleg}
-{by:Farmand}
-#kat:nørdet
-{soc}
-Åben snoren og luk ildmuren
-nu skal vi ha os lidt muntert halløj
-men det kræver du' med på en gætteleg
-hvad er det jeg sender i pakker til dig
-{eoc}
-
-Jeg indrømmer blankt det er nogt' jeg har fundet
-på box.sk, som jeg lige runded'
-Jeg sku' lige til at køre den
-men tænkte at den sku' du ha, min ven
-For ligger den ned' i det interne lager
-så skal du bare se ting og sager
-
-{soc}
-Så åben snoren ...
-{eoc}
-
-Du gætter nu på at det er MPG
-Desværre min ven, den er ikk' til at se
-Hvad siger du så, en HTM
-Ak nej, men allright, den er godtnok nem
-Så tænk dig nu om, og lad vær med at jag'
-for sjov er den sgu, men ikk' MP3
-
-{soc}
-Så åben snoren ...
-{eoc}
-
-En .torrent, det sir' du, nej prøv en gang til
-En .js, ja nu er du lige ve'
-Nu må du skam til at skynde dig
-jeg tror at EOF er på vej
-Medmindre du elsker en BSoD
-skal du da ha' et varsel om det
-Hvis den kommer ned inden du får det gættet
-sker der det at du bliver resettet
-
-{soc}
-Så åben snoren ...
-{eoc}
-
-{soc}
-Kræver du' med på en gætteleg
-med hilsen fra Troja til dig - tju hej!
-{eoc}
-{ns}
 
 {t:Gætteleg}
 {by:Onkel Dum og Bananerne}
@@ -1107,10 +1007,10 @@ jeg k[E]ommer i munden på [Am]dig - [E]tju [Am]hej!
 \\
 
 1: Han roder med sin kode,
-for hans kode er for sej. 
-Han ta'r Dat0 igen igen, 
+for hans kode er for sej.
+Han ta'r Dat0 igen igen,
 han er et kæmpe kvaj.
-2: For funktionssprog er for kvinder, 
+2: For funktionssprog er for kvinder,
 C++ det er for mænd.
 Han plejer' ta' en peger
 holder typerne i spænd.
@@ -1120,28 +1020,28 @@ for hans kod' er selvforklar'ne.
 2: Han koder som han koder,
 for at ligne ham der Bjarne.
 1: Og da han altid bruger goto,
-2: når koden er i udu, 
-1+2: får han tit at vide 
+2: når koden er i udu,
+1+2: får han tit at vide
 at nog't såd'n det er misbrug.
 
 2: Kun til Coca Cola, mand,
-for intet andet firma kan, 
+for intet andet firma kan,
 få ham til at drikke deres
 søde sukkervand.
 1: Algoritmer for vatnisser.
 2: Han vil ha' Bugatti, så
-1: først ved terminalen. 
+1: først ved terminalen.
 Der er slet ingen hvis'er.
 {colb}
 
 
 2: Men hans kildekod',
-den er noget værre rod. 
+den er noget værre rod.
 2: Og 1: ``unsigned pointer temp stjerne'',
 2: det virker ikke-nikke-
 1: ``Core'' 2: -filen ligger der på klokkeslaget.
 Han føler sig så svag,
-1: han skal aflever' i dag! 
+1: han skal aflever' i dag!
 
 {soc}
 2: Han koder 1+2: slam!
@@ -1415,7 +1315,7 @@ og så [D]snart vi har din check,
 
 {colb}
 Vores [Am]salgskontor har åbent hele [D]døgnet,
-bare ring. 
+bare ring.
 [G]Du skal [Em]ikke [Am]tøve.
 Vacuum, [Am]brint og EMP
 og [D]andre sjove ting,
@@ -1719,7 +1619,7 @@ Se [C]parken, der [F]dufter af [G]vår[G7].
 [Em]den nye [Am]tid.
 [Dm]I morgen er [G7]verden [C]vor!
 
-Pro[C]fessoren [G/b]giver 
+Pro[C]fessoren [G/b]giver
 af [C]alt hvad han [G]ved.
 Stu[C]derende [F]sandheden [G]får.[G7]
 [F]Og æren den [C]venter
@@ -1824,7 +1724,7 @@ Jeg spurgte: "Er du kvinde eller mand?
 Hvorfor har du det mudder nede i din spand?
 Har du en kær'ste, kan jeg bli' din fyr?"
 "Nej tak." Sa' hun, "Jeg boller kun med dyr."
- 
+
 {soc}
 Biolog, er en so, sku' man ellers tro.
 Hvis du ellers får hend' ren så er hun go'.
@@ -2031,110 +1931,8 @@ jeg blir nok en kodeslave
 jeg vil gerne prøv' at snave
 jeg vil være datalog
 
-{ns}
-
-{t:Jen slide}
-{by:DIKUrevy 2002}
-{mel:Tørfisk - VLTJ}
-
-#kat:revy
-#kat:DIKUrevy
-{col:2}
-En [C]gang i mellem så sker det at
-æ [Am]forelæsning lidt vel [G]hurtig går
-ja [C]når æ mand han ta'r rigtig fat
-så [Am]er'd man æ så møj [G]forstår
-så [C]er'd man æ så [F]møj forstår
-af [C]havd der [G]fore[C]går
-
-\\
-{c:Stigende tempo} 
-[C]Jeeeeen slide og to og tre og fir
-der flyver rundt mej det papir
-jen hundred' stykker får man nået [G]på jen jenste [C]tim'
-transparenter er en ting som man ska bruge
-rigtig mange af før man ka bli'
-en [G]forelæser [C]her hos os
-  
-\\
-{c:Langsomt igen} 
-At følge med i den rivne fart
-ja det en kunst der slet ik' er let
-æ forelæser han tror vel snart
-at undervise kan man ett
-at undervise kan man ett
-helt ud'n en overhead
-
-\\
-{c:Stigende tempo} 
-{soc}
-Jeeeeen slide og to og tre og fir ...
-{eoc}  
-
-{colb}
-
-\\
-{c:Langsomt igen} 
-En gang imel' går ed rigtig gal
-så er ed lige til man får'n prop
-så sidder stille den hele sal
-og lytter skønt de vil sig stop
-og lytter skønt de vil sig stop
-på jen der læser op
-
-\\
-{c:Stigende tempo}
-{soc}
-Jeeeeen slide og to og tre og fir ...
-{eoc}
-
-\\
-{c:Gentages ad nauseam...}
 
 {ns}
-
-{t:Jutlandia}
-#kat:lejrbål
-{by:Kim Larsen}
-{col:2} 
-Det var i [Am]nittenniogfyrre eller [D]cirka der omkring.
-[G]Da der var [Em]krig i Ko[Am]rea.
-[Am]Skibet hed Jutlandia og [D]det kom vidt omkring
-[G]for der var [Em]krig i Ko[Am]rea.
-[F]Udstyret fra [C]kælder til sal
-[Dm]som et flydende [A7]hospital.
-
-{soc}
-[C]Hej-[G]ho for [C]Jutland[G]ia.
-Hun [C]kommer som [G]kaldet til [Am]sla[E7]get.
-[C]Hjemme er [G]jægeren [C]hjemvendt fra [G]jagt.
-[C]Og sømanden [G]hjemvendt fra [Am]ha-[E]a-[Am]vet.
-{eoc}
-
-Når drengene de skal i krig sejler kvinderne forbi.
-På de røde-kors-malede skibe.
-Og Lili Marleen synger, Auf Wiedersehn,
-når de falder på stribe.
-Kanonerne spiller første violin.
-C'mon soldier - syng med på melodien.
-
-{soc}
-Hej-ho for Jutlandia ...
-{eoc}
-
-{colb}
-Hun sejler gennem natten med alle sine børn,
-levende og døde.
-Hvid som en jomfru og tapper som en ørn,
-går hunn krigen i møde.
-Sygeplejerske på seksten år,
-tilser soldaternes sår.
-
-{soc}
-Hej-ho for Jutlandia ...
-{eoc}
-{ns}
-
 {t:Kender du det}
 #kat:lejrbål
 #kat:svær
@@ -2296,7 +2094,7 @@ Osama
 {ns}
 
 {t:Kode ML}
-{mel:West Side Story - I Feel Pretty} 
+{mel:West Side Story - I Feel Pretty}
 
 Kode ML
 Kode ML
@@ -2346,63 +2144,9 @@ Kode ML
 Kode ML
 Kode ML, ja ML og C
 Kode C, det' det bedste som en koder ve'
+
+
 {ns}
-
-{t:Kvinde min}
-{by:Gasolin}
-{col:2}
-[Dm]Kvinde min jeg [A]elsker dig
-og jeg [Dm]ved du elsker [A]mig
-og [Dm]hvad der så end [Bb]sker
-åh lad det [C]ske 
-for jeg [G]din
-og [Dm]selvom vi har [A]skændtes tit
-og [Dm]du har grædt og [A]lidt
-når [Dm]det har været [Bb]slemt
-så glem det [C]nu for jeg er [G]din
-
-Åh jeg har [Dm]hustlet [Bb]
-og spillet [Dm]tosset [Bb]
-og jeg har [Dm]snydt dig ja
-og [C]skammet mig
-og [G]stjålet af din kærlighed 
-du ved besked
-
-åh-[Dm]ja
-[G]åh-[Dm]ja
-wow[Dm]wa og bababili[G]åh
-For du er [Dm]stadigvæk akkurat [G]lige så smuk
-som aller[Dm]første gang da du [G]kyssede mig
-så inder[Dm]ligt
-[G]så inder[Dm]ligt
-
-{colb}
-[Dm]Tror du vi skal [A]følges ad
-til [Dm]livet det er [A]slut
-[Dm]åh det håber [Bb]jeg
-ja jeg [C]gør ja jeg [G]gør
-så [Dm]kvinde kom og [A]drøm med mig
-[Dm]i den lange [A]nat
-når [Dm]stjernerne de [Bb]funkler
-og [C]blinker som [G]besat
-kære 
-Nej, bliv ikke [Dm]bange [Bb]
-for deres [Dm]sange [Bb]
-hold bare [Dm]fast i mig
-når de [C]fortæller dig
-at der er [G]tusinde mil
-imellem dig og mig
-
-nej [Dm]nej [G]
-åh tro det [Dm]ej [G]
-wau[Dm]wa bababili[G]åh
-For du er [Dm]stadigvæk akkurat [G]lige så smuk
-som aller[Dm]første gang da du [G]kyssede mig
-så inder[Dm]ligt
-[G]så inder[Dm]ligt
-#kat:lejrbål
-{ns}
-
 {t:Leaving on a Jetplane}
 #kat:lejrbål
 {by:John Denver}
@@ -2445,54 +2189,10 @@ I wont have to leave alone, and I wont have to say:
 {soc}
 So kiss me and smile for me ...
 {eoc}
+
+
+
 {ns}
-
-{t:Let it Be}
-{by:The Beatles}
-{col:2}
-Wh[G]en I find myself in t[D]imes of trouble,
-Mo[Em]ther Mary c[C]omes to me,
-Sp[G]eaking words of w[D]isdom, let it [C]be.[G] [Am] [G]
-And in my hour of da[D]rkness,
-She is st[Em]anding right in f[C]ront of me,
-Sp[G]eaking words of w[D]isdom, let it [C]be.[G/b] [Am] [G]
-
-{soc}
-Let it [Em]be, let it [D]be, let it [C]be, let it [G]be.
-Whisper words of wis[D]dom, let it [C]be.[G]
-{eoc}
-
-[G]And when the broken h[D]earted people
-L[Em]iving in the w[C]orld agree,
-Th[G]ere will be an [D]answer, let it [C]be.[G] [Am] [G]
-But though they may be pa[D]rted,
-There is st[Em]ill a chance that t[C]hey will see,
-Th[G]ere will be an [D]answer, let it [C]be.[G/b] [Am] [G]
-
-{soc}
-Let it [Em]be ...
-{eoc}
-
-{colb}
-[G]And when the night is [D]cloudy,
-There is s[Em]till a light that s[C]hines on me,
-Sh[G]ines until to[D]morrow, let it [C]be.[G] [Am] [G]
-I wake up to the s[D]ound of music,
-M[Em]other Mary c[C]omes to me,
-Wh[G]isper words of w[D]isdom, let it [C]be.[G/b] [Am] [G]
-
-{soc}
-Let it [Em]be ...
-{eoc}
-
-{soc}
-Let it [Em]be ...
-{eoc}
-
-#kat:lejrbål
-#kat:Let it be
-{ns}
-
 {t:Linieskriverdriversangen}
 {by:DIKUrevy 2005}
 {mel:Dyrene i Hakkebakkeskoven "Peberkagebagesangen"}
@@ -2763,13 +2463,13 @@ Så skal du ku mat'matik
 [C]   [G]   [Bb]    [F]   [C]
 A [C]kender en skotte, der [F]hedder McA[C]rine,
 han [C]sejler en [F]dejlig [G]sø,
-han har [Am]næsten ingen penge, 
+han har [Am]næsten ingen penge,
 men det [F]varer sikkert længe,
 inden [C]gamle McA[G]rine er [Bb]død.[F]    [C]
 [C]   [G]   [Bb]    [F]   [C]
 [C]McArine bor alene, han er [F]aldrig blevet [C]gift,
 for en [C]kone er for [F]dyr i [G]drift,
-og [Am]resten af verset 
+og [Am]resten af verset
 kan jeg [F]slet ikke læse,
 det er [C]skrevet med en fry[G]gtelig [Bb]skrift.[F]    [C]
 
@@ -2793,55 +2493,16 @@ spiller [C]den fra [G]Porgy and [Bb]Bess.[F]    [C]
 
 Nu [C]kender i en skotte, der [F]hedder [C]McArine
 han [C]sejler en [F]dejlig [G]sø,
-han har [Am]næsten ingen penge, 
+han har [Am]næsten ingen penge,
 men det [F]varer sikkert længe,
 inden [C]gamle McA[G]rine er [Bb]død,[F]    [C]
 inden [C]gamle McA[G]rine er [Bb]død.[F]    [C]
 
 #kat:lejrbål
 #kat:druk
+
+
 {ns}
-
-{t:Når jeg ser en Shelltank brænde}
-{mel:Når jeg ser et rødt flag smælde}
-
-Når jeg [G]ser en [C/g]Shelltank [G]brænde,
-[C]bli'r jeg [G]glad og [G/B]vil se [D]mer'
-Når min [Am]molo', den [Em]ikke vil [D/f#]tæn[D]de,
-bli'r jeg [D/f#]glad, [G]for jeg [D/a]ved [A7]jeg har [D]fler'
-
-{soc}
-For der er masser af [G]lort, [D7]der skal [Em]knuses,
-[G/B]i vor [C]kamp for be[Am]fri[Am/c]elsen [D]her,
-I skal [G/B]sat'me høre [G]møtrikkerne [C]su[Am]se,
-til den [G/d]dag jeg får [D]scoret [D7]et ge[G]vær!
-{eoc}
-
-Når jeg hører en Yankie er røget,
-bli'r jeg glad og vil høre mer',
-Sandinisterne fik gjort sig fri af møget,
-det ku' vi sgu da også gøre her.
-
-{soc}
-For der er masser af lort, der skal knuses ...
-{eoc}
-
-Når vi vælter ud på gaden,
-bli'r vi glade og vil lave mer',
-når vi endelig forlader barrikaden,
-er det ikke til at sige, hvad der sker.
-
-{soc}
-For der er masser af lort, der skal knuses ...
-{eoc}
-
-#kat:røde
-#kat:lejrbål
- 
-{ns}
-
-
-
 {t:Programmørens 8-bit drikkesang}
 {mel:99 bottles of beer}
 {c:Advarsel: Kun for de virkeligt hardcore (nørder såvel som drankere)}
@@ -2941,59 +2602,59 @@ og så udgiver Microsoft mit program!
 {by:Anders Matthesen}
 #kat:børne
 
-[C]Her er en [G]historie om en [F]dreng der hedder [C]Quang 
-han er [F]7 år, bor i [C]Thailand og hans [D]arbejdsdag er [G]lang 
-han står [G7]tidligt op om [C]morgnen og går [D]meget sent i [G]seng 
-for [F]Quang har nok at [C]se til, skønt han [G]bare er en [C]dreng 
+[C]Her er en [G]historie om en [F]dreng der hedder [C]Quang
+han er [F]7 år, bor i [C]Thailand og hans [D]arbejdsdag er [G]lang
+han står [G7]tidligt op om [C]morgnen og går [D]meget sent i [G]seng
+for [F]Quang har nok at [C]se til, skønt han [G]bare er en [C]dreng
 
-Hver [C]morgen klokken [G]kvart i fem går [F]Quang alene [C]ned 
-gennem [F]tornekrat og [C]tidsler, til en [D]båd ved flodens [G]bred 
-og [G7]vandet det er [C]mørkt og koldt, men fa[D]milien har [G]gæld 
-så han [F]dykker efter [C]perler, for det [G]meste uden [C]held 
+Hver [C]morgen klokken [G]kvart i fem går [F]Quang alene [C]ned
+gennem [F]tornekrat og [C]tidsler, til en [D]båd ved flodens [G]bred
+og [G7]vandet det er [C]mørkt og koldt, men fa[D]milien har [G]gæld
+så han [F]dykker efter [C]perler, for det [G]meste uden [C]held
 
 {soc}
-Så hvor[F]dan kan du dog [C]sige, at du [G]ikke er tilf[C]reds 
-at din [F]far er dum og din [C]mor er sur og dine [D]lektier gi`r dig s[G]tress  
-du har [F]alt hvad du skal [C]bruge du har [F]tøj og flæske[C]steg 
-og der er [F]tusind børn i [C]verden der ville [G]ønske de var [C]dig 
+Så hvor[F]dan kan du dog [C]sige, at du [G]ikke er tilf[C]reds
+at din [F]far er dum og din [C]mor er sur og dine [D]lektier gi`r dig s[G]tress
+du har [F]alt hvad du skal [C]bruge du har [F]tøj og flæske[C]steg
+og der er [F]tusind børn i [C]verden der ville [G]ønske de var [C]dig
 {eoc}
 
-[C]Quang har ingen [G]far mer` og hans [F]mor er meget [C]syg 
-så [F]Quang må tjene [C]penge inde [D]i den store [G]by 
-Han [G7]står i larm og [C]bilos dagen [D]lang i al slags [G]vejr 
-og [F]pudser sko på [C]rige folk - men går [G]selv i bare [C]tæer 
+[C]Quang har ingen [G]far mer` og hans [F]mor er meget [C]syg
+så [F]Quang må tjene [C]penge inde [D]i den store [G]by
+Han [G7]står i larm og [C]bilos dagen [D]lang i al slags [G]vejr
+og [F]pudser sko på [C]rige folk - men går [G]selv i bare [C]tæer
 
-Og [C]når det så er [G]weekend får han [F]ingen lørdags[C]slik 
-for om [F]lørdagen der [C]knokler han på den [D]støjende fa[G]brik 
-med [G7]ledning der skal [C]klippes ud og den [D]klare lille [G]Quang 
-men han må [F]bruge sine [C]tænder, for han har [G]ikke nogen [C]tang 
+Og [C]når det så er [G]weekend får han [F]ingen lørdags[C]slik
+for om [F]lørdagen der [C]knokler han på den [D]støjende fa[G]brik
+med [G7]ledning der skal [C]klippes ud og den [D]klare lille [G]Quang
+men han må [F]bruge sine [C]tænder, for han har [G]ikke nogen [C]tang
 
 {soc}
-Så hva' [F]fa'en får dig [C]til at tro at jeg vil [G]høre på dit [C]brok 
-at du [F]ik' kan li' din spi[C]nat og ik' får [D]lommepenge [G]nok  
-du har [F]grillmad og Nin[C]tendo - du har [F]tid til pjat og [C]leg 
-og der er [F]tusind børn i [C]verden der ville [G]ønske de var [C]dig 
+Så hva' [F]fa'en får dig [C]til at tro at jeg vil [G]høre på dit [C]brok
+at du [F]ik' kan li' din spi[C]nat og ik' får [D]lommepenge [G]nok
+du har [F]grillmad og Nin[C]tendo - du har [F]tid til pjat og [C]leg
+og der er [F]tusind børn i [C]verden der ville [G]ønske de var [C]dig
 {eoc}
 
 
-[C]Quang, han er den [G]ældste af en [F]søskendeflok på [C]10 
-så det er [F]ham, der laver [C]aftensmad, når [D]dagen er for[G]bi 
-der er [G7]munde nok at [C]mætte, og det kan [D]ofte være [G]svært 
-så [F]Quang har købt en [C]tube lim som de [G]sniffer til des[C]sert 
+[C]Quang, han er den [G]ældste af en [F]søskendeflok på [C]10
+så det er [F]ham, der laver [C]aftensmad, når [D]dagen er for[G]bi
+der er [G7]munde nok at [C]mætte, og det kan [D]ofte være [G]svært
+så [F]Quang har købt en [C]tube lim som de [G]sniffer til des[C]sert
 
-Når [C]Quang har lagt de [G]små i seng, er han [F]selv så dødsens [C]træt 
-men han [F]må afsted til [C]byen igen selvom [D]det er blevet [G]nat 
-for han [G7]har et stævnem[C]øde, som han [D]planlagde i [G]går 
-med sin [F]kæreste, Heinrich [C]Schultze, der er [G]45 [C]år 
+Når [C]Quang har lagt de [G]små i seng, er han [F]selv så dødsens [C]træt
+men han [F]må afsted til [C]byen igen selvom [D]det er blevet [G]nat
+for han [G7]har et stævnem[C]øde, som han [D]planlagde i [G]går
+med sin [F]kæreste, Heinrich [C]Schultze, der er [G]45 [C]år
 
 
 {soc}
-Så hvor[F]dan kan du for[C]tælle mig at du [G]har et dårligt [C]liv 
-er du [F]sød at prøve at [C]se det i et [D]større perspek[G]tiv  
-ta' og [F]tænk på andre [C]end dig selv ta' ved [F]lære af min [C]sang 
-husk [F]på du har det [C]godt - hvis ik' du [G]har det ligsom [C]Quang. 
+Så hvor[F]dan kan du for[C]tælle mig at du [G]har et dårligt [C]liv
+er du [F]sød at prøve at [C]se det i et [D]større perspek[G]tiv
+ta' og [F]tænk på andre [C]end dig selv ta' ved [F]lære af min [C]sang
+husk [F]på du har det [C]godt - hvis ik' du [G]har det ligsom [C]Quang.
 
-husk [F]på du har det [C]godt - hvis ik' du [G]har det ligsom [C]Quang. 
+husk [F]på du har det [C]godt - hvis ik' du [G]har det ligsom [C]Quang.
 {eoc}
 {ns}
 
@@ -3016,12 +2677,12 @@ og så [A7]tog han hendes [D]dyd.
 {soc}
 Sådan [D]er kapita[Em]lismen,
 utak [A]er de armes [D]løn.
-Det de riges [Em]paradis, men 
+Det de riges [Em]paradis, men
 jeg syn's [A7]fame, det er [D]synd.
 {eoc}
 
 Da på b[D]allet hun var g[Em]ået,
-traf hun h[A]am på pigej[D]agt. 
+traf hun h[A]am på pigej[D]agt.
 "Jeg har [D]aldrig f[G]ået noget."
 Det sku' h[A7]un aldrig ha' s[D]agt.
 
@@ -3061,7 +2722,7 @@ Sådan [D]er kapita[Em]lismen ...
 
 Hun har l[D]igtorne p[Em]å halen,
 hun har fn[A]at og det i v[D]ed.
-Så hun spr[D]inger i k[G]analen, 
+Så hun spr[D]inger i k[G]analen,
 slut med h[A7]or ja, ded var d[D]ed.
 
 {soc}
@@ -3100,7 +2761,7 @@ Så [F]længe jeg [Bb]læser,
 
 [F]De siger, du kører andre [C7]jobs,
 - at du ikke har ret mange mega[F]flops.
-Det tager en times [F7]tid, 
+Det tager en times [F7]tid,
 når [Bb]jeg vil logge [Bbm]på,
 men [F]pyt, min skat, jeg [C]snupper mig en [F]blå.[C7]
 
@@ -3110,7 +2771,7 @@ Så [F]længe jeg [Bb]læser ...
 
 [F]Min første konto var på [C7]dig.
 Nummer 82, det' klart, det husker [F]jeg.
-Du havde 16 mega[F7]byte, 
+Du havde 16 mega[F7]byte,
 det [Bb]var en masse [Bbm]RAM,
 nu [F]lukker de dig, og [C]det er vel nok en [F]skam.[C7]
 
@@ -3122,7 +2783,7 @@ Så [F]længe jeg [Bb]læser ...
 
 [F]Nu kan jeg logge ind på [C7]fler',
 både microvax, og så de nye [F]HP'er.
-Men at nøjes kun med [F7]dem, 
+Men at nøjes kun med [F7]dem,
 det kan de [Bb]aldrig få mig [Bbm]til,
 for [F]du, min skat, du [C]har de bedste [F]spil.[C7]
 
@@ -3141,7 +2802,7 @@ Så [F]længe jeg [Bb]læser ...
 
 For en fattig studer'ne
 er dagligdagen svær
-Læser mange tykke bøg'r  
+Læser mange tykke bøg'r
 laver meget her
 Alle vore timer går med hjernegymnastik
 hvordan vi kan klare det, forstår man ik'
@@ -3449,10 +3110,10 @@ So, darling darling ...
 \\
 Det var første dag på DIKU og jeg skulle ha' DAT-0.
 Jeg blev oplyst om Caféen?, og jeg så det var et hul.
-  
+
 Allig'vel blev jeg hæng'nde, for jeg mødte en revyt.
 Han fortalte om Revyen - jeg sku' prøve noget nyt.
-  
+
 {soc}
 Mit studie går ad helved til, men bar' vi har det sjov.
 Eksam'ner går jeg gerne til, hvis bare jeg får lov.
@@ -3468,7 +3129,7 @@ Det var første dag på DIKU
 og jeg skulle ha' DAT-0.
 Jeg kom aldrig på Caféen?
 Jeg så ej det var et hul.
-  
+
 Forelæsningerne tar' jeg
 alle bøgerne blir' læst.
 Jeg har stakkevis af noter.
@@ -3499,7 +3160,7 @@ den skal bruges i Revyen allerede næste gang.
 {soc}
 Mit studie går ad helved til, men bar' vi har det sjov.
 Eksam'ner går jeg gerne til, hvis bare jeg får lov.
-  
+
 Oh lektor, lektor, lektor du må da ku' se
 at jeg har ikke tid ...
 til at lave de ... rapporter.
@@ -3542,7 +3203,7 @@ Jeg har travlt med alt det sjove, og mit studie ryger yt!
 {soc}
 Mit studie går ad helved til, men bar' vi har det sjov.
 Eksam'ner går jeg gerne til, hvis bare jeg får lov.
-  
+
 Oh lektor, lektor, lektor du må da ku' se
 at jeg har ikke tid
 til at lave de ... rapporter.
@@ -3661,127 +3322,8 @@ And it's [D]no nay nev[D7]er ...
 #
 #
 
-#kat:lejrbål
-#kat:druk
+
 {ns}
-
-{t:Vi skal kode}
-{by:DIKUrevy 1995}
-#kat:revy
-#kat:DIKUrevy
-{mel:Queen - We Will Rock You}
-\\
-{col:2}
-Er du træt af semantik
-er det lidt for svært?
-Er det ikke lige til at få det lært
-så kom til mig og kig
-ta' musik
-kom og skriv no't kode, slip for hjernegymnastik
-
-{soc}
-Vi skal, vi skal kode
-Vi skal, vi skal kode
-{eoc}
-
-Træt af bifag i fysik
-det er helt til grin
-Du er træt af alle de andre ...
-Så drop det mekanik
-ta' musik
-Kom og spil på strenge, så det hele slår klik
-
-{soc}
-Vi skal, vi skal kode ...
-{eoc}
-
-{colb}
-
-Er du klar til noget sjovt?
-er dat2 for trist?
-Knokler på rapporter for at nå din frist
-Drop pragmatik
-ta' musik
-Kom og prøv no't nyt, drop det kvinde-logik
-
-{soc}
-Vi skal, vi skal kode ...
-{eoc}
-
-#kat:nørdet
-#kat:lejrbål
- 
-#kat:We Will Rock You
-{ns}
-
-{t:We Will Rock You}
-{by:Queen}
-\\
-
-Buddy you're boy making a big noise
-Playing in the street gonna be a big man someday
-you got mud on your face, you big disgrace
-kickin' your can all over the place, singin'
-
-{soc}
-We will, we will rock you
-We will, we will rock you
-{eoc}
-
-Buddy you're a young man hard match
-running in the street gonna take on the world someday
-you got blood on your face, you big disgrace
-Wavin' your banner alle over the place
-
-{soc}
-We will, we will rock you ...
-{eoc}
-
-Buddy you're an old man poor man
-pleadin' with your eyes gonna make us all mean someday
-You got mud on your face, you big disgrace
-somebody better put you back into your place
-
-{soc}
-We will, we will rock you ...
-{eoc}
-
-\\
-{c:Gentages ad nauseam...}
-#
-#
-#
-
-#kat:lejrbål
- 
-#kat:We Will Rock You
-{ns}
-
-{t:What a Wonderful World}
-{by:Louis Armstrong}
-I see t[F]ree[Am]s of [Bb]green, red[Am] roses too
-[Gm7]I see them[F] bloom fo[A7]r me [Dm]and you
-And I th[Db]ink to my[Gm7/c]self wha[C7]t a wonder[F]ful w[F]orld  [Bmaj7]
-
-[C7]I see [F]skie[Am]s of blue[Bb] and clou[Am]ds of white
-The br[Gm7]ight blesse[F]d da[A7]y, the dark [Dm]sacred night
-And I th[Db]ink to my[Gm7/c]self wh[C7]at a wonde[F]rful [Bb]world    [F] 
-
-The co[C7]lours of the rainbow[F], so pretty in the sky
-Are al[C7]so on the face[F]s of people goin' by
-I see f[Dm]riends s[C/e]hakin' hand[Dm/f]s, sayin' "Ho[C/g]w do you do!"
-[Dm/f]They're re[F#dim]ally s[Gm7]ayin[F#dim]' I lo[C7]ve you
-
-I hea[F]r bab[Am]ies c[Bb]ry, I watch [Am]them grow
-[Gm7]They'll learn so [F]much more th[A7]an [Dm]I'll ever know
-And I th[Db]ink to my[Gm7/c]self what a wond[F]erful[Am7] world 
-[D7]Yes I [Gm7]think to myself w[C7]hat a wonder[F]ful wo[Bb6]rld.   [F] 
-
-#kat:lejrbål
-{ns}
-
-
-
 {t:Whiskey In The .JAR}
 {col:3}
 As [C]I was g[C]oin' over
@@ -3869,7 +3411,7 @@ musha [G7]ringum, adurama[G7]da ...
 
 The[C]re's some take [C]delight
 in [Am]the carriages a-rollin'
-so[F]me take delight 
+so[F]me take delight
 in t[C]he hurley and the bowling.
 But [C]I take delight
 in [Am]the juice of the barley
@@ -3887,72 +3429,9 @@ musha [G7]ringum, adurama[G7]da ...
 #kat:svær
 #kat:druk
 #kat:lejrbål
+
+
 {ns}
-
-
-{t:Wonderwall}
-{by:Oasis}
-{col:2}
-
-[Em]Today is [G]gonna be the day that they're
-[D]gonna throw it back to [A7sus4]you
-[Em]By now you [G]should've somehow
-realiz[D]ed what you gotta[A7sus4] do
-[Em]I don't believe that [G]anybody
-[D]feels the way I [A7sus4]do
-About you [C]now [D] [A7sus4]
-
-[Em]Backbeat the [G]word is on the street that the
-[D]fire in your heart is [A7sus4]out
-[Em]I'm sure you've [G]heard it all before but you
-[D]never really had a [A7sus4]doubt
-[Em]I don't believe that [G]anybody
-[D]feels the way I [A7sus4]do
-About you [C]now [D] [A7sus4]
-
-And [C]all the roads we
-[D]have to walk are [Em]winding
-And [C]all the lights that
-[D]lead us there are [Em]blinding
-[C]There are many [D]things that I
-Would [G]like to [D]say to [Em]you,
-but I [D]don't know [A7sus4]how
-
-{colb}
-
-{soc}
-Cause [C]maybe [Em] [G]
-[Em]You're gonna be the one that
-[C]saves me? [Em] [G]
-And [Em]after [C]all [Em]
-[G]You're my [Em]wonder [C]wall [Em] [G] [Em] [Asus4]
-{eoc}
-
-[Em]Today is [G]gonna be the day but they'll
-[D]never throw it back to [A7sus4]you
-[Em]By now you [G]should've somehow
-realiz[D]ed what you're not to[A7sus4]do
-[Em]I don't believe that [G]anybody
-[D]feels the way I [A7sus4]do
-About you [C]now [D] [A7sus4]
-
-And [C]all the roads that
-[D]lead you there are [Em]winding
-And [C]all the lights that
-[D]light the way are [Em]blinding
-[C]There are many [D]things that I
-Would [G]like to [D]say to [Em]you,
-but I [D]don't know [A7sus4]how
-
-{soc}
-Cause [C]maybe [Em] [G]
-[Em]you're gonna be the one that
-[C]saves me? [Em] [G]
-And [Em]after [C]all [Em]
-[G]You're my [Em]wonder [C]wall [Em] [G] [Em]
-{eoc}
-{ns}
-
 {t:Write in C}
 {mel:The Beatles - Let it be}
 {col:2}
@@ -4003,30 +3482,8 @@ Pascal just won't quite [D]cut it.
 #kat:lejrbål
 #kat:Let it be
 
+
 {ns}
-
-{t:Yesterday}
-#kat:lejrbål
-{by:The Beatles}
-[F]Yesterday,[Em7]    all my [A7]troubles seemed so [Dm]far away 
-[Bb]Now it [C7]looks as though they're [F]here to stay, oh  [Dm]I believe [G]in  [Bb]yester[F]day
-[F]Suddenly,[Em7]     I'm not [A7]half the man I [Dm]used to be
-[Bb]Theres a [C7]shadow hanging [F]over me, [Dm]oh yester[G]day came [Bb]sudden[F]ly
-
-\\
-[Em7]Why    [A7]she    [Dm]had    [C]to    [Bb]go    I dont [Gm]know she [C]wouldnt [F]say
-[Em7]I     [A7]said [Dm]some[C]thing [Bb]wrong now I [Gm]long for [C]yester[F]day
-
-[F]Yesterday,[Em7]   love was [A7]such an easy [Dm]game to play
-[Bb]Now I [C]need a place to [F]hide away, [Dm]oh  I be[G]lieve in [Bb]yester[F]day
- 
-[F]Yesterday,[Em7]   love was [A7]such an easy [Dm]game to play
-[Bb]Now I [C]need a place to [F]hide away, [Dm]oh  I be[G]lieve in [Bb]yester[F]day
-[F]Mm mm [G]mm mm  [Bb]mm      [F] 
-{ns}
-
-
-
 {t:Subject: Papirmangel}
 #kat:nørdet
 #kat:revy
@@ -4246,7 +3703,7 @@ Vi kan sagten skære mer'
 Før i tiden hørtes brok
 Man fik ikke penge nok?
 Men nu høres ej et kvæk
-Problemerne er sparet væk! 
+Problemerne er sparet væk!
 Alt kan blive bedre her
 Lad os ta' en runde mer'
 
@@ -4263,7 +3720,7 @@ Hvor lavt kan i nå?
 #kat:DIKUrevy
 #kat:Disney
 {by:DIKUrevy 2010}
-{mel:Robert and Richard Sherman - I Wanna Be Like You}
+{mel:Junglebogen - I Wanna Be Like You}
 
 Jeg er studerende på DIKU
 Jeg er trendy, jeg er sej
@@ -4705,116 +4162,6 @@ Fibonaccis talrække
 og programmet er slut
 {ns}
 
-{t:Gi mig gi mig gi mig}
-#kat:revy
-#kat:DIKUrevy
-{by:DIKUrevy 2009}
-{mel:Abba - Gimme Gimme Gimme (a man after midnight)}
-
-AV FOR DEN
-Den var svær, den eksamen
-had' jeg blot været på
-da professorn gav os tips til at bestå
-
-BINÆR TI
-det var alt jeg sku have
-på min vej mod BSc
-men nu må jeg vent' et år, det kan jo ske.
-Ikk' mere tid tilbage
-og ingen hør' min klage
-
-{soc}
-Gi mig gi mig gi mig et år til på DIKU
-jeg vil ta' mig sammen, indtil jeg får en grad
-Gi mig gi mig gi mig et år til på DIKU
-det er alt jeg ber om, det' vel ikke for meget
-{eoc}
-
-PAWEL SI'R
-det er nemt nok at klare det
-hvis man bare kan forstå
-men jeg fatter ikk' en skid af denne bog
-
-SØGETRÆER
-gror ej ind i himlen
-når jeg planter frøet selv
-og jeg føler at sæsonen går på hæld
-Ikk' mere tid tilbage
-og ingen hør' min klage
-
-{soc}
-Gi mig gi mig gi mig et år til på DIKU ...
-{eoc}
-
-{soc}
-Gi mig gi mig gi mig et år til på DIKU ...
-{eoc}
-
-Ikk' mere tid tilbage
-og igen hør' min klage
-
-{soc}
-Gi mig gi mig gi mig et år til på DIKU ...
-{eoc}
-
-{soc}
-Gi mig gi mig gi mig et år til på DIKU ...
-{eoc}
-{ns}
-
-{t:Koder M, koder L}
-#kat:DIKUrevy
-#kat:revy
-{by:DIKUrevy 2008}
-{mel:Stig Rossen - Danser rock, danser rul}
-
-Ka' du li' rekursioner og typesikkerhed
-Høj'reordensfunktioner, der gør din kode fed
-Så mød os her på DIKU, på første sal mod nord
-det er her (det er her), hvor det sker (hvor det sker),
-her hvor TOPPS-gruppen den bor.
-
-{soc}
-Vi Koder M, koder L
-Koder alle linjer selv
-til den lyse morgen
-ved skærmene i Hel
-tag din bærbare med,
-hvis nu serveren går ned
-hver en rus på DIKU
-bør kode M, kode L.
-{eoc}
-
-ML er for DIKU, hvad bomber er for fred
-Har du tjek på de typer, så blir' din parser glad
-vort sprog det er forældet, men vi bli'r troligt ved
-for vi har (SML), rekursion (kod det selv)
-i en uend'lighed.
-
-{soc}
-Vi Koder M, koder L ...
-{eoc}
-
-Hvis ik' du taber modet, så går ML i blodet
-halerekursioner bider lidt i sig selv
-vi kigger på logikker (i) formelle semantikker
-og vil du tjene bobs, så læs i TOPPS.
-
-{soc}
-Vi Koder M, koder L
-Koder alle linjer selv
-til den lyse morgen
-ved skærmene i Hel
-tag din bærbare med,
-hvis nu serveren går ned
-hver en rus på DIKU
-bør kode M, kode L.
-Hver en rus på DIKU
-bør kode M, kode L.
-{eoc}
-{ns}
-
-
 
 {t:Fuck her Gently}
 #kat:kinky
@@ -5035,48 +4382,9 @@ så er man en rigtig datalog
 uden støttepædagog
 mestrer mange programmeringssprog
 gammel, bitter, tung og klog.
+
+
 {ns}
-
-{t:Trololo...}
-#kat:druk
-#kat:svær
-{mel:I am very glad, because I'm finally returning back home}
-
-{col:1}
-Ahhhhh ya ya yaaaah, ya ya yaaah, yaaah, ya yah.
-Ohohohoooo! Oh ya yaaah, ya ya yaaah, yaaah, ya yah.
-Ye-ye-ye-ye-yeh ye-ye-yeh ye-ye-yeh, oh hohohoh.
-Ye-ye-ye-ye-yeh ye-ye-yeh ye-ye-yeh, oh hohohoooooooooooo!
--aaaaoooooh, aaaooo hooo haha.
-
-Nah-nah-nah-nah-nuh-nuh, nah nuh-nuh, nah nuh-nuh, nah nuh-nu, nuh-nah
-Nah-nah-nah-nun, nun-ah-nah, nun-ah-hah, nah-nah-nah-nah-nah!
-Nah-nah-nah-nah-naaaaaaaaaaaaaaaaaaaaaaaaaaa! Dah dah daaaaaaaaaaah...
-Da-da-daaah, daaah, daa-daah.
-
-Lololololooooooooo! La la-laaaaaaah, la la laah, lol, haha.
-Oh-ho-ho-ho-ho, ho-ho-ho, ho-ho-ho, oh-ho-ho-ho-ho!
-Oh-ho-ho-ho, ho-ho-ho, ho-ho-ho, lo-lo-loooo!
-
-AAIIEEEEEEEEEEEEEEEEEEEEEEEEE eee-eee-EEEE!
-Luh luh lah, lah, lah-lah.
-Oh-ho-ho-ho-hoooooooooo!-BOPahdududuh-dah-dadudaaah!
-Da-da-daaah, daaah, daa-daah.
-
-Lololololo, lololo, lololol, la la la la yaah!
-Trolololo la, la-la-la, la-la-la-
-Oh hahahaho! Hahaheheho! Hohohoheho! Hahahaheho!
-Lolololololololo, lololololololol, lololololololol, lololo LOL!
-
-Ahhhhh! La-la-laaah! La la-laaah, laaah, la-la.
-Oh-ho-ho-ho-hoooooo! La, la-laaaaah, lalala, lol, haha.
-Lolololo-lololo-lololo, oh-ho-ho-ho-ho!
-Lolololo-lololo-lololo, oh-ho-ho-ho hoooooooooooooooooooooo!
-
-\\
-{c:Alle vinker farvel}
-{ns}
-
 {t:Jeg er en nørd}
 #kat:nørdet
 #kat:FysikRevy
@@ -5426,7 +4734,7 @@ Polymorfi :: Head tail! ...
 {col:2}
 
 Her' et lambda,
-Der' et  lambda 
+Der' et  lambda
 Og et ganske lille lambda
 ML-lambda
 Haskell-lambda
@@ -5435,39 +4743,39 @@ Lambda
 Fail
 
 Æg og alligator-lambda
-Java har slet ikke lambda 
+Java har slet ikke lambda
 Lambda i .NET
 Omega
-Lambda 
-Lambda 
-Fail 
+Lambda
+Lambda
+Fail
 
 Jeg har fået value
 og drukket meget te.
-Jeg har lært om Hitler, 
+Jeg har lært om Hitler,
 dinosaurer
 og VB.
 Jeg har kodet uafbrudt i 42 døgn.
-Men så døde jeg af sult 
-for kagen var en løgn. 
+Men så døde jeg af sult
+for kagen var en løgn.
 
-Har du nog'nsinde set et lambda 
-I et lambda 
+Har du nog'nsinde set et lambda
+I et lambda
 På et lambda
-Lambda x dot færdig med x 
-Lambda 
+Lambda x dot færdig med x
 Lambda
-Fail 
+Lambda
+Fail
 
-Om nom nom nom nom nom lambda 
-Og et A forklædt som lambda 
+Om nom nom nom nom nom lambda
+Og et A forklædt som lambda
 Lambda i \LaTeX
-Omega 
-Lambda 
-Lambda 
-Fail 
+Omega
+Lambda
+Lambda
+Fail
 
-Jeg har kodet Brainfuck. 
+Jeg har kodet Brainfuck.
 og dyrket lidt motion.
 Jeg har været udenfor.
 Det var en perversion.
@@ -5480,69 +4788,6 @@ og gå ned med fail.
 
 \\
 {c:Gentages ad nauseam!}
-
-{ns}
-
-
-{t:Motivationen}
-#kat:revy
-#kat:DIKUrevy
-{by:DIKUrevy 2011}
-{mel:Bill Crosby - Swinging on a star}
-{col:2}
-
-{soc}
-Sku' du ikke bli' kandidat,
-af et eksklusivt fabrikat,
-en studerende af format,
-Du vil da ikke droppe ud?
-{eoc}
-
-Hvis du dropper ud så bliver fremtiden sort
-du driver det ik' til noget stort
-går rundt i verden uden overblik,
-de andre snakker, du forstår det ik'
-Så hvis du ik' syn's dit præfix skal vær' stud
-så skal du end'lig droppe ud
-
-{soc}
-Men du ku' også bli' kandidat,
-af et eksklusivt fabrikat,
-en studerende af format,
-Du vil vel ikke blive TAP?
-{eoc}
-
-En TAP sidder dagen lang og styrer KU
-men mangler desværre lidt et clue
-Arkivsystemet er hans profesion
-og Absalon den endelige mission
-Så hvis jeg nu skulle skære ud i pap
-så vil du ikke være TAP
-
-{soc}
-Nej du sku' hel're bli' kandidat,
-af et eksklusivt fabrikat,
-en studerende af format
-Du vil jo gerne ha' et job
-{eoc}
-
-Et job gi'r dig adgang til en verden af sjov,
-især hvis din chef han gi'r dig lov
-Du knokler dagen lang for ussel løn
-imens du håber at pensionen bli'r skøn
-Men hvis din vane det er at sige op
-Så kan du aldrig få et job!
-
-
-Hvis alle andre gør li'som du
-får alle gennemsnitlig IQ
-så lyt til studievejled'ren nu
-Det er et dejligt reservat
-Vi har et dejligt dekanat
-Du skal da ha' certifikat
-Du burde blive kandidat
-Du burde blive kandidat
-
 
 {ns}
 
@@ -5765,10 +5010,10 @@ men aldrig set nog't helt så sært.
 
 \\
 {c:Mel: Around the World}
-For med mindre variationer 
+For med mindre variationer
 er det samme sang
 Syng lidt nyt for mig.
-Synger du mig toner, 
+Synger du mig toner,
 sunget nok en gang
 så bli'r svaret nej.
 
@@ -5823,67 +5068,7 @@ slår jeg dig ihjel
 
 
 
-{t:UniversitetsParken 1}
-#kat:nørdet
-#kat:DIKUrevy
-{mel:Portal - Still Alive}
-{by:DIKUrevy 2011 (Ikke opført)}
-{col:2}
-
-Vi skulle flytte
-der var jo god plads på HCØ
-men vores optag det blev fordoblet
-nu skal vi vente
-DIKU mangler kapacitet
-bar' vi venter et år til
-er der nok masser af plads
-
-for hvorfor skulle vi dog blive boende her?
-Lad os bygge en bygning der vil koste langt mer
-et symbol for vor by
-uden plads til revy
-for hvad skal vi dog med UP1?
-
-Det' slut med Kantinen
-vi skal jo udnytte vor plads
-(og) højer' priser gavner konkurrencen
-Nej, det vil vær' bedre
-med fem etagers vandrehal
-Helt i glas, fordi vi ved
-det isolerer så godt
-
-for hvorfor skulle vi dog ikke flytte igen
-ta'r fra KUA inden vi er kommet derhen
-det' en splinterny plan
-fra den samme dekan
-så vi flytter snart fra UP1
-
-Det bliver dejligt
-der' intet som jeg vil savne her
-det sku' måske lige vær' Kantinen...
-vi får en bedre
-det bliver godt *hulk* *hulk* (bryder sammen)
-men måske det trækker ud, man har jo hørt om det før (bliver positiv igen)
-
-Der' stadig håb, vi' ikke flyttet endnu
-hvis det gik efter planen, var det ikke KU
-hvis de sejler fatalt, og byggeriet går galt
-er vi strandet her på UP1
-
-Bliver boende på UP1
-I vor Kantine her på UP1
-Går til revyen her i UP1
-Opdrager russerne på UP1
-mobber fysikken fra vor UP1
-
-UP1
-UP1
-
 {ns}
-
-
-
-
 {t:Bit ud af Hel}
 #kat:revy
 #kat:DIKUrevy
@@ -5971,13 +5156,13 @@ Den seeder
 Den seeder
 Mine filer bli'r delt
 og lever igen
- 
+
 {soc}
 Som en bit ud af Hel flyver mine data afsted ...
 {eoc}
 
 kan jeg trygt hvile fordi jeg ved at mine peers
-vil seede tilbage til mig. 
+vil seede tilbage til mig.
 {ns}
 
 
@@ -6060,150 +5245,6 @@ du tør ik!
 (Jeg gør det og jeg er slut!)
 {eoc}
 {ns}
-
-
-
-
-{t:Kære Du}
-#kat:revy
-#kat:DIKUrevy
-{by:DIKUrevy 2008}
-{mel:Olivia Newton John - Xanadu}
-{col:2}
-
-Hey du?
-jeg står i dit vindue's skær
-og håber, du end'lig ser
-jeg er din kære, du.
-(Ja hun er sød, og dejlig blød)
-
-Og jeg,
-ved næsten alt om dig
-og det, som du gør ved mig.
-Du er min kære, du
-(En kærlighed, i evighed)
-
-Jeg ku' ta' dig på tur
-udi mælkevej'n
-bar' du og jeg
-Og tro mig, ja en amour,
-fra din søde tøz
-er grænseløs.
-
-{soc}
-Kære du
-Kære du
-(Nu er hun her)
-Min kære du
-{eoc}
-
-{soc}
-Kære du ...
-{eoc}
-
-Kære du, du kender slet ikke mig
-men jeg kender dig.
-
-Hey du!
-På facebook, der står en mass'
-Jeg fandt dig på Google maps
-Der stod du, kære du.
-(Det er derved, hun ved besked)
-
-Jeg ser,
-din kæreste er meget sød
-men nu' hun en smule død
-Det er jo, hva' der sker
-(Men pyt nu med det - uh, for hun er jo passé - uh)
-
-Nu ka' vi leve sammen, ja bar' os to
-i fred og ro
-Og skønt, du er skræmt af mig,
-er det bedst for dig,
-du ikk' si'r nej
-
-{soc}
-Kære du
-Kære du
-(Nu er hun her)
-Min kære du.
-
-Kære du
-Kære du
-(Hun vil ha' mer)
-Min kære du.
-{eoc}
-
-Nu jeg er her
-Vil jeg ha' mer
-min kære du
-Gør som jeg si'r
-så intet sker
-min kære du
-Kære du!
-
-*Vanvittig latter*
-{ns}
-
-
-{t:Gå som en datalog}
-#kat:revy
-#kat:DIKUrevy
-{by:DIKUrevy 2009}
-{mel:Bangles/William De Jesus - Walk like an Egyptian}
-{col:2}
-
-Se på ham bag skærmen med hvide
-sokker og slidte gummisko
-Når han rejser sig (oh whey oh)
-så går han nok som en datalog
-
-Ryggen den er krum og han styrer
-ikk' helt det der venstre ben
-Men i får at se (oh whey oh)
-Han byder op nok en nørdet en.
-
-{soc}
-Og om lidt, ser man folk omkring dem
-Ay oh whey oh, ay oh whey oh
-Gå som en datalog
-{eoc}
-
-Når de går omkring, kigger folk
-og tænker: Nej, se en nørdet een.
-Se hvor de går (oh whey oh)
-Åh gid, vi ku være li'ssom dem.
-
-Fingrene er kroged' og højre
-underarm sidder helt forkert
-Benet halter svært (oh whey oh)
-Men de går rundt ganske ugener't.
-
-{soc}
-Og om lidt, ser man folk omkring dem ...
-{eoc}
-
-Hver en datalog'
-Join vor's show
-Kom og vis så hele Verden, hvordan vi kan gå
-Flyt nu kroppen
-Gør det igen
-
-Alle de skal kende det her fænomen
-Hvis i går lidt rundt i byen og i ser en senorita
-ryst så lidt med røven, og gi den så det som i ka'
-Gør entré
-1-2-3
-og så danser hele verden både folk og fæ
-
-{soc}
-Og om lidt, ser man folk omkring dem ...
-{eoc}
-{ns}
-
-
-
-
 
 
 {t:Licenssangen}
@@ -6388,43 +5429,6 @@ jeg tror, jeg tror, jeg tror, jeg tror, jeg tror, jeg taber (du flæber)
 
 
 
-{t:Dendrofil}
-#kat:revy
-#kat:MolBioKem Revy
-#kat:kinky
-{by:MolBioKem Revy 2011}
-{mel:Anden - Quangs Sang}
-{col:2}
-
-Mor - hun sagde altid, jeg sku' vær' stolt af den jeg var
-Jeg sku' huske vor principper - ikke blive helt til nar
-Men det kan sagtens være svært, at blive tæsket med en pil
-Nej, livet det er ikke nemt, når man er dendrofil
-
-Nu kan det også være nok, jeg gider ikke mer'
-I må lige tag' jer sammen - acceptere den jeg er!
-Det ville virkelig være trist, hvis alle var som jer
-Og en flinker fyr som mig, han kan jo også vær' til træ'r
-
-Værst var det dengang i min' sidste teenage år.
-For gymnasiet gav mig fjollet nok, et tusinde trælår
-Og min lærer han var dum og ond, for han sagd' jeg var en rod
-Men det ville være helt okay, hvis bare jeg bestod
-
-Nu er jeg blevet lidt ældre og er blevet mere stolt
-Jeg er blot en ud af tre procent, som der udgør dette folk
-Og mit hjem ligner en urskov, jeg er tændt i mit palæ
-Det er ik' kun egerns nødder, der er inde i det træ
-
-Ja, nu kan det også være nok, jeg er faktisk ikke vred
-Jeg har taget min revanche, i min jagt på at få fred
-Så til picnic må du huske på, når du nyder din sandwich
-//: At hvis, træer klistrer, så er det ikke kun harpiks ://
-{ns}
-
-
-
-
 {t:Mit Hjerte Er Itu (Andrea Tribute)}
 #kat:revy
 #kat:MolBioKem Revy
@@ -6599,8 +5603,8 @@ ikke nok til FysikRevy\texttrademark en
 
 \\
 {c:Tales}
-'Så kom andet år, og jeg fik kvant 1 og kvant 2. 
-Jeg skulle regne på bølgeligninger, lære at pertubere i flere ordener, og regne på Bohrs brintatom! 
+'Så kom andet år, og jeg fik kvant 1 og kvant 2.
+Jeg skulle regne på bølgeligninger, lære at pertubere i flere ordener, og regne på Bohrs brintatom!
 Jeg lærte både hvad en hæveoperator og en Eistein-solid egentlig er, men så kom eksamen og jeg...'
 
 {soc}
@@ -6620,9 +5624,9 @@ men ik mig
 {col:2}
 
 {soc}
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Med disse ord skal sandhed skrives
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Uvidenheden må fordrives
 {eoc}
 
@@ -6641,11 +5645,11 @@ Så vi må handle snart før det er forbi
 Slut med tavshed nu det tid at si'e
 
 {soc}
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Med disse ord skal sandhed skrives
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Uvidenheden må fordrives
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Skal verden vindes må vi stå den bi
 Naturvidenskabs logik vil gør' dig fri!
 {eoc}
@@ -6674,11 +5678,11 @@ Quod erat demonstrandum! Med disse ord ...
 {eoc}
 
 {soc}
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Med disse ord skal sandhed skrives (Sandhed skrives)
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Uvidenheden må fordrives (må fordrives)
-Quod erat demonstrandum! 
+Quod erat demonstrandum!
 Skal verden vindes må vi stå den bi
 Naturvidenskabs logik vil gør' dig fri!
 {eoc}
@@ -6713,7 +5717,7 @@ Krise på ny
 Skyen den lægges ned
 ILOVEYOU syg
 Vi vil skam intet ondt
-Helst vil vi skabe. 
+Helst vil vi skabe.
 I gav os midlerne
 Vi vil ej tabe!
 
@@ -6732,7 +5736,7 @@ Verden har givet op
 Knust af vor hær
 Her ender vor mission
 Gralen er fundet
-Verden er atter vor 
+Verden er atter vor
 Kampen er vundet
 
 
@@ -6834,10 +5838,10 @@ kommer også galt af,
 kommer også galt af sted
 
 Vi har ingen animé herhjemme
-- det er sør'me ærgeligt, men 
+- det er sør'me ærgeligt, men
 vi bestemmer
 hvis du går på nettet for at hente
-er det vores otium der 
+er det vores otium der
 er i vente
 Nå så du vil dele?
 vi ser det hele!
@@ -6850,7 +5854,7 @@ men vi lurer mens I deler
 og vi ta'r os godt betalt
 {eoc}
 
-Savner du de film der 
+Savner du de film der
 døde med din VHS
 får du snart et lille brev
 vil du gerne spil' dit nye spil med vennerne
@@ -6858,10 +5862,10 @@ får I ogs' et lille
 får I ogs' et lille brev
 
 Her er meget DRM, desværre
-men det er jer selv der gør det 
+men det er jer selv der gør det
 hele værre
 hvis du godt vil bruge din' programmer
-ku' det ske, en dag, dit hus gik 
+ku' det ske, en dag, dit hus gik
 op i flammer
 Føler I jer frie?
 mens vi bli'r rige!
@@ -6912,13 +5916,13 @@ De si'r: DNUR, DNUR
 De ved godt jeg er rus nu
 De vil ha' mig til at droppe ud igen
 DNUR, DNUR
-Jeg lytter helt frustreret 
-Og med røde kinder sukker jeg og går 
+Jeg lytter helt frustreret
+Og med røde kinder sukker jeg og går
 {eoc}
 
 Så til forelæsning, ML det er på plakaten
 Jeg er træt af rekursion der ikke vil fungere
-Og om en uge, starter vi jo en eksamen 
+Og om en uge, starter vi jo en eksamen
 Jeg ka' stadig ikke lure alle de funktioner
 
 Jeg griber Mac'en, men er lige ved at tud'
@@ -6941,7 +5945,7 @@ Mens vi andre snildt kan overhale dig
 {eoc}
 
 {soc}
-Jeg si'r: drop ud, gamle røvhul ... 
+Jeg si'r: drop ud, gamle røvhul ...
 {eoc}
 
 I kompenserer vist når I råber DNUR
@@ -7048,72 +6052,6 @@ rc, C\#, SML!
 
 
 
-{ns}
-{t:Gamer}
-#kat:DIKUrevy
-{mel:Alice Cooper - Poison}
-{by:DIKUrevy 2012}
-
-Er datalog
-er delt i to
-Jeg hader dig
-Du styrer mig
-
-{soc}
-Bør bruge Gentoo og smukt kode ML
-har alle svar'ne men har også andre behov
-helt fri for GUI, bar et smukt lille shell
-jeg nyder drømmen, men hvad nytter det: Jeg er gamer!
-Er gamer uden anden vej,
-jeg gamer,
-Kan ik' leve uden dig
-{eoc}
-
-Kan ik' bli' ved
-i hem'lighed
-Ej brugerskabt
-Min sjæl fortabt
-
-{soc}
-Helt ind til kernen er du ineffektiv
-fyldt med blå skærme og en sikkerhed som en si
-det' tyd'ligt du blev kod't mens Ballmer var stiv
-men jeg er fanget, jeg kan ik' sig' fra: Jeg er gamer!
-Er gamer uden anden vej,
-jeg gamer,
-Kan ik' leve uden dig
-Gamer!
-{eoc}
-
-Jeg hader dig
-Du styrer mig
-
-{soc}
-Bør bruge Gentoo og smukt kode ML
-har alle svar'ne men har også andre behov
-helt fri for GUI, bar et smukt lille shell
-jeg nyder drømmen, men hvad nytter det: Jeg er gamer!
-jeg gamer,
-Kan ik' leve uden dig
-Gamer!
-{eoc}
-
-{soc}
-Må træffe valget, skønt de kalder mig svin
-Jeg fragger noobs imens jeg giver Clippy high-five
-Har accepteret, lever uden pingvin
-jeg nyder livet, med mit Windows: Ja, jeg er gamer!
-Er gamer uden anden vej,
-jeg gamer,
-Kan ik' leve uden dig
-ønsker ingen anden vej,
-Jeg gamer,
-vil ik' leve uden dig
-Gamer
-{eoc}
-
-
-
 
 {ns}
 {t:Instruktorsangen}
@@ -7206,7 +6144,7 @@ Jeg' skudt i Ruby, sku vi bruge' det her
 
 Min kode sejler
 sejler, sejler
-Min kode sejler og man ved  
+Min kode sejler og man ved
 at den slags, det gir jobsikkerhed
 Den er avanceret,
 obfuskeret, krypterer't
@@ -7217,7 +6155,7 @@ Min kode sejler ...
 
 Min kode sejler
 sejler, sejler
-Min kode sejler og man ved  
+Min kode sejler og man ved
 at den slags, det gir jobsikkerhed
 Den er avanceret,
 obfuskeret, krypterer't
@@ -7292,7 +6230,7 @@ Ethvert andet program
 
 Kod i C
 
-{soc}  
+{soc}
 Det skal nemmelig kodes i C ...
 {eoc}
 
@@ -7369,55 +6307,6 @@ for så vil I hurtigt syng' på sidste vers!
 {eoc}
 
 
-
-
-{ns}
-{t:Udlicitering}
-#kat:DIKUrevy
-{mel:Journey - Don't stop believing}
-{by:DIKUrevy 2012}
-
-(Jeg) sidder på min pind - koder over stok og sten
-Jeg tænker intet selv, men det' helt okay
-Mange hundred K, får jeg for at finde på
-en ny og klar idé - farver knappen blå!
-
-Jeg lever fedt i sus og dus
-med lejlighed og sommerhus
-Bruger penge på mærketøj
-skal ha' mer' og mer' og mer' og mer'
-
-{soc}
-Dataloger - rene Michelangeloer
-Vi laver kode om til kunst
-Made in China, får man ikke godt design af.
-Indien, koder uden stil
-{eoc}
-
-Men en dag, går alting galt
-andre tænker or'ginalt
-Ukraine tager alle job
-- jeg bli'r sagt op.
-
-Kom forbi, Tagensvej,
-for der kan du finde mig
-her på bænken med GT'r
-skal ha' fler' og fler' og fler' og fler'
-
-{soc}
-Dataloger - stadig Michelangeloer ...
-{eoc}
-
-Udlicitering
-u-lands programmering
-De ta'r dit job
-
-Udlicitering
-u-land(e)
-De ta'r dit job
-
-
-
 {ns}
 {t:Vil DIKU være hos mig}
 #kat:DIKUrevy
@@ -7463,7 +6352,7 @@ Bli'r jeg cand i morgen ...
 {eoc}
 
 "Fasthold din sjæl
-Fortab ikk' dig selv 
+Fortab ikk' dig selv
 Fordi jeg ikk' mer' står dig nært
 Bar' tro på dig selv
 Og stol blot på det du har lært"
@@ -7512,7 +6401,7 @@ du fik da 2 minutter, men du bad om mer', meget mer'
 jeg sagd' nej-a-i-a-i-aaa-i-ai
 
 Læser reddit.com/r/big-boobs
-Ahem, jeg mener for'læsning på YouTube 
+Ahem, jeg mener for'læsning på YouTube
 mens jeg løser, min Rubiks cube
 jeg surfer helt forgæves med Eduroam!
 
@@ -7544,12 +6433,12 @@ du kan jo også bare send' en CD-rom?
 Men jeg har deadline!
 Jeg har kun tre minutter, og jeg' ik' online!
 
-Det' KUnet der sejler, det er Absalon! 
+Det' KUnet der sejler, det er Absalon!
 Eduroam!
 Det' ikk' mig! Ei-jei-ja-ha-hai
 
 Hvorfor gør de det her?
-Hvorfor er det lort altid itu? 
+Hvorfor er det lort altid itu?
 Og hvorfor lige præcis nu
 Når vi er midt i eksamensuge-uh-uh-uh
 Vi vil ha' internet her!
@@ -7561,177 +6450,6 @@ I gør det ikke let (Kom nu-u-u)
 I stresser min logik (Kom nu-u-u)
 Nu må I stoppe presset, for stor trafik!
 {eoc}
-
-
-
-
-
-
-{ns}
-{t:Den Syge Fil}
-#kat:DIKUrevy
-{mel:Marilyn Manson - Tainted Love}
-{by: DIKUrevy 2012 (Ikke opført)}
-
-Til tider vil jeg gerne komme ud.
-Da vil jeg slippe ud,
-fra den plads jeg har – hjemme hos min mor. 
-Jeg ta’r til LAN,
-vi spiller alle mand.
-Vi deler alt.
-Troed’ aldrig det ku gå så galt.
-
-{soc}
-Fik en fil af dig. (En fil)
-Nu fortryder jeg. (Jeg fortrød) 
-Den syge fil du gav mig åbnede en bagdør bag mig. 
-Min PC blev smittet og gik ned! 
-Den syge fil.
-Den syge fil.
-{eoc}
-
-Nu er det nok. jeg vil ik’
-gør det mer – jeg vil ik'
-hør' det mer'
-disse mennesker ' ikke prisen værd 
-Jeg har mit net.
-At hente ned er lidt for let.
-Nu fik jeg min fred
-indtil min browser den gik ned.
-
-{soc}
-Fik en fil af dig ...
-{eoc}
-
-Har stor foragt
-jeg dør af den personkontakt.
-Jeg sidder ene og forladt
-men drømmer stadig om den fil hver nat.
-
-Fanden tage den syge fil. 
-Fanden tage den syge fil. 
-Fanden tage den syge fil. 
-Fanden tage den syge fil.
-
-{soc}
-Fik en fil af dig. (En fil)
-Nu fortryder jeg. (Jeg fortrød) 
-Den syge fil du gav mig
-åbnede en bagdør bag mig.
-Min hjerne blev smittet og gik ned! 
-Den syge fil.
-Den syge fil.
-Den syge fil.
-Den syge fil.
-{eoc}
-
-
-
-
-{ns}
-{t:Held i Uheld}
-#kat:DIKUrevy
-{mel:Frits Helmuth - Piger}
-{by:DIKUrevy 2012}
-
-Der er noget I alle kun drømmer om 
-Men hvis vi blot skifter ejendom
-H C Ø er klar, så bare kom.
-
-Men hvad har HCØ, som vi ikke har? - Svar! 
-Gæt
-Der’ bløde sæder i læssevis?
-Nej!
-Det der’s kantine naturligvis 
-Hah – nej!
-Det utætheder i massevis?
-
-Så det studieplads??
-Nej!
-Men hvad?
-Studieplads, og bløde sæder er et fint motiv 
-Det kan være vældig godt
-Men hvad er det vi alle sætter højest i vor liv? 
-Gæt en gang I ved det godt!
-Selvfø’lig...
-PIGER!
-
-De’ gazeller, vi er tig’re
-Nu har vi ligget pænt i dvale, i de sidste mange år 
-Nu skal vi jage, de er kun svage
-PIGER!
-De står og savler mens vi stirrer
-På deres formler og figurer
-Og vi går fra skår til skår kigger så lystigt
-fra lår til lår
-Kemi
-
-Små søde sprudlende forskerpi’r 
-leger med væskerne, let på tå
-Fysik!
-De fyrer op for lysterne
-klemmer på brysterne, så bar’ pas på.
-
-(For) PIGER!
-Når først de ser os kompilerer
-Så ved vi alle sammen godt
-at det er dem der står i kø
-Og vi går i dybden i hver en mø...
-
-.. ’s interesser lærer jeg meget om 
-HA
-Hun må ikk’ være tanketom 
-TJOH
-
-Der skal være nog’t at snakke om 
-Lystig leg med piger er en tovejs dialog 
-FORTÆL
-Ja, hvad snakker man egentlig om? 
-SEX?
-Nøglen til hendes skønhelligdom? 
-JAAAAA!!!
-Det’ ikke noget man snakker om!
-De skal varmes godt op
-Javel...
-
-Når jeg møder damer går jeg hen og hilser let, 
-byder dem på en drink
-mens de tømmer glassene charmerer jeg dem lidt 
-håber de forstår vink
-
-Og det gør PIGER!
-
-Det’ slut med våde fantasier
-For nu har jeg den ægte vare 
-hvorfor brug’ min egen hånd?
-Hva’ giver varme? Det gør de arme! 
-PIGER!
-
-Så det’ slut med fot’grafier
-Nu kan dataloger end’lig få lidt kvind’lig kærlighed 
-De har de trængt til - En kvindekrop.
-
-Mat. ØØØK!
-De finder hurtigt mit optimum
-Ud fra min hældnings-ko’ficient
-Glæd dig!!!
-Her er der ikke en skygge af kvindelig hygge 
-til at hygge sig med
-
-(For) PIGER! 
-Aldrig mere orna...<STOP>
-Aldrig mere ORNAMENTERE!
-Nu har vi ligget pænt i dvale, i de sidste mange år 
-Nu vil vi flytte, nu er vi klar! KLAR!
-Vi kan kun vente og håbe på
-
-PÅ?
-Vi får lov at flytte
-Før vi dropper ud
-UD!
-Vi får lov at flytte – vi dropper ud!
-
-Vi dropper allesammen ud
 
 
 
@@ -7810,7 +6528,7 @@ Jeg har jo ingen grænser holder kurs og jeg er go'
 Så ring til mig hvis jeg skal ta' jer's kursuskatalog
 
 {soc}
-For den her flytning kommer hurtigere end ventet ... 
+For den her flytning kommer hurtigere end ventet ...
 {eoc}
 
 Jeg kan godt se dit problem, du super meget (BOSS)
@@ -7903,73 +6621,6 @@ Caféen? drak mig fuld ...
 
 
 {ns}
-{t:Kattemedley}
-#kat:revy
-#kat:FysikRevy
-#kat:Disney
-{mel:Assorterede kattesange}
-{by:FysikRevy\tm 2012}
-
-{c:Mel: Hvem vil ikke gerne være kat?}
-\\
-
-Hvem vil ikke gerne lære kvant?
-Fordi så ku' jeg regne ud, om jeg står for skud
-(Jaaa), når de regner kvant så råber de altid op, 
-Dø. Lev. Dø. Lev. Vil ikke stop!
-
-Det' et kendt paradoks med en kat i en boks
-Og lidt kvantejazz
-Vi ser eksperimentielt, om du slås ihjel
-inden i din kazz'
-
-Et barium atom, og en superpostion
-En kat er levende og død
-jeg holder på død
-Når vi åbner ved vi hvem af os der vandt
-Ja, hvem vil ikke gerne lære kvant!
-
-\\
-{c:Mel: Se min lille kattekilling}
-
-Se min lille kattekilling
-Nej, hvor er den... Sød! 
-Min har fine, hvide poter
-og så er den... Død!
-
-\\
-{c:Mel: Min kat den danser tango}
-
-Mein Katzes liv er truet af dyreaktivisme
-jeg skælver blot ved tanken, for katten er mig nær
-for observeres katten, ja så er det forbi
-det skyldes kvantemekanikkens tyranni
-
-{soc}
-Min kat den er entangled, -tangled, -tangled
-dens skæbne er bestemt af et bariumatom
-Min kat den er entangled, -tangled, -tangled
-og hele kattens liv er en superposition
-{eoc}
-
-Min kat har mange fjender, fra Greenpeace og i PETA
-men dyrevelfærd trumfes af indeterminans
-Jeg er en dyreelsker, er det nekrofili?
-for $\frac{1}{\sqrt{2}}$ er den et lig.
-
-{soc}
-Min kat den er entangled ...
-{eoc}
-
-{soc}
-Min kat den er entangled ...
-{eoc}
-
-
-
-
-
-{ns}
 {t:Selektionssangen}
 #kat:revy
 #kat:Biorevy
@@ -8028,234 +6679,336 @@ Nu er der end'lig frisk mad i vor kantin'
 
 
 
+{ns}
+{t:Fly Me To The Moon (In Other Words)}
+{by: Frank Sinatra}
+
+Fly me to the moon
+Let me play among the stars
+Let me see what spring is like
+On a-Jupiter and Mars
+In other words, hold my hand
+In other words, baby, kiss me
+
+Fill my heart with song
+And let me sing for ever more
+You are all I long for
+All I worship and adore
+In other words, please be true
+In other words, I love you
+
+Fill my heart with song
+Let me sing for ever more
+You are all I long for
+All I worship and adore
+In other words, please be true
+In other words, in other words
+I love - you
+
 
 
 {ns}
-{t:Skærer ned på det meste}
-{mel:Det Brune Punktum - Jeg vil i seng med de fleste}
-#kat:revy
-#kat:Biorevy
-{by:Biorevy 2011}
+{t:Om Lidt}
+{by: Kim Larsen}
+#kat:Kim Larsen
 
-Når jeg går rundt blandt de studerende i parken
-Nyder jeg deres suk og klager (mmm mmm)
-Og selvom de si'r jeg er tyrannisk og diktator
-smiler jeg bredt og vinker til dem (mmm mmm)
+Om Lidt
+Om lidt bli’r her stille
+Om lidt er det forbi
+Fik du set det du ville
+Fik du hørt din melodi
 
-Det bli'r en smal sag
-At nedlægge det fag
+Forladt og alene
+Danser cirkus prinsessen rundt
+Går i stå
+På sin line
+I et sanseløst sekund
+Om lidt om lidt
+Er vi borte
+Vi ses måske igen
 
-{soc}
-Han skærer ned på det meste
-Undervisning -- de dumper alt alligevel
-Han skærer ned på det meste
-Ik' kantinen, for ofte spiser han der selv
-{eoc}
+Om lidt bli’r her stille
+Om lidt er det forbi
+Fik du set det du ville
+Fik du hørt din melodi
+Om lidt, om lidt
+Er vi borte
+Vi ses måske igen
 
-Hvis jeg f.eks. vil på ferie på Mallorca
-Ja, så betaler studiepuljen (mmm mmm)
-Men jeg kan også bare fyre et par VIP'er
-Så får jeg mer' i egen lønning (ja ha) 
-
-Det bli'r en smal sag (Det bli'r en smal sag)
-Nedlægger det fag (Nedlægger det fag)
-
-{soc}
-Han skærer ned på det meste,
-Biobaren, den lukker jeg nok her i år
-Han skærer ned på det meste,
-Fakulteter, færre end der var i går
-Han skærer ned på det meste,
-Fjern SU'en og lad dem prøve fattigkår,
-Han skærer ned på det meste,
-Biobaren, den lukker jeg jo nu i år
-{eoc}
-
-Når jeg får klager vil jeg ikke lytte til dem,
-Jeg synes han er lidt for tungnem (mmm mmm),
-Beslutninger tages uden andre folk de ved det
-Så går de lettere igennem (mmm mmm)
-
-Det bli'r en smal sag
-Nedlægger det faaaag
-
-{soc}
-Han skærer ned på det meste
-Valgfriheden. Drømmen den er sønderknust
-Han skærer ned på det meste
-Oss' feltkurser, jeg giver jer kun friske pust
-Han skærer ned på det meste
-Ingen rustur, for Campusdagene de vandt
-Han skærer ned på det meste
-Ingen rustur, hytten den blev væk - forsvandt
-Han skærer ned på det meste
-Ingen rustur, I får en weekend-tur, det' sandt
-{eoc}
+Om lidt, om lidt
+Er vi borte
+Vi ses måske igen
+Dudi dudi duu...
 
 
 
 
 {ns}
-{t:Amish Paradise}
-#kat:rap
-{by:Weird Al Yankovic}
+{t:Puma}
+{by:Roben og Knud}
+#kat:Roben og Knud
 
-As I walk through the valley where I harvest my grain
-I take a look at my wife and realize she's very plain
-But that's just perfect for an Amish like me
-You know, I shun fancy things like electricity
-At 4:30 in the morning I'm milkin' cows
-Jebediah feeds the chickens and Jacob plows... fool
-And I've been milkin' and plowin' so long that
-Even Ezekiel thinks that my mind is gone
-I'm a man of the land, I'm into discipline
-Got a Bible in my hand and a beard on my chin
-But if I finish all of my chores and you finish thine
-Then tonight we're gonna party like it's 1699
+Jeg vil gerne ha' en stork,
+men dens næb sku' være kort,
+jeg synes en stork er grimt med langt næb,
+jeg synes en stork er grimt med langt næb.
+
+Jeg vil gerne ha' en stork,
+men dens hals sku' være kort,
+jeg synes en stork er grim med lang hals,
+jeg synes en stork er grim med lang hals.
 
 {soc}
-We been spending most our lives
-Living in an Amish paradise
-I've churned butter once or twice
-Living in an Amish paradise
-It's hard work and sacrifice
-Living in an Amish paradise
-We sell quilts at discount price
-Living in an Amish paradise
-{eoc}
-
-A local boy kicked me in the butt last week
-I just smiled at him and turned the other cheek
-I really don't care, in fact I wish him well
-'Cause I'll be laughing my head off when he's burning in hell
-But I ain't never punched a tourist even if he deserved it
-An Amish with a 'tude? You know that's unheard of
-I never wear buttons but I got a cool hat
-And my homies agree, I really look good in black...fool
-If you come to visit, you'll be bored to tears
-We haven't even paid the phone bill in 300 years
-But we ain't really quaint, so please don't point and stare
-We're just technologically impaired
-
-{soc}
-There's no phone, no lights, no motorcar
-Not a single luxury
-Like Robinson Crusoe
-It's as primitive as can be
+For med et kort næb,
+og med en kort hals,
+måske med en gullig pels,
+så ville det ligne en puma.
 {eoc}
 
 {soc}
-We been spending most our lives
-Living in an Amish paradise
-We're just plain and simple guys
-Living in an Amish paradise
-There's no time for sin and vice
-Living in an Amish paradise
-We don't fight, we all play nice
-Living in an Amish paradise
+Måske ik' den sejeste puma verden har set,
+men dog en puma, og hurra for det!
+
+Måske ik' den sejeste puma verden har set,
+men dog en puma, og hurra for det!
 {eoc}
 
-Hitchin' up the buggy, churnin' lots of butter
-Raised a barn on Monday, soon I'll raise another
-Think you're really righteous? Think you're pure in heart?
-Well, I know I'm a million times as humble as thou art
-I'm the pious guy the little Amlettes wanna be like
-On my knees day and night scorin' points for the afterlife
-So don't be vain and don't be whiny
-Or else, my brother, I might have to get medieval on your heinie
+Jeg vil gerne ha' en stork,
+men 2 ben er bare ikke nok,
+jeg synes en stork er grim med 2 ben,
+jeg synes en stork er grim med 2 ben.
 
 {soc}
-We been spending most our lives
-Living in an Amish paradise
-We're all crazy Mennonites
-Living in an Amish paradise
-There's no cops or traffic lights
-Living in an Amish paradise
-But you'd probably think it bites
-Living in an Amish paradise
+For med et kort næb ...
 {eoc}
 
+{soc}
+Måske ik' den sejeste puma verden har set ...
+{eoc}
 
+{soc}
+For med et kort næb ...
+{eoc}
+
+{soc}
+Måske ik' den sejeste puma verden har set ...
+
+Hurra for det! (8 gange)
+{eoc}
 
 
 
 
 {ns}
-{t:Bademestrenes Storhedstid}
-{by:Gramsespektrum}
-#kat:svær
-#kat:rap
+{t:Uranhjort}
+{by:Roben og Knud}
+#kat:Roben og Knud
 
-Det var den gyldne tid
-dengang vi stod ude i svømmehallen
-vi var en 20-21 år
-et par playboys i den kendte bademesteruniform
-vi havde så meget respekt - folk de sprang op
-af vandet bare vi så på deres gummiarmbånd
-og vi lavede så mange sorte penge
-på sæben og udlejningsbadetøjet
-Damn - vi var på toppen
-og tøserne - de elskede det 
- 
-Hvide bukser en kittel der var krid hvid 
-hvid træsko den tid det var sgu' en fed tid 
-dengang du og jeg slog vores navne fast 
-Jeg var svømmehallens Donnie Brasco 
-det var os to der gjorde fra svømmeudflugt 
-til en fiasko  
- 
-Hvis folk spilled' op til dans og pop 
-så sagde vi stop hertil og ikke længere
-alle vidste det var os der styred' dette her bassin 
-når vi så på dem med øjne der kunne dræbe 
-og få folk til at flæbe 
-eller vi holdt dem fast i bademestergrebet 
-hvis de havde glemt at bruge sæbe 
-og vi måtte slæbe dem ud i bad igen 
- 
-Når vi ville ha' det skægt så fandt vi nogle piger 
-der sprang på hovedet på det lave 
-trued' dem med karantæne hvis de nægtede at snave 
-de fik en tungeslasker eller en maveplasker 
-fra en vippe de ku' selv vælge 
-hva' så - vil du drukne eller vil du kneppe 
-det hjalp ikke at flippe ud og blive gal 
-for Glenn og jeg havde vores eget sæt ordensregler 
-- Spasser! 
- 
-Jeg var den slags bademester der var ligeglad 
-om det var glade gæster 
-svømmehallens forpester 
-jeg fortæller dig mester 
-det er mig du ikke tester 
-sådan lå landet 
-blandt andet hvis folk de pissed' i vandet 
-så blev jeg forbandet 
-de fik et par på hovedet og blev pandet 
-"Alle med brune elastikbånd, skal nu op af vandet" 
-- det var i den fuckin' svømmehal dengang 
+Gud fri mig vel hvor var jeg blevet snydt
+Og det var hverken Martins eller min skyld.
+Martin var den hjort jeg havde købt.
+Ja, Martin var den hjort jeg havde købt.
 
-Og jeg håber det bli'r min tur igen 
-til at ligge på lur igen i den dur min ven 
-da folk de var bange for Glenn 
-så var det simpelthen tider 
-- lige indtil 
-den dag jeg havde røget tjald 
-en nøgen dreng ignorered' min kalden 
-han måtte ikke løbe i svømmehallen 
-jeg stak ham et par på skallen og en over nallen 
- 
-- Hva' skete der så ? 
-han hed Niels eller Peter tolv år 
-så vidt jeg husker en lille nar med 
-Hummel badebukser 
-ignorered' mine instrukser 
-men fluks så stod jeg klar til ordne den lille nar 
-jeg sagde:" fuck din mor, fuck din far" 
-og da jeg havde gjort det klart så sagde jeg: 
-"klick, klick" - "Bloah, bloah, bloah, bloah"
+{soc}
+Martin han blev mindre og mindre
+Ja, Martin han blev mindre og mindre.
+Ham jeg havde købt den af han sagde.
+Det da ik' så mærkeligt fordi:
+{eoc}
+
+{soc}
+Martin, Martin, er en uranhjort
+Martin, Martin, er en uranhjort
+Martin, Martin, er en uranhjort
+Martin, Martin, er en uranhjort
+{eoc}
+
+Gud fri mig vel hvor var jeg blevet snydt'ar.
+Og det var hverken Martins eller min skyld'ar
+Hvis jeg dog bare havde vist
+Ja, hvis jeg dog bare havde vist'ar
+
+Gud fri mig vel hvor var jeg blevet snydt
+Og det var hverken Martins eller min skyld.
+Martin var den hjort jeg havde købt.
+Ja, Martin var den hjort jeg havde købt.
+
+{soc}
+Martin han blev mindre og mindre ...
+{eoc}
+
+{soc}
+Martin, Martin, er en uranhjort ...
+{eoc}
+
+Gud fri mig vel hvor var jeg blevet snydt'ar.
+Og det var hverken Martins eller min skyld'ar
+
+{soc}
+Martin, Martin, er en uranhjort ...
+{eoc}
+
+Hjortehandler, Hjort hjort
+Hjortehandler, Hjort hjort
+Hjortehandler, Hjort hjort
+Hjortehandler, Hjort hjort
+
+Nu hvor du har svigtet mig, hjort hjort
+Sat et horn i siden på mig, hjort hjort
+Har du det godt så, hjort hjort
+Er du glad igen
+
+{soc}
+Martin, Martin, er en uranhjort ...
+{eoc}
+
+{soc}
+Martin, Martin, er en uranhjort ...
+{eoc}
 
 
+
+{ns}
+{t:Here Comes The Sun}
+{by:The Beatles}
+#kat:The Beatles
+
+Here comes the sun (doo doo doo doo)
+Here comes the sun, and I say
+It's all right
+
+Little darling, it's been a long cold lonely winter
+Little darling, it feels like years since it's been here
+Here comes the sun
+Here comes the sun, and I say
+It's all right
+
+Little darling, the smiles returning to the faces
+Little darling, it seems like years since it's been here
+Here comes the sun
+Here comes the sun, and I say
+It's all right
+
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+Sun, sun, sun, here it comes
+
+Little darling, I feel that ice is slowly melting
+Little darling, it seems like years since it's been clear
+Here comes the sun
+Here comes the sun, and I say
+It's all right
+
+Here comes the sun
+Here comes the sun, and I say
+It's all right
+It's all right
+
+
+
+{ns}
+{t:Help!}
+{by:The Beatles}
+#kat:The Beatles
+
+Help, I need somebody
+Help, not just anybody
+Help, you know, I need someone
+Help
+
+(When)
+When I was younger, so much younger than today (I never needed)
+I never needed anybody's help in any way (now)
+But now these days are gone, I'm not so self assured (and now I find)
+Now I find, I've changed my mind, I've opened up the doors
+
+{soc}
+Help me if you can, I'm feeling down
+And I do appreciate you being 'round
+Help me get my feet back on the ground
+Won't you, please, please help me?
+{eoc}
+
+(Now)
+And now my life has changed in, oh, so many ways (my independence)
+My independence seems to vanish in the haze (but)
+But every now and then I feel so insecure (I know that I)
+I know that I just need you like I've never done before
+
+{soc}
+Help me if you can, I'm feeling down ...
+{eoc}
+
+When I was younger, so much younger than today
+I never needed anybody's help in any way (now)
+But now these days are gone, I'm not so self assured (and now I find)
+Now I find, I've changed my mind, I've opened up the doors
+
+{soc}
+Help me if you can, I'm feeling down ...
+{eoc}
+
+
+
+{ns}
+{t:Hvalen Hvalborg}
+{by:Kim Larsen}
+#kat:Kim Larsen
+
+Her er hvalen Hvalborg
+Stoppet ud med vat
+Og avispapir og sprit
+Den blev født I Irmnitz
+En kold december nat
+Lidt nordøst for kransvesit
+
+{soc}
+Du red på mange bølge
+Ænsede ikke stormen
+Med delfiner I dit følge
+Som fulgte dig på vej
+Alting har en ende
+En regnorm den har to
+Hvalborg havets tournedos
+{eoc}
+
+Du fulgte golfens vande
+Sportsmand som du var
+Altid fuld af godt humør
+Nord om Doggerbanke
+Kursen den var klar
+Stolt du rundede Helsingør
+
+{soc}
+Og jeg fodrede dig med skidtfisk
+Og kiks jeg havde I lommen
+Kan du huske da du bøvsede
+Og flyvebåden sank?
+Alting har en ende
+En spoleorm har to
+Valborg havets Dario Fo
+{eoc}
+
+Jeg har betalt en daler
+For at se på dig
+Sådan mødes vi igen
+Men du den dødeste af hvaler
+Så jeg må gå min vej
+Stille siger jeg hej med dig
+
+{soc}
+Viselul du gæve kæmpe
+Jeg vil huske til jeg segner
+Når du lå ved langelinje
+Din store ocean liner
+Nå men
+Alting har en ende
+En hvalfisk har kun en
+Åh men Hvalborg
+Sikke en
+{eoc}
 
 
 
@@ -8263,60 +7016,103 @@ og da jeg havde gjort det klart så sagde jeg:
 {t:Rollespilssangen}
 {by:Svedbanken}
 
-Det er ikke sjovt, at være rødhåret 
-Det er ikke sjov. 
-Det er fand'me ikke sjov, at blive kaldt alt muligt 
-for eksempel jordbærhjelm. 
+Det er ikke sjovt, at være rødhåret
+Det er ikke sjov.
+Det er fand'me ikke sjov, at blive kaldt alt muligt
+for eksempel jordbærhjelm.
 
-Mine øjne er små og røde 
-og min hud er bleg. 
-Alle siger at jeg er albino, 
-ingen synes jeg er sej. 
+Mine øjne er små og røde
+og min hud er bleg.
+Alle siger at jeg er albino,
+ingen synes jeg er sej.
 
-Men når det bli'r tirsdag ka' I rende mig, 
-- jeg kæmper med papsværd i en farlig leg 
+Men når det bli'r tirsdag ka' I rende mig,
+- jeg kæmper med papsværd i en farlig leg
 
 {soc}
-For jeg spiller rollespil i den mørke skov 
-Du må ik' være med før du får lov. 
-Og jeg pløkker trolde ned med mit papgevær 
+For jeg spiller rollespil i den mørke skov
+Du må ik' være med før du får lov.
+Og jeg pløkker trolde ned med mit papgevær
 - pas på min enmandshær!
 {eoc}
 
-Det er ikke sjov at ha' elleve fingre 
-og mega gangbesvær. 
-Folk de glor men smiler til mig, 
-jeg ved de syn's jeg er sær. 
+Det er ikke sjov at ha' elleve fingre
+og mega gangbesvær.
+Folk de glor men smiler til mig,
+jeg ved de syn's jeg er sær.
 
-Men når det bli'r tirsdag ka' I rende mig 
-- jeg kæmper med papsværd i en farlig leg 
+Men når det bli'r tirsdag ka' I rende mig
+- jeg kæmper med papsværd i en farlig leg
 
 {soc}
-For jeg spiller rollespil i den mørke skov 
-- du må ik' være med før du får lov. 
-Og jeg pløkker trolde ned med mit papgevær 
-- pas på, pas på, jeg har et sværd. 
+For jeg spiller rollespil i den mørke skov
+- du må ik' være med før du får lov.
+Og jeg pløkker trolde ned med mit papgevær
+- pas på, pas på, jeg har et sværd.
 {eoc}
 
 {soc}
-Ja, jeg spiller rollespil, jeg har brynje på 
-- er du bange kan du bare gå. 
-Jeg kaster med håndgranater af trylledej 
-- så vis respekt for mig 
+Ja, jeg spiller rollespil, jeg har brynje på
+- er du bange kan du bare gå.
+Jeg kaster med håndgranater af trylledej
+- så vis respekt for mig
 {eoc}
 
-Kom nu, bare en lille smule respekt. 
-Et kram - en klapsalve - en hånd. 
-Kom nu! 
+Kom nu, bare en lille smule respekt.
+Et kram - en klapsalve - en hånd.
+Kom nu!
 
 {soc}
-For jeg spiller rollespil i den mørke skov 
-- du må ik' være med før du får lov. 
-Jeg spiller rollespil, 
-- spil med mig, kom med, kom med, kom med. 
+For jeg spiller rollespil i den mørke skov
+- du må ik' være med før du får lov.
+Jeg spiller rollespil,
+- spil med mig, kom med, kom med, kom med.
 {eoc}
 
 {soc}
-Jeg spiller rollespil, 
+Jeg spiller rollespil,
 - kom nu og spil med mig! Kom med! Kom med! Kom med og spil...
 {eoc}
+
+
+{ns}
+{t:De Første Kærster På Månen}
+{by:TV-2}
+
+Og jeg der var så ung
+Jeg troede vi skulle være
+De første kærester på månen
+Men vores himmelrum
+Var lige nu og her
+Så vi holdte bare verden gående
+
+{soc}
+Jeg troede vi skulle være
+De første kærester på månen
+Jeg troede vi skulle være, åååh uhh åhhh
+De første kærester på månen.
+{eoc}
+
+Og jeg der var så klog
+Jeg troede fuldt og fast
+At vi ku' gå på vandet
+Men vores drejebog blev skrevet i alt hast
+Det ene ord tog det andet
+
+{soc}
+Jeg troede vi skulle være ...
+{eoc}
+
+Solen drejer os tilbage til der hvor alting starter om igen
+Og nu vi landet her
+vi har hvad vi skal ha'
+Og vi er stadig stående
+Og lige meget hvad der sker på sidste skoledag
+Bliver vi de første kærester på månen
+
+På sidste skoledag, åååh uhh åhhh
+De første kærester på månen.
+De første kærester
+De første kærester
+
+
