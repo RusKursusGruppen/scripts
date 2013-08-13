@@ -20,8 +20,8 @@ $(shell mkdir -p $(WORKDIR))
 $(shell mkdir -p $(OUTPUTDIR))
 
 # $(OUTPUTDIR)/nodebog.ps
-all: $(OUTPUTDIR)/sangbog.ps $(OUTPUTDIR)/sangbogprint.pdf 
-	
+all: $(OUTPUTDIR)/sangbog.ps $(OUTPUTDIR)/sangbogprint.pdf
+
 clean:
 	rm -f $(WORKDIR)/* $(OUTPUTDIR)/* $(SONGSDIR)/* $(SONGSDIRTOKEN)
 
@@ -46,10 +46,13 @@ $(WORKDIR)/sangliste.tex: $(WORKDIR)/autosangbog.chord
 	# Convert the generated song file to TeX format.
 	$(BINDIR)/chord2tex.pl $(WORKDIR)/autosangbog.chord > $(WORKDIR)/sangliste.tex
 
-$(WORKDIR)/index.tex: $(WORKDIR)/sangliste.tex
-	$(BINDIR)/genindex.py $(WORKDIR)/sangliste.tex > $(WORKDIR)/titleidx.sbx
+$(WORKDIR)/titleidx.sxd: $(WORKDIR)/sangliste.tex
+	$(BINDIR)/nicelatex.sh --output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex
 
-$(WORKDIR)/sangbog.tex: $(WORKDIR)/index.tex $(WORKDIR)/sangliste.tex
+$(WORKDIR)/index.tex: $(WORKDIR)/titleidx.sxd
+	$(BINDIR)/genindex.py $(WORKDIR)/titleidx.sxd > $(WORKDIR)/titleidx.sbx
+
+$(WORKDIR)/sangbog.tex: $(WORKDIR)/sangliste.tex
 	cat $(TEXDIR)/header.tex > $(WORKDIR)/sangbog.tex
 	cat $(TEXDIR)/forside.tex >> $(WORKDIR)/sangbog.tex
 	cat $(WORKDIR)/sangliste.tex >> $(WORKDIR)/sangbog.tex
@@ -57,7 +60,7 @@ $(WORKDIR)/sangbog.tex: $(WORKDIR)/index.tex $(WORKDIR)/sangliste.tex
 	cat $(TEXDIR)/footer.tex >> $(WORKDIR)/sangbog.tex
 	cp $(TEXDIR)/songs.sty $(WORKDIR)/songs.sty
 
-$(WORKDIR)/sangbog.dvi: $(WORKDIR)/sangbog.tex
+$(WORKDIR)/sangbog.dvi: $(WORKDIR)/sangbog.tex $(WORKDIR)/index.tex
 	cp $(RESDIR)/* $(WORKDIR)/
 	$(BINDIR)/nicelatex.sh -output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex
 	$(BINDIR)/nicelatex.sh -output-directory=$(WORKDIR) $(WORKDIR)/sangbog.tex

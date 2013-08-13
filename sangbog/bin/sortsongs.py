@@ -35,13 +35,13 @@ for line in sys.stdin:
 # plads...
 
 for song in songs:
-    if (song[1] == "I Morgen Er Verden Vor"):
+    if (song[1] == "I Morgen er Verden Vor"):
         endlist[42] = song
         songs.remove(song)
     elif (song[1] == "DAT62(1/2)80 Slagsang"):
         endlist[43] = song
         songs.remove(song)
-    elif (song[1] == "Hey ho for våbenfysik"):
+    elif (song[1] == "Hey Ho for Våbenfysik"):
         endlist[44] = song
         songs.remove(song)
 
@@ -54,4 +54,4 @@ for i in range(0, len(endlist)):
 
 for song in endlist:
     print song[1] + " " + song[2]
-    
+
