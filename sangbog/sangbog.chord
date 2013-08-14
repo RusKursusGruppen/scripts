@@ -7694,7 +7694,9 @@ I din galde, ku' du knalde en fuld datalog!
 
 Da Windows fø-ø-ørst, da jeg var ung
 Kom på-å-å min første da-a-a-tamat,
-Kom på, kom på, kom på min første da-a-tamat Erfared' jeg hurtigt, hvad Windows gerne gjord' Jeg råbte o-o-ofte, disse ord:
+Kom på, kom på, kom på min første da-a-tamat
+Erfared' jeg hurtigt, hvad Windows gerne gjord'
+Jeg råbte o-o-ofte, disse ord:
 
 {soc}
 Windows crasher!
@@ -7707,9 +7709,18 @@ Windows crasher! ...
 {eoc}
 
 Jeg started, p-å-å-å-å data-logi
-De sagde, Ge-e-entoo, vil du ku' li'
-De sag', de sag', de sag' Gentoo, vil du-u-u ku' li' Men man skal compile, compile hele dag'n!
+De sagde, Ge-e-entoo, vil du-u-u ku' li'
+De sag', de sag', de sag' Gentoo, vil du ku' li'
+Men man skal compile, compile hele dag'n!
 Tilba' til Wi-i-i-ndows, hør' min klag'n
+
+{soc}
+Windows crasher! ...
+{eoc}
+
+{soc}
+Windows crasher! ...
+{eoc}
 
 {soc}
 Windows crasher! ...
@@ -7726,7 +7737,7 @@ Windows crasher! ...
 
 Af Jyrki har du ofte fået at vid',
 Hvis du vil lære C,
-Så ta'r det kun to dag',
+Så ta'r det kun to dag'
 Det passer ik'!
 
 Og når Jyrki si'r, at kurset ikk' ka' optimeres,
@@ -7734,7 +7745,7 @@ Og at fejlen kun er jeres
 Det passer heller ik' en skid!
 Der' kun én ting, der dur,
 Og det' en veldokumenteret kur:
-(Han skal drikkes væk)
+\textit{(Han skal drikkes væk)}
 
 {soc}
 Drik Jyrki væk! Drik den Jyrki væk!
@@ -7748,12 +7759,12 @@ Hvis du har dumpet ARK
 Så skal det arbejdes væk
 Det passer ik'!
 
-For når opgaven er oversat fra fi-insk,
+For når opgaven er oversat fra finsk,
 Eller ligger ret langt uden for pensum
 Så ka' du hilse ham fra mig og sige
 Der' noget han har misforstået
-Der er kun een der' ansvarlig for'ed!
-(Og han skal drikkes væk)
+Der er kun én der' ansvarlig for'ed!
+\textit{(Og han skal drikkes væk)}
 
 {soc}
 Drik Jyrki væk! ...
@@ -7764,7 +7775,7 @@ Eksamensangst - drikkes væk
 Dårligt kursus - drikkes væk
 Drik-drik-drikkes væk
 Maksimal fløde - drikkes væk
-if-then-else - drikkes væk
+\texttt{if-then-else} - drikkes væk
 Tavleorden - drikkes væk
 Drik-drik-drikkes væk
 Arrogance, finskhed, kursushad - drikkes væk
@@ -7778,10 +7789,6 @@ Drik Jyrki væk! ...
 {soc}
 Drik Jyrki væk! ...
 {eoc}
-
-Woo! Drik den Jyrki væk!
-Woo! Drik den Jyrki væk!
-Woo! Drik den Jyrki væk!
 
 
 
@@ -7802,21 +7809,21 @@ Det kræver abstraktion
 skal bare kunne mit felt
 
 {soc}
-typecheck og fejl
+Typecheck og fejl
 og det vil ikke compile
-mønsteret genkendes ej
-Cannot open that file
+Mønsteret genkendes ej
+\texttt{Cannot open that file}
 Og mit uend'lige loop
 Det slår mig snart ihjel
 Man bliver fuldstændig foo
-Af at - kod' SML!!
+Af at kod' SML!!
 {eoc}
 
 {soc}
-Moscow M æææL - åååh
-Moscow M æææL - åååh
-Moscow M æææL - åååh
-åh hvor jeg hader - SML
+Moscow ML - Åh!
+Moscow ML - Åh!
+Moscow ML - Åh!
+Åh hvor jeg hader - SML
 {eoc}
 
 Du forstår ingenting
@@ -7825,33 +7832,33 @@ Det' det jeg bruger i
 mit oversættersystem
 Nej vent du blot til du
 har OSM lille ven
-du farer vild i din' tråd'
+du farer vild i din' kode
 og hvor din pointer før' hen
 
 {soc}
 segfault, deadlocks og fejl
 og det vil ikke compile
-ntfs kun for sjov
-indlæringskurven for stejl
-forsøg'r at par'lelliser
+NTFS kun for sjov
+Indlæringskurven for stejl
+Forsøg'r at par'lelliser
 det kommer ik' til at ske
-min' bugs bli'r forket til fler'
-kan ikke kode C!!
+Min' bugs bli'r forket til fler'
+Kan ikke kode C!!
 {eoc}
 
 {soc}
-med OSM og - C!
-med OSM og - C!
-med OSM og - C!
-åh hvor jeg hader - OSM
+Med OSM og - C!
+Med OSM og - C!
+Med OSM og - C!
+Åh hvor jeg hader - OSM
 {eoc}
 
 Tag du bare og vent
 til du studér kandidat
 Alt du laver er nemt
 og tæt på din datamat
-Du skal lære et sprog
-Hvor at jeg skal lære tre
+Du skal lære \textit{et} sprog
+Hvor at jeg skal lære \textit{tre}
 Fra Erlang til Prolog
 Haskell er abstrakt og vagt
 
@@ -7859,17 +7866,18 @@ Haskell er abstrakt og vagt
 Min monade gi'r fejl
 Og det vil ikke compile
 De la' mig ik' brug' IO
-får hastighed som en snegl Min type skal rekursér
+Får hastighed som en snegl
+Min type skal rekursér
 Men GHC siger "næh!"
 Og min instruktor han le'r
-Hask'll det får mig i knæ!
+Haskell det får mig i knæ!
 {eoc}
 
 {soc}
 AP og Haskell - åh!
 AP og Haskell - åh!
 AP og Haskell - åh!
-åh hvor jeg hader - det Haskell!
+Åh hvor jeg hader - det Haskell!
 {eoc}
 
 Ja, Hask'll ka' være svært
@@ -7896,13 +7904,22 @@ Bliv på din kandidat
 For UML - åh!
 For UML - åh!
 For UML - åh!
-Moscow M æææL - åååh / med OSM og - C! / AP og Haskell - åh! / For UML - åh!
 {eoc}
 
-Ka' ik' mer!
-Ka' ik' mer!
-Ka' ik' mer!
-Ka' ik' mer!
+{soc}
+Moscow ML - åååh
+Med OSM og - C!
+AP og Haskell - åh!
+For UML - åh!
+{eoc}
+
+Åh, bliv på DIKU
+Åh, bliv på DIKU
+Åh, bliv på DIKU
+Åh, bliv på DIKU
+
+Åh, bliv på DIKU
+Åh, bliv på DIKU
 Åh, bliv på DIKU
 
 
@@ -7922,9 +7939,9 @@ Hvem har mon rørt min C-fil?
 Hvad har de indsat i koden?
 
 {soc}
-\texttt{vo-i-id public static}
-\texttt{vo-i-id main}, wat?
-\texttt{vo-i-id abstract class}, øv!
+\texttt{void public static}
+\texttt{void main}, wat?
+\texttt{void abstract class}, øv!
 {eoc}
 
 Men min kode er stor,
@@ -7937,14 +7954,14 @@ en som kan redde mig nu
 R: Hey baby, hva' mangler du
 S: At finde forskelle
 R: Ska' det være lige nu?
-S: Kom nu og diff
+S: Kom nu og \texttt{diff}
 R: Jeg kigger på din' filer nu
 S: Hva' sker der når du ser?
-R: jeg kan nu ingen forskel se, pyt, det kan jo ske
+R: Jeg kan nu ingen forskel se, pyt, det kan jo ske
 
 {soc}
 René Diff, Diff,
-Tjekker filerne
+Tjekker filerne.
 René Diff, René Diff,
 Er de ens!
 De er ens!
@@ -7952,18 +7969,18 @@ De er ens!
 
 {soc}
 René Diff, Diff,
-filernes sherif
+filernes sherif.
 René Diff, René Diff,
 Er de ens!
 De er ens!
 {eoc}
 
 {soc}
-\texttt{vo-i-id public static} ...
+\texttt{void public static} ...
 {eoc}
 
 {soc}
-\texttt{vo-i-id public static} ...
+\texttt{void public static} ...
 {eoc}
 
 Er der klasser i C?
@@ -7974,7 +7991,7 @@ Du er et levn fra halvfemserne
 R: Hey baby, hva' er det nu
 S: Dig kan jeg ikke brug'
 R: Lad mig tjekke den her, du
-S: Det er en gif!
+S: Det er en \texttt{.gif}!
 R: (host) det er et billed' af en grif
 S: Du var min diff-kalif!
 R: Hvad vil' du gøre uden mig, jeg er da for sej
@@ -7996,11 +8013,11 @@ Ha' ret nu!
 {eoc}
 
 {soc}
-\texttt{vo-i-id public static} ...
+\texttt{void public static} ...
 {eoc}
 
 {soc}
-\texttt{vo-i-id public static} ...
+\texttt{void public static} ...
 {eoc}
 
 {soc}
@@ -8022,7 +8039,27 @@ i udu
 {eoc}
 
 {soc}
-\texttt{vo-i-id public static} ...
+\texttt{void public static} ...
+{eoc}
+
+{soc}
+\texttt{void public static} ...
+{eoc}
+
+{soc}
+René Diff, Diff
+Giv min fil et snif
+René Diff, René Diff
+Han tog fejl
+Det gjor' jeg
+{eoc}
+
+{soc}
+René Diff, Diff
+Bruger sans serif
+René Diff, René Diff
+Farvel nu!
+Nå øv du
 {eoc}
 
 
@@ -8048,7 +8085,7 @@ De taler mig i søvne, her til forelæsningen
 Og når den så er ovre, har jeg det hele glemt igen.
 
 Hvorfor tage kurser, der altid dumper mig?
-Det er derfor, at jeg siger: Der er en nem're vej:
+Det er derfor, at jeg siger: "Der er en nem're vej!"
 
 {soc}
 Humanist - en KUAist ...
@@ -8059,11 +8096,11 @@ Humanist - en KUAist ...
 {eoc}
 
 Se, de fleste går og drømmer om at arbejde med kode,
-en jeg vil bar' være færdig - arbejdsløshed er på mode!
+men jeg vil bar' være færdig - arbejdsløshed er på mode!
 Jeg er ligeglad med penge, jeg har børneopsparing
-Og når den så løber tør, kan jeg pizza udbring'
+Og når den så løber tør, kan jeg pizza udbring'.
 Hvorfor skulle arbejd', og ikke ha' tid til leg?
-Det er derfor, at jeg siger: Der er en nem're vej:
+Det er derfor, at jeg siger: "Der er en nem're vej"
 
 {soc}
 Humanist - en KUAist ...
@@ -8073,7 +8110,7 @@ Humanist - en KUAist ...
 Humanist - en KUAist ...
 {eoc}
 
-Så er det ovre, jeg er endelig blevet fri
+Nu er det ovre, jeg er endelig blevet fri
 Er blevet kandidat i østrigsk eskimologi
 Der findes intet job hvori denne grad kan bruges
 Så alle jobsamtaler sluttes af med at der buh'es.
@@ -8116,48 +8153,48 @@ men i det mindste kan de kode.
 #kat:DIKUrevy
 
 Ret din peger mod dit datasæt
-følg nu med, lad vær' at blive træt
-algoritmen listen traverserer
-data vi sorterer ret
+følg nu med, lad vær' at blive træt.
+Algoritmen listen traverserer
+data vi sorterer ret.
 
 Tag to tal og se på deres værdi
 er det mindre, bytter vi fordi
-facit søges, korrekthed øges
-så'n er datalogi
+facit søges, korrekthed øges.
+Så'n er datalogi.
 
 {soc}
 Lad dem boble, boble, boble,
 bytte om på de her to
 blot programmet terminerer,
-kan jeg sagtens her bestå
+kan jeg sagtens her bestå.
 {eoc}
 
 Når man først sit emne trækker
 og hukommelsen den strejker
 håber gavmildheden rækker
-bare manglerne er få
+bare manglerne er få.
 
-Jeg hehøver aldrig lære fler'
+Jeg behøver aldrig lære fler'
 hvis jeg kan bevise denne her
 andre algoritmer de er svære
-siger vores lærebog
+siger vores lærebog.
 
 Når engang jeg bobler helt på plads
-er al tiden gået er mit sats
-min metode er langsom kod' (for)
-Pawels spørgsmål gør nas
+er al tiden gået er mit sats.
+Min metode er langsom kod'
+Pawels spørgsmål gør nas.
 
 {soc}
 Lad dem boble, boble, boble,
 bytte om på de her to
-vi kan se det terminerer
-ergo pensum jeg forstår
+vi kan se det terminerer,
+ergo pensum jeg forstår.
 {eoc}
 
 {soc}
 Når I nu om lidt voterer
-skal I husk' hvad jeg præsterer
-algoritmen terminerer
+skal I husk' hvad jeg præsterer:
+Algoritmen terminerer
 så lad mig nu bestå!
 {eoc}
 
@@ -8176,11 +8213,11 @@ men han koded' slam og fortalt' det ik
 men den mand han ku' se, at der kom et sprog
 hvor alle der koded' ku' ligne et fjog!
 Det fucking køter sprog det kørt' i en VM
-og med static void Main, er det hele så nemt!
+og med \texttt{static void main} bli'r det hele så nemt!
 
 Det var 20 år siden og hans navn var Karl Koder
 koded' slam for kapitalen, havde syge frynsegoder
-Bawlet i Eclipse og spurgt' har du et problem?
+Bawlet i Eclipse og spurgt': "Har du et problem?"
 Så skal Karl nok kom' og kode dit system.
 
 Der var en konkurrence hvor han ik' sagde slut,
@@ -8190,12 +8227,12 @@ men resten de var bomben, for de brugte nemlig SOAP!
 
 Karl vandt og ham Knuth fik piveren på!
 Tog tilbage til Stanford den BØSSEKAL!
-Karl han sagde til den anden pas godt på køter Java,
+Karl han sagde til den anden: "Pas godt på køter Java",
 for det' fremtidssproget, der bliver fuldstændig fucked,
 vi skal kode det hele! Forstår du det?
 Og det skal kodes i Java, der må ik' vær' noget C!
 Så fuck købsaftalen, tør røv med manualen
-navnet er køter Karl, og vi koder kapitalen!
+navnet er Køter Karl, og vi koder kapitalen!
 
 {soc}
 Koder ik i C,
@@ -8225,13 +8262,13 @@ Og når den bli'r sat op, så kører den på Tomcat
 og så ta'r Karl hjem, og holder sig en sabbat,
 og så si'r han til sin chef:
 "Fuck din kode! Det er UML din BØSSEKAL!"
-Jeg vil kod' i Java! Jeg vil kod' med SOAP
+Det skal kodes i Java! Det skal kodes med SOAP
 I en managed verden uden at tænke på scope.
 Hvor man elsker Swing, og bli'r fuldstændig fucked,
 Så længe man koder Java, så går det godt!
 Så alle de svanser, som der koder det i VB
 Det skal nok blive godt med nog't Java på jeres CV
-Tag hjem fra regnecentralen og kod kapitalen!
+Så tag hjem fra regn'centralen og kod kapitalen!
 Fræse lortet ned med SOAP, regulere hele dagen!
 
 {soc}
@@ -8243,8 +8280,8 @@ Koder ik i C ...
 {eoc}
 
 Når nu dikufanter de vil sælge kod' til nogen,
-kan de lære et par hacks inde på kongens kodeskole
-Det første øvehold, det hedder SOAP-vold
+kan de lære et par hacks inde på Kongens kodeskole
+Det første øvel'shold, det hedder SOAP-vold
 Man bli'r låst inde i Hel, og skal håndkod' XML!
 Den anden disciplin, den er ik' så nem at gætte,
 man bli'r tævet med klassestil til man ka' Javaetikette.
@@ -8267,6 +8304,16 @@ Koder ik i C ...
 Koder ik i C ...
 {eoc}
 
+{soc}
+Koder ik i C ...
+{eoc}
+
+{soc}
+Koder ik i C ...
+{eoc}
+
+Koder Karl...
+
 
 
 
@@ -8278,7 +8325,7 @@ Koder ik i C ...
 #kat:DIKUrevy
 #kat:revy
 
-På et mørkt kontor på bryggen
+På et mørkt kontor på Bryggen
 sidder der en datalog
 Han har kodet hele natten
 Han får aldrig, aldrig ro
@@ -8293,7 +8340,7 @@ Arbejd hele natten du
 Sæt dig ned ved datamaten
 Du skal kode lidt endnu.
 For du slavekoder, uh!
-det' din lod som datalog.
+det ' din lod som datalog.
 Du skal sidde på din flade
 til din backend går itu.
 {eoc}
@@ -8302,8 +8349,8 @@ På en bænk i Kongens Have
 sidder der en datalog.
 Han er stakkels og forhutlet
 men engang, der var han go'
-Ak, hans job, det røg til
-Østen da konturerne gik ned
+Ak, hans job, det røg til Østen
+Da konturerne gik ned
 Kom igen, du kodeslave
 det' der ikk' nog't at gøre ved.
 
@@ -8313,7 +8360,7 @@ der er ingen jobs mer nu.
 Det er slut med datamaten
 Men du lever her endnu.
 For du slavekoder, uh!
-det' din lod som datalog.
+det ' din lod som datalog.
 Du skal sidde på din flade
 til din backend går itu.
 {eoc}
@@ -8329,7 +8376,7 @@ Han får end'lig brugt sin backend
 
 {soc}
 Og den kodeslave, du!
-(han) fester hele natten nu
+fester hele natten nu
 Det er slut med stress og kode,
 og han tjener penge nu
 For vor's slavekoderven
@@ -8338,7 +8385,7 @@ han får sex af en hr. Cheng Weng
 der kan lide hans backend.
 {eoc}
 
-(for) Det er nu, den tredje Verden, der kan * * os, min ven
+(for) Det er nu, den tredje Verden, der kan kode os, min ven
 
 
 
@@ -8363,11 +8410,11 @@ Jeg vil aldrig kode i Eclipse igen!
 \textbf{V}: Den dag jeg lærte Vim at kende
 En helt ny verden der sig åbnede for mig
 Hvert et tastetryk det gør
-Større forskel end du tror
+større forskel end du tror
 Og jeg vil aldrig kode i Eclipse igen!
 
 \textbf{E}: Nu må jeg vise mine evner
-Med djævlens editor!
+med Djævlens editor!
 Men vent! Hvordan gemmer jeg min fil?
 Vim, den er så kompliceret,
 Kan ikke navigere.
@@ -8376,12 +8423,12 @@ Nej, Emacs er det eneste for mig.
 {soc}
 \textbf{E}: Nej, jeg elsker ikke Vim,
 Dets script-sprog er helt til grin
-Men det er dog bedre end Eclipse.
+Og jeg savner at ha' chat-klient.
 {eoc}
 
 \textbf{V}: Åh, min kode er kaotisk,
 Emacs den er idiotisk,
-De genvejstaster er kun et problem.
+de genvejstaster er kun et problem.
 Den har jo ingen plusser,
 Den sluger min' resourcer -
 Jeg bad ik' om et helt nyt styr'system.
@@ -8389,15 +8436,15 @@ Jeg bad ik' om et helt nyt styr'system.
 {soc}
 \textbf{V}: For jeg savner sådan Vim,
 Åh, snart vil jeg vende hjem.
-(Jeg) ønsker blot at skrive
-Min kod' i Vim igen.
+Ønsker blot at skrive
+min kod' i Vim igen.
 {eoc}
 
-\textbf{E}: Endelig, min kode kompiler'.
-(Nu) skal jeg aldrig kode Vimscript mer'.
+\textbf{E}: Endelig, min kode kompilerer.
+Nu skal jeg aldrig kode Vimscript mer'.
 
 \textbf{V}: Emacs gør mig helt febrilsk,
-Og dens lisp er godt nok drilsk -
+Og dens Lisp er godt nok drilsk -
 Jeg vil altid kod' i...
 
 \textbf{E}: Emacs, ja! \textbf{V}: Vim, kun Vim!
@@ -8419,7 +8466,7 @@ roo-oo-oo-oo-oo-oo-oo-oo-oo-oo-oot
 roo-oo-oo-oo-oo-oo-oo-oo-oo-oo-oot
 
 Når du bruger UNIX
-(-) Er det \texttt{root}, der styrer alt
+Er det \texttt{root}, der styrer alt
 roo-oo-oo-oo-oo-oo-oo-oo-oo-oo-oot
 
 Det er mig som er \texttt{root}
@@ -8428,7 +8475,7 @@ roo-oo-oo-oo-oo-oo-oo-oo-oo-oo-oot
 
 \texttt{tar}' på vores mapper
 Og \texttt{chown}er hver en fil
-Fil fil fil-
+Fil fil fil
 
 Sig hva' I vil have
 Heyeah-ah, kan vi få et smil?
@@ -8450,7 +8497,7 @@ Kør' \texttt{finger} på mig, efter jeg logger på
 \texttt{root} han er altid ovenpå
 \texttt{sudo} er forbudt, giv os \texttt{root}
 
-Bruger, hva' skuø du gøre uden (din) \LaTeX? (og \texttt{vim} og \texttt{date})
+Bruger, hva' sku' du gøre uden din \LaTeX? (og \texttt{vim} og \texttt{date})
 Bruger, kan du køre \texttt{-j2} på din \texttt{make}?
 \texttt{root} giver os kun - \texttt{zsh}
 Installér - nu Sims2!
@@ -8459,9 +8506,9 @@ Installér - nu Sims2!
 \\
 {c:Mel: Boney M- Daddy Cool}
 Hun vil så gern' ha' \texttt{root}
-Substitute (-) user do
+Substitute user do
 Jeg vil så gern' ha' \texttt{root}
-Substitute (-) user do
+Substitute user do
 
 Super-user do
 Super-user do
@@ -8480,7 +8527,7 @@ Vi er logget af, og gør klar til \texttt{scp}
 Men hov, hvad er nu det I \texttt{scp}er op?
 Tag det roligt, \texttt{root}, det er intet du bør stopp'
 
-Ventede til root han var i fuld hast
+Ventede til \texttt{root} han var i fuld hast
 Logged' ind uden om ham
 Kørt' \texttt{gcc} under alias
 Afvikled' vort program
@@ -8515,154 +8562,92 @@ roo-oo-oo-oo-oo-oo-oo-oo-oo-oo-oot
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{ns}
+{t:Børnefødselsdag}
+{by:Kim Hot}
+#kat:Kim Hot
+
+Der' børnefødselsdag, ja hjemme hos Randi
+Kim "fucking" Hot forærer hende en brandbil
+Siger "nå", skal lade være at gøre noget
+ligepludselig har katten sennep i røvhullet
+vi leger gangsterdans, hvor man sidder på nogle stole
+kan se Randis mor hun er våd inde i fissen
+rejser mig op og truer hende på livet
+nu skal vi ha'
+spagettikonkurrence
+
+Man skal spise rimelig hurtigt, og jeg tror jeg har en chance
+vi sidder ved bordet og jeg sviner hele dynen til
+knepper din mor den undelynme
+nu får Randi fucking pivern på
+Kim "fucking" Hot, jeg har stivern på
+Jeg rejser mig op og bowler på hendes ansigt
+ruller rundt på gulvet og giver hendes mor mandpik
+så' der fest
+
+{soc}
+Der er børne-børne-børne-børnefødselsdag i dag, i dag
+børnefødselsdag i dag, der er jo børnefødselsdag
+{eoc}
+
+{soc}
+Der er jo børne-børne-børne-børnefødselsdag i dag ...
+{eoc}
+
+Ohøj
+
+Nu' vi alle glade, dreng'ne skal på skattejagt
+kongen står og flovser i sin nye kattedragt
+gemmer mig i busken, kaster lort på de andre
+ligger på avisen og leger' jeg en dranker
+nu' jeg ude af busken, som trolden fra Bornholm
+ham der spiser is og fucking knepper folk
+din mor viser fissen og jeg gnasker hendes kebab
+leger lom'tørklæde med hendes ældgamle fjab
+
+Nu fræser hun på kongen, den ultraso
+hvad skal vi spille, fucking Ludo
+nu kigger hun på mens jeg cremer Randi i fjæset
+leger dåseskjul, hvor meget skulle jeg tælle til
+kongen han har kogende pis til dit sovsefjæs
+kongen han er træt, og tro mig hun har lov at læs'
+nu vil jeg hør' Kim og detektiverne
+spiller pik under dynen, hvad fuck bli'r det til
+
+{soc}
+Der er jo børne-børne-børne-børnefødselsdag i dag ...
+{eoc}
+
+{soc}
+Der er jo børne-børne-børne-børnefødselsdag i dag ...
+{eoc}
+
+Ohøj
+
+Kongen er stadig vild, står og truer på livet løs
+står og fræser løs på en fucking gravid tøs
+moren si'r, der bor trolde inde i skabet, men
+hvis der virk'lig gjorde havde kongen opdaget dem
+nu bli'r hun flabet så jeg sviner hende til
+tror efterhånden at hun fucking kan li' det
+går hen i hendes klæd-ud-skab
+og klæder mig ud som hvad, en fucking psykopat
+
+Hustleren truer med at smadre hele lortet
+ud i entreen  hvor jeg knepper alle sko'ne
+i ved at jeg styrer hele kommunen
+jeg er spermhuggeren, der ligger i lagunen
+min harpun er begravet i din rådne mor
+hun har en pæn fisse, men hun ligner en lodden lort
+nu er jeg glad for alt hvad jeg sagde
+tak for endnu en fantastisk børnefødselsdag
+
+{soc}
+Der er jo børne-børne-børne-børnefødselsdag i dag ...
+{eoc}
+
+{soc}
+Der er jo børne-børne-børne-børnefødselsdag i dag ...
+{eoc}
 
