@@ -44,6 +44,9 @@ for song in songs:
     elif (song[1] == "Hey Ho for Våbenfysik"):
         endlist[44] = song
         songs.remove(song)
+    elif (song[1] == "Saltvisen"):
+        endlist[41] = song
+        songs.remove(song)
 
 songs = sorted(songs, key=lambda s: s[2].replace('$\lambda $' , 'lambda') )
 songs.reverse()
