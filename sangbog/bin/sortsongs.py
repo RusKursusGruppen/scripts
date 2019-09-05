@@ -45,6 +45,9 @@ for song in songs:
         endlist[44] = song
         songs.remove(song)
     elif (song[1] == "Saltvisen"):
+        endlist[40] = song
+        songs.remove(song)
+    elif (song[1] == "Saltvisen pt 2 (The next generation)"):
         endlist[41] = song
         songs.remove(song)
 

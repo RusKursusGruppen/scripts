@@ -16,52 +16,54 @@
 {c:til I ikke har mere øl...}
 {ns}
 
-{t:Dat0 Igen}
+{t:Null}
 #kat:revy
 #kat:DIKUrevy
-#kat:nørdet
-{mel:Willie Nelson - On the Road Again}
-{by:DIKUrevy 2002}
+{mel: Shu-bi-dua - Den røde tråd}
+{by:DIKUrevy 2018}
 {col:2}
-Dat[D]0 igen
-Jeg tror lig' jeg ta'r dat[F#7]0 igen
-den eksamen gik ik' [Em]særligt godt, min ven
-så [G]jeg skal lige [A]ha' Dat0 [D]igen
+Hvad mon der er
+I det der hul
+Når man derefererer NULL?
+En tredje bit?
+Nog'l søgetræ'r?
+Mon Naurs løsen ligger der?
 
-Ta'r dat[D]0 igen
-for de sag'd ``du fatter [F#7]ej en pind''
-ML vil' jeg ønske [Em]bare ku' forsvind'
-så [G]slap jeg for at [A]tag' Dat0 [D]igen
+Rundt i lagret ku' jeg hop'
+Indtil kernen sagde stop!
+Din peger peger på for lidt
+Du har slet ingen bits før 1.
 
-{soc}
-Ta'r dat[G]0 igen
-induktionsbeviset slog mig ud af [D]banen
-så min [G]fine ven
-lærer du ej det, så ses vi til ek[D]samen
-re-ek[A7]samen
-{eoc}
+il EDB der er jeg vaks
+Så til Linus klag'de jeg straks
+``Betalte for en hel' maskin'
+Men pladsen NULL er ikke min!
 
-{colb}
-Ta'r dat[D]0 igen
-jeg tror lig' jeg ta'r dat[F#7]0 igen
-hvis jeg læser hårdt, så [Em]kan jeg tage hjem
-og [G]aldrig mere [A]tag' Dat0 [D]igen
+Jeg koded' og roded'
+Fik castet for- og baglæns
+I Compsys lærte jeg
+at NULL betyder fejl
 
-\\
-{soc}
-Ta'r Dat0 igen ...
-{eoc}
+Men det er bare ik' O-K
+(når) viden kun er for de få
+(Hvis) ik' de ville hem'lighold'
+måt' jeg vel gerne læs' fra NULL
 
-Ta'r dat[D]0 igen
-jeg tror lig' jeg ta'r dat[F#7]0 igen
-giver censor rigtigt [Em]mange penge, men
-så [G]vil jeg aldrig [A]ha' Dat0 [D]igen!
+Jeg hacked' og cracked'
+I PCS der sagd' de
+``læs NULL og så' du færdig''
+Hvor galt kan det dog gå?
 
-Så [G]vil jeg aldrig [A]ha' Dat0 [D]igen!
+Jeg hacked' og cracked'
+I PCS der sagd' de
+``læs NULL og så' du færdig''
+Hvor galt kan det dog gå?
 
-\\
-{c:Halvt tempo}
-Så [G]vil jeg aldrig [A]ha' Dat0 [D]igen!
+For hvad kan der vær'
+Hem'ligt i NULL?
+Hvorfor må jeg ik' få kontrol?
+Hvad vil de ikke ha' vi ser?
+Der må for fa'n da være mer'!
 {ns}
 
 {t:Dat0-revysion}
@@ -151,6 +153,7 @@ mens vor UNIX forhindrer at [C]dette sker.
 {soc}
 Daa [C]dam ...
 {eoc}
+
 {ns}
 
 {t:DAT62(1/2)80 Slagsang}
@@ -177,6 +180,62 @@ toogtredshalvfirs hent skål skål spy spy
 \\
 {c:Der findes svarvers til denne sang. Få din vejleder til at synge dem.}
 \\
+
+{ns}
+{t:Hun bruger Vim}
+{by:Dikurevyens bandintro, 2019}
+{mel:Hun har en pik}
+#kat:revy
+#kat:nørdet
+#kat:lejrbål
+Hun kom med bussegn og jeg havde taget mit keyboard med,
+Vi sku' lave det der' AP,
+Jeg havde arrangeret det hele med en rød cola,
+Og lidt junkfood fra Di-iilans,
+Vi spiste meget, durum med chili i,
+Det smagte mega godt, yea,
+Det var romantisk og vi spise mange pomfritter,
+med ekstra ke-e-chup, \\
+Men da vi kom på DIKU, og hun tog PC'en frem,
+Var der pludselige noget som der flickede der,
+Det var hendes Eee-ditor!
+
+{soc}
+Hun bruger VIM, HALÅÅ,
+Hun bruger VIM,
+Hun bruger VIM, med VI-bindings og det burde hun ikk',
+Hun bruger VIM, HALÅÅ,
+Hun bruger VIM,
+Med VI-bindings og det burde hun ikk'
+{eoc}
+
+Hun så på mig, og jeg kiggede herre længe på den,
+Så sagde jeg temmelig chokeret,
+Er det en vim som at der kører i din terminal,
+hun svarede, ja det er så,
+Måske er det mig som er lidt gammeldags,
+Men piger med vim-editor er noget stads,
+Hvertfal' i mit univers
+
+{soc}
+Hun bruger VIM, HALÅÅ,
+Hun bruger VIM,
+Hun bruger VIM, med VI-bindings og det burde hun ikk',
+Hun bruger VIM, HALÅÅ,
+Hun bruger VIM,
+Med VI-bindings og det burde hun ikk'
+{eoc}
+
+Pluds'lig så sagd' hun, "jeg har jo flere editors"
+Jeg har også mit emacs, lig' ved siden af min vim
+
+{soc}
+Hun har emacs, ja tak, men og-så vim
+Hun bruger vim, med vi bindings og det burde hun ik'
+Hun har emacs, jaja, men også vim
+Med vi bindings og det burde hun ik'
+{eoc}
+
 
 # Skriver svarvers her, så det ikke går tabt
 #
@@ -275,6 +334,7 @@ toogtredshalvfirs hent skål skål spy spy
 # I morgen er hvor?
 # I morgen er toget hvor? (Aalborg!)
 
+
 {ns}
 
 {t:Datalogi!}
@@ -298,6 +358,7 @@ Datalogi datalogi datalogi og nørderi datalogi datalogi
 DATALOGI (det' ikk' fysik, det' ikk' fysik, det' ikk' fysik)
 DATALOGI (det' ikk' fysik, det' ikk' fysik, det' ikk' fysik)
 DATALOGI, DATALOGI, DATALO-GIIII!
+
 {ns}
 
 {t:Dispensationen}
@@ -359,10 +420,395 @@ Den eksplodered' foran mig
 og tog mit øje af
 Så jeg håber du forstår
 jeg ikke aflever' i dag
+
+{ns}
+{t:Doom Doom}
+{mel:Mabel - Boom, boom}
+{by:DIKUrevy 2006}
+
+#kat:revy
+#kat:DIKUrevy
+#kat:nørdet
+
+Hvad [D]er det der er [G]galt med mig, jeg [A]føler mig lidt [D]sløj
+Jeg har få't mit [G]arm skudt af og [A]det er noget [D]møg
+Der løber blod i [G]øjet, mine [A]tarme falder [D]ud
+Det er vist ikke [G]helt så godt, hvis [A]jeg ta'r flere [D]skud. [G] [A] [D]
+
+[D]Nej, jeg gik op til [G]lægen og [A]ved du hvad han [D]sag'?
+Hvis du skal lege [G]superhelt, så [A]skal du ikke [D]klag'.
+Så tag dig her en [G]tudekiks, tør [A]øjnene og [D]skær
+Jeg ved jo at din [G]motorsav, den [A]står dig meget [D]nær.
+
+{soc}
+[G]Det er helt na[A]turligt, [D]blodet sprøjter løs.
+[G]Når en super [A]shotgun er din [D]ven.
+(men) [G]Har man ingen [A]hitpoints,
+så [D]bli'r man let nervøs.
+Så [G]tag dig blot et [D]medikit og [A]så' du frisk [D]igen.
+{eoc}
+
+{soc}
+Jeg spiller [G]Doom, [A]Doom for [D]doom er min [Bm]trøst
+Så [G]længe hjertet [A]banker, her [D]i mit [D7]bryst
+Jeg spiller [G]Doom, [A]Doom og [D]spiller som be[Bm]sat.
+Jeg [G]lemlæster og myrder dag og [A]nat
+{eoc}
+
+
+Er [D]det den sidste [G]bane? Jeg [A]fatter ik' et [D]Quake
+Nu ser jeg rulle[G]teksterne og [A]monstrene er [D]væk.
+Fuck! Jeg har [G]gennemført det. Hvad [A]skal jeg ta' mig [D]til?
+Mit liv er fandme [G]kedeligt? Et [A]pissedårligt [D]spil!
+
+{soc}
+[G]Det er helt na[A]turligt, [D]blodet sprøjter løs.
+[G]Når en super [A]shotgun er din [D]ven.
+(Men) [G]har man ingen [A]hitpoints,
+så [D]bli'r man let nervøs.
+Så [G]tag dig blot et [D]medikit og [A]så' du frisk [D]igen.
+{eoc}
+
+{soc}
+Jeg spiller [G]Doom [A]Doom, og [D]Doom Doom [Bm]igen ...
+{eoc}
+
+{soc}
+Jeg spiller [G]Doom [A]Doom, og [D]Doom Doom [Bm]igen ...
+{eoc}
+
+{soc}
+Jeg spiller [G]Doom, [A]Doom og [D]spiller som be[Bm]sat.
+Jeg [G]lemlæster og skyder [A]dag og [D]nat
+{eoc}
+
 {ns}
 
+{t:Drunken Sailor}
+#kat:druk
+#kat:sømands
+#kat:lejrbål
+#kat:kinky
+{by:Traditionel}
+{col:2}
+W[Am]hat shall we do with the drunken sailor?
+W[G]hat shall we do with the drunken sailor?
+W[Am]hat shall we do with the drunken sailor?
+E[G]ar-l[E]ye in the m[Am]ornin'?
+
+{soc}
+[Am]Hoorray, an' up she rises,
+[G]Horray, an' up she rises,
+[Am]Way, hey, an' up she rises,
+E[G]ar-l[E]ye in the m[Am]orning.
+{eoc}
+
+P[Am]ut him in the longboat 'till he's sober ... [G] [Am] [G] [E] [Am]
+
+K[Am]eep him there and make him bale 'er ... [G] [Am] [G] [E] [Am]
+
+G[Am]ive him a dose of salt and water ... [G] [Am] [G] [E] [Am]
+
+S[Am]have his belly with a rusty razor ... [G] [Am] [G] [E] [Am]
+
+P[Am]ut him in a bed with the captain's daughter ... [G] [Am] [G] [E] [Am]
+
+T[Am]here she goes, swinging through the rigging,
+T[G]here she goes, swinging through the rigging,
+T[Am]here she goes, swinging through the rigging,
+E[G]ar-l[E]ye in the m[Am]orning.
+
+{soc}
+S[Am]he looks like an orangutan,
+S[G]he looks like an orangutan,
+S[Am]he looks like an orangutan,
+Sw[G]ing[E]ing through the r[Am]igging.
+{eoc}
+
+W[Am]hat shall we do with a drunken sailor? ... [G] [Am] [G] [E] [Am]
+{colb}
+
+\\
+{c:Og så lidt mere kinky:}
+
+J[Am]eg vil ha' en kvinde der kan babbe kogle
+J[G]eg vil ha' en kvinde der kan babbe kogle
+J[Am]eg vil ha' en kvinde der kan babbe kogle
+T[G]idel[E]igt om m[Am]orgenen.
+
+{soc}
+[Am]Hu hej, sikke en rejsning
+[G]Hu hej, sikke en rejsning
+[Am]Hu hej, sikke en rejsning
+T[G]idel[E]igt om m[Am]orgenen.
+{eoc}
+
+J[Am]eg vil ha' en kvinde med ordentlig måtte ... [G] [Am] [G] [E] [Am]
+
+J[Am]eg vil op at gokke på en godt dyrket måtte ... [G] [Am] [G] [E] [Am]
+{ns}
+
+{t:En Gammel Bitter Mands Klagesang}
+#kat:revy
+#kat:DIKUrevy
+#kat:faglig-bitterheds
+{mel:Anden - Papas sang}
+{by:DIKUrevy 2005}
+
+{c:Tales rytmisk}
+\\
+Uddannelse er en vigtig funktion
+en funktion man bør tage alvorlig
+og datalogi, som er vigtig'r end nogen
+den er gået hen og blev't dårlig.
+Med multimedier og HCI
+og kurser der slet ikke findes
+Det nymodens pjank, må jeg være fri!
+Så er der nog'n ting man bør mindes
+\\
+
+{c:Synges}
+Man får ikke lært at bliv' en rigtig datalog
+uden at skrive kerne på en Motorola
+Det bør koste både tid og sved og hjerteblod
+man skal sidde hele natten med sin cola
+Når gamle EDB-maskiner GIER dig DASK
+så vær forvisset om, det er solide klask
+Man lærer aldrig noget ud'n at lave fejl
+så gør indlæringskurven stejl
+\\
+
+{c:Tales rytmisk}
+For dataloger skal man ha' respekt
+nærmest ærefrygt som i templer
+Der findes kun få i hver eneste slægt
+der kan mestre båd' C og assembler
+En ydmyg holdning vil være sund
+De unge kan jo slet ikke vide
+i gamle dage, da jeg var ond
+hvordan vi da måtte slide
+
+\\
+{c:Synges}
+(For) man får ikke lært at bliv' en rigtig datalog
+hvis man bare læser løsningen på nettet
+Man må starte forfra uden brok, det kan I tro
+når en op'ratør har fået din konto slettet
+Når først I bliver færdige, vil I forstå
+der er kun en doktrin som man kan stole på:
+Man lærer aldrig noget ud'n at lave fejl
+så gør indlæringskurven
+gør indlæringskurven
+gør indlæringskurven stejl!
+{ns}
+
+{t:En Matematiker fra HCØ}
+{mel:Folk og røvere i Kardemomme By - Jeg er en papegøje fra Amerika}
+{col:2}
+[C]Jeg er en matematiker fra [G]HCØ.
+Jeg var en tur i byen, det var [C]dejligt.
+Der mødte jeg en pige, hun var [G]rigtig sød,
+men hør nu her hvordan det blev [C]forfejlet :
+
+[F]Hun spurgte mig, åh [C]falderi og faldera,
+[G]``Hvad laver du, når du ikke er [C]på bar?''
+[F]Da svared' jeg, åh [C]falderi og faldera,
+[G]``Jeg skriver mit speciale i [C]C*-algebra.''
+
+[C]``Hvor int'ressant med stjerner, er du [G]astrolog?
+Hvad sker der næste måned - jeg er [C]tvilling.
+Det rimer fint, for jeg er nemlig [G]pædagog''
+- Her brød jeg ind, fortalte om min [C]stilling;
+
+[F]Og sagde så, åh [C]falderi og faldera,
+[G]``Du misforstod mig'', (for jeg var [C]jo rar).
+[F]Jeg fortsatte, åh [C]falderi og faldera,
+[G]``det drejer sig om operator[C]algebra.''
+
+[C]``Aha, hvad si'r du, algebrator-[G]opera?
+Så må du være noget ved [C]musikken.
+Men stjerner og musik, hvad er nu det? [G]Forklar!''
+Da måtte jeg docere mat'[C]matikken.
+
+[F]Så sagde jeg, åh [C]falderi og faldera,
+[G]``Tag B(H), så er vi næsten [C]klar,
+[F]hvor H det er,'' åh [C]falderi og faldera,
+[G]``et Banachrum med prikprodukt halvanden-[C]linear.''
+
+{colb}
+
+[C]``BH'en af i Bjarnes rum - og [G]Bjarne hvem?
+er Bjarne en af dine sjofle [C]venner?
+Nej, jeg må hel're se at vende [G]snuden hjem,
+ta'r ikke hjem til en jeg ikke [C]kender.''
+
+[F]Så råbte hun, åh [C]falderi og faldera,
+[G]``Er du tenor, eller er jeg kun til [C]nar?''
+[F]Da tænkte jeg, åh [C]falderi og faldera:
+[G]Hvis det skal bli' til noget, må beskeden [C]være klar!
+
+[C]Så sagde jeg (og det var løgn): ``Jeg [G]synger bas
+i komponisten Eulers sidste [C]stykke.''
+Hun smil'te sødt : ``Det' ærlig snak, [G]ej mere gas!
+Tag med mig hjem, der vil du gøre [C]lykke!''
+
+[F]Moralen er, åh [C]falderi og faldera:
+[G]Hvis du skal score, når du er på [C]bar,
+[F]så tal ej sandt, åh [C]falderi og faldera;
+[G]fortæl hend' bare at du spiller [C]el-guitar.
+
+#kat:lejrbål
+#kat:nørdet
 
 
+{ns}
+
+{t:Er der nogen...}
+#kat:lejrbål
+#kat:nørdet
+{mel:De syv dværges festsang}
+{by:Tekst: En bitter mand og hans ven}
+{col:2}
+Er der [C]nogen der vil med ud at [G]flyve en tur
+det er [C]ikke særligt [G]farligt
+med[C]mindre man er [F]terorist
+og [G]flyver ufor[C]svarligt
+
+{soc}
+[F]Hey-ho for [C]taliban
+de [G]styrer Afgani[C]stan
+[F]Bush har bombet [Dm]deres land
+men de [G]slås til sidste [C]mand
+{eoc}
+
+Er der [C]nogen der vil med ud og [G]flyve en tur
+og [C]vælte nogen [G]tårne
+[C]Vi har startet [F]en jihad
+og [F]Bush han samler [C]skårene.
+
+{soc}
+[F]Hey-ho for [C]taliban ...
+{eoc}
+
+
+Er der [C]nogen der vil med ud og [G]flyve en tur
+og [C]landsætte sol[G]dater
+De [C]straffer folk med [F]turban på
+og [G]terror-psyko[C]pater.
+
+{soc}
+[F]Hey-ho for [C]taliban ...
+{eoc}
+
+Er der [C]nogen der vil med ud og [G]flyve en tur
+og [C]sende nogle [G]breve
+Med [C]pulver og bak[F]terier i,
+det er [G]ik' så svært at [C]lave
+
+{soc}
+[F]Hey-ho for [C]taliban ...
+{eoc}
+
+Er der [C]nogen der vil med ud og [G]flyve en tur
+og [C]smide nogle [G]bomber
+vi [C]starter i af[F]ghanistan
+og [G]sprænger dem til [C]stumper
+
+
+{soc}
+[F]Hey-ho for [C]taliban ...
+{eoc}
+
+Er der [C]nogen der vil med ud og [G]flyve en tur
+og [C]rømme hovede[G]staden
+vi [C]flygter ned til [F]kandahar
+og [G]slipper for bal[C]laden.
+
+{soc}
+[F]Hey-ho for [C]taliban ...
+{eoc}
+{ns}
+
+{t:Fulbert og Beatrice}
+{mel:Jeg plukker fløjlsgræs}
+#kat:lejrbål
+#kat:kinky
+{col:2}
+I Frankens [Dm]rige, hvor floder [Gm7]rinde
+som sølver[A7]strømme i lune [Dm]dal,
+lå ridderborgen på bjergets [Gm]tinde,
+med slanke [E7]tårne og gylden [A7]sal.
+Og det var sommer med blomster[D]brise
+og [D7]suk af [G]elskov i [B7]urte[Em]gård.
+Og det var [A]Fulbert og [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
+
+De havde [Dm]leget som børn på [Gm7]borgen,
+mens Fulbert [A7]endnu var ganger[Dm]pilt.
+Men langvejs drog han en årle [Gm]morgen,
+mod Sara[E7]cenen han higed' [A7]vildt.
+Han spidded' tyrker som patte[D]grise,
+et [D7]tusind [G]stykker blev [B7]lagt på [Em]bår',
+for Fulbert [A]kæmped' for [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
+
+Med glutens [Dm]farver på sølver [Gm7]saddel
+han havde [A7]stridt ved Jerusa[Dm]lem.
+Han kæmped kækt uden frygt og [Gm]dadel
+og gik til [E7]fods hele vejen [A7]hjem.
+Nu sad han atter på bænkens [D]flise
+og [D7]viste [G]stolt sine [B7]helte[Em]sår,
+som ganske [A]henrykked [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
+
+{colb}
+
+En kappe [Dm]prydet med små o[Gm7]paler
+og smagfuldt [A7]ternet med tyrkens [Dm]blod,
+en ring af guld og et par san[Gm]daler
+den ridder [E7]lagde for pigens [A7]fod.
+Og da hun øjnede hans ca[D]price,
+blev [D7]hjertet [G]mygt i den [B7]væne [Em]mår.
+Af lykke [A]dånede [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
+
+Da banked [Dm]blodet i heltens [Gm7]tinding -
+thi ingen [A7]helte er gjort af [Dm]træ.
+Til trods for plastre og og knæfor[Gm]binding
+sank ridder [E7]Fulbert med stil i [A7]knæ.
+Han kvad: ``Skønjomfru! Oh, skænk mig [D]lise,
+thi [D7]du a[G]lene mit [B7]hjerte [Em]rå'r.''
+``Min helt, min [A]ridder'' kvad [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
+
+Og der blev [Dm]bryllup i højen [Gm7]sale
+med guldpo[A7]kaler og trouba[Dm]dur,
+og under sange og djærven [Gm]tale
+blev Fulbert [E7]ført til sin jomfrus [A7]bur.
+Og følget hvisked' om øm kur[D]tise
+og [D7]skæmtsom [G]puslen blandt [B7]dun og [Em]vår,
+og det var [A]Fulbert og [A/g]Bea[D/f#]trice,
+og [B7]Bea[Em]trice var [A7]sytten [D]år.
+{colb}
+
+\\
+{c:Halvt tempo}
+Men ridder [Dm]Fulbert den samme [Gm7]aften
+af borgens [A7]sale blev båren - [Dm]DØD.
+Den megen krig havde tær't på [Gm]kraften,
+og sejrens [E7]palmer det sidste [A7]brød.
+
+\\
+{c:Fuldt tempo}
+Oh bejler lær da af denne [D]vise:
+Ød [D7]ej din [G]kraft under [B7]krigens [Em]kår.
+Nej, spar po[A]tensen til [A/g]Bea[D/f#]trice,
+når [B7]Bea[Em]trice var [A7]sytten [D]år.
+#
+#
+#
+
+{ns}
 {t:Doom Doom}
 {mel:Mabel - Boom, boom}
 {by:DIKUrevy 2006}
@@ -807,6 +1253,8 @@ jeg k[E]ommer i munden på [Am]dig - [E]tju [Am]hej!
 
 #kat:lejrbål
 #kat:kinky
+
+
 {ns}
 
 
@@ -1297,6 +1745,8 @@ For nu koder jeg i H-T-M-L ...
 \\
 {c:Gentages ad nauseam...}
 {c:(husk omkvæd uden musik (men klap)!)}
+
+
 {ns}
 
 
@@ -1419,6 +1869,7 @@ Det' ham der har den på
 # En tyvekronemønt
 # til en tigger fra fysik
 
+
 {ns}
 {t:I Morgen er Verden Vor}
 {by:DIKUrevy 1998}
@@ -1459,6 +1910,8 @@ DER [C]FØRER OS [F]FREM MOD DE [G]ÅR,[G7]
 
 \\
 {c:Gå direkte til 43!}
+
+
 
 {ns}
 
@@ -1622,6 +2075,8 @@ Et sprog som ingen ingen helt forstår
 du bli'r fortabt og helt forvirret når
 rekursionen ikke fungerer
 ja ingen forstår dette sprog.
+
+
 {ns}
 
 {t:Jeg vil læse *}
@@ -2146,6 +2601,8 @@ og så udgiver Microsoft mit program!
 
 #kat:druk
 #kat:nørdet
+
+
 {ns}
 
 
@@ -2757,6 +3214,8 @@ jeg bliver professor her.
 #kat:svær
 #kat:revy
 #kat:DIKUrevy
+
+
 {ns}
 
 {t:Taleban-sangen}
@@ -3119,11 +3578,55 @@ Tråden her er langt ud i skoven
 (Du skrev:)
 Sikke noget vrøvl, jeg fatter ikke spor.
 Dyb-nesting?, er det noget om min mor?
-(Jeg siger!:)
+Jeg siger!:
 {eoc}
+
 Hold nu fucking op, med at top-post'!
+
 {ns}
 
+{t:En Datalogs Bekendelser}
+#kat:nørdet
+#kat:revy
+#kat:DIKUrevy
+#kat:Disney
+{by:DIKUrevy 2010}
+{mel:Junglebogen - I Wanna Be Like You}
+
+Jeg er studerende på DIKU
+Jeg er trendy, jeg er sej
+Med bash på brok og \TeX på tyr
+Ser alle op til mig
+(Men) der er noget jeg holder hem'ligt
+Det må ikke slippe ud
+Hvis andre vidste hvad jeg gjorde
+Så vil' jeg stå for skud
+
+{soc}
+(For) Når jeg logger på
+Bruger jeg ikke SSH
+Jeg vil ha' grænseflad'
+En der gør mig glad
+Der er blå-å-å
+Jeg er en rigtig Linux-haj
+Men det er kun for at være sej
+For grafisk lir og GUI det er mig
+{eoc}
+
+Når jeg koder, kompilerer
+{\TeX}er \TeX og printer ud
+Så sidder jeg med prompten frem
+Og ser så tjekket ud
+Men når jeg er alene
+Og vil hygge med mig selv
+Så ta'r jeg den frem, window manageren
+Og lukker for min shell
+
+{soc}
+(For) Når jeg logger på ...
+{eoc}
+
+{ns}
 {t:Nedskæringslimbo}
 #kat:revy
 #kat:DIKUrevy
@@ -3178,48 +3681,7 @@ Lad os ta' en runde mer'
 Ohøj der, sikke'n fart.
 I vinder legen snart.
 Hvor lavt kan i nå?
-{ns}
 
-{t:En Datalogs Bekendelser}
-#kat:nørdet
-#kat:revy
-#kat:DIKUrevy
-#kat:Disney
-{by:DIKUrevy 2010}
-{mel:Junglebogen - I Wanna Be Like You}
-
-Jeg er studerende på DIKU
-Jeg er trendy, jeg er sej
-Med bash på brok og \TeX på tyr
-Ser alle op til mig
-(Men) der er noget jeg holder hem'ligt
-Det må ikke slippe ud
-Hvis andre vidste hvad jeg gjorde
-Så vil' jeg stå for skud
-
-{soc}
-(For) Når jeg logger på
-Bruger jeg ikke SSH
-Jeg vil ha' grænseflad'
-En der gør mig glad
-Der er blå-å-å
-Jeg er en rigtig Linux-haj
-Men det er kun for at være sej
-For grafisk lir og GUI det er mig
-{eoc}
-
-Når jeg koder, kompilerer
-{\TeX}er \TeX og printer ud
-Så sidder jeg med prompten frem
-Og ser så tjekket ud
-Men når jeg er alene
-Og vil hygge med mig selv
-Så ta'r jeg den frem, window manageren
-Og lukker for min shell
-
-{soc}
-(For) Når jeg logger på ...
-{eoc}
 
 {ns}
 
@@ -4822,8 +5284,6 @@ Studenter, hør hør hør ...
 
 HEY!
 
-
-
 {ns}
 {t:(Anti-)plyndring}
 #kat:DIKUrevy
@@ -4902,8 +5362,6 @@ og sender dem en lille fil
 {soc}
 Del kun trygt ...
 {eoc}
-
-
 
 {ns}
 {t:DNUR DNUR}
@@ -5463,8 +5921,6 @@ Nu må I stoppe presset, for stor trafik!
 
 
 
-
-
 {ns}
 {t:Caféen?s Sortiment}
 #kat:MatematikRevy
@@ -5985,6 +6441,7 @@ Der er så kold som den danske vinter ...
 
 
 
+
 {ns}
 {t:SATYRsang}
 {mel:Kaj og Andrea's sang}
@@ -6175,66 +6632,6 @@ Mat'matik approksimeres ...
 Mat'matik approksimeres ...
 {eoc}
 
-
-
-
-{ns}
-{t:{\TeX}esangen}
-{mel:Sebastian's Skatteøen - Ostesangen}
-{by:MatematikRevy 2012}
-#kat:MatematikRevy
-#kat:revy
-
-
-Jeg skal rette opgaver fra RUSser
-Driver mig til vanvid
-intet står som jeg vil ha' det
-Alle mine russer går og sjusker
-og jeg bru'r så lang tid
-Maple burger de til alt, bar' de ku' bruge
-
-{soc}
-Fancyheader, itemize
-og verbatim og normalsize
-Hvis det skal vær' tjekket
-tabular, beginalign
-hudredvis af dollartegn
-så skal det vær' {\TeX}et
-{\TeX}, jeg vil ha' {\TeX}, jeg må ha' {\TeX}
-{\TeX}, jeg vil ha' {\TeX}, jeg må ha' {\TeX}
-{\TeX}, {\TeX}, {\TeX}, {\TeX}, {\TeX}
-jeg må ha' TE-EEEEX
-{eoc}
-
-Mellemugen bringer os et kursus
-Fjerner alt den vanvid,
-jeg skal lære dem at {\TeX}e
-Selv om det ik' er den rene luksus
-lønner det sig altid
-når de taler {\TeX}ens sprog
-så kan de bruge
-
-{soc}
-Fancyheader, itemize ...
-{eoc}
-
-Nu bru'r de alt tiden på at {\TeX}e
-Driver dem til vanvid
-det får de snart mer' end nok af
-Nu er alle opgaverne lette
-har så meget fritid
-får min nattesøvn
-og drømmer nu så sødt om
-
-{soc}
-Fancyheader, itemize ...
-{eoc}
-
-{soc}
-Fancyheader, itemize ...
-{eoc}
-
-
 {ns}
 {t:Laborant}
 {mel:Nøddepatruljen}
@@ -6329,9 +6726,6 @@ Windows crasher! ...
 {soc}
 Windows crasher! ...
 {eoc}
-
-
-
 
 {ns}
 {t:ARK-sangen}
@@ -7366,6 +7760,7 @@ Lad dem bare glo
 Uden skæg er en datalogs dage talt'
 {eoc}
 
+
 {ns}
 {t:Læsehovedet}
 {mel:Fætter Mikkel}
@@ -8221,8 +8616,8 @@ Vi skal feste.
 {soc}
 Til fredagsbar ...
 {eoc}
-{ns}
 
+{ns}
 {t:Afrundingsfejl}
 {mel:Shakira - Whenever, Wherever}
 {by:DIKUrevy 2015}
@@ -8342,6 +8737,7 @@ dine floating point værdier
 0,9997
 0,999765
 {eoc}
+
 
 {ns}
 {t:Det kan du se til revyen}
@@ -9454,6 +9850,8 @@ Uden dig på min PC, Åh Maple
 Selvom jeg prøver at jeg er kærlig,
 Skider du mig i munden, Åh Maple
 {eoc}
+
+
 {ns}
 
 {t:DNUR}
@@ -9627,10 +10025,18 @@ Pas da på det lumske blik
 For det er ikke mekanik
 Som vi koder
 {eoc}
-{ns}
 
+{ns}
 {t:Saltvisen}
 #kat:salt
 
 Hej, jeg hedder Grymer herp-a-derp-a-derp!
+Jeg kan godt lide ymer herp-a-derp-a-derp!
 \[gentag...\]
+
+{ns}
+{t: Saltvisen pt 2 (The next generation)}
+#kat:salt
+
+Hej, jeg hedder Mikkel Brocke-Brocke-Brock!
+Jeg har en lille pickle, Brocke-Brocke-Brock!
